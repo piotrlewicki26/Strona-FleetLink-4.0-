@@ -18,6 +18,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     ];
 
     try {
+        if ($db['password'] === '') {
+            throw new RuntimeException('Hasło do bazy nie może być puste.');
+        }
+
         $pdo = Database::connect($db);
         $schema = file_get_contents(__DIR__ . '/../database/schema.sql');
 
@@ -33,6 +37,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($saved === false) {
             throw new RuntimeException('Nie można zapisać config/config.php');
         }
+
+        @chmod(__DIR__ . '/../config/config.php', 0600);
 
         $success = true;
     } catch (Throwable $e) {

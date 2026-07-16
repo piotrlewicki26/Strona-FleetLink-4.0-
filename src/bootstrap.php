@@ -7,7 +7,6 @@ require_once __DIR__ . '/Database.php';
 $configPath = __DIR__ . '/../config/config.php';
 
 if (!file_exists($configPath)) {
-    http_response_code(503);
     header('Location: /install.php');
     exit;
 }

@@ -4,10 +4,17 @@ declare(strict_types=1);
 
 header('Content-Type: application/json; charset=utf-8');
 
-require_once __DIR__ . '/../../src/bootstrap.php';
+try {
+    require_once __DIR__ . '/../../src/bootstrap.php';
 
-$statement = $pdo->query('SELECT name, plate_number, status, latitude, longitude, updated_at FROM vehicles ORDER BY updated_at DESC');
+    $statement = $pdo->query('SELECT name, plate_number, status, latitude, longitude, updated_at FROM vehicles ORDER BY updated_at DESC');
 
-echo json_encode([
-    'vehicles' => $statement->fetchAll(),
-], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
+    echo json_encode([
+        'vehicles' => $statement->fetchAll(),
+    ], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
+} catch (Throwable $e) {
+    http_response_code(500);
+    echo json_encode([
+        'error' => 'Błąd pobierania danych pojazdów.',
+    ], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
+}
