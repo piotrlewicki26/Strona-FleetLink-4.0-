@@ -40,7 +40,7 @@
     <div class="hero-inner">
         <div class="hero-text">
             <span class="badge pulse"><span class="badge-dot"></span>System GPS w czasie rzeczywistym</span>
-            <h1>Kontroluj całą flotę<br><span class="accent">z jednego miejsca</span></h1>
+            <h1>Kontroluj całą flotę<br><span class="gradient-text">z jednego miejsca</span></h1>
             <p class="hero-sub">FleetLink 4.0 to kompleksowa platforma do śledzenia i zarządzania flotą pojazdów. Lokalizacja GPS, raporty, alerty i pełna historia tras dla każdego pojazdu.</p>
             <div class="hero-actions">
                 <a href="#contact" class="btn btn-primary btn-lg">Zacznij za darmo</a>
@@ -165,22 +165,22 @@
 <section class="stats-bar">
     <div class="stats-inner">
         <div class="stat-item">
-            <strong class="stat-num" data-target="500">0</strong><span>+</span>
+            <div class="stat-num-row"><strong class="stat-num" data-target="500">0</strong><span>+</span></div>
             <span class="stat-label">Pojazdów w systemie</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-            <strong class="stat-num" data-target="120">0</strong><span>+</span>
+            <div class="stat-num-row"><strong class="stat-num" data-target="120">0</strong><span>+</span></div>
             <span class="stat-label">Klientów biznesowych</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-            <strong class="stat-num" data-target="99">0</strong><span>.9%</span>
+            <div class="stat-num-row"><strong class="stat-num" data-target="99">0</strong><span>.9%</span></div>
             <span class="stat-label">Dostępność systemu</span>
         </div>
         <div class="stat-divider"></div>
         <div class="stat-item">
-            <strong class="stat-num" data-target="24">0</strong><span>/7</span>
+            <div class="stat-num-row"><strong class="stat-num" data-target="24">0</strong><span>/7</span></div>
             <span class="stat-label">Wsparcie techniczne</span>
         </div>
     </div>
@@ -507,7 +507,7 @@
                     <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Alerty SMS + e-mail</li>
                     <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Do 100 pojazdów</li>
                     <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Raporty zaawansowane</li>
-                    <li class="dimmed"><svg width="14" height="14" viewBox="0 0 24 569" fill="none" stroke="#475569" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> API i integracje</li>
+                    <li class="dimmed"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#475569" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> API i integracje</li>
                 </ul>
                 <a href="#contact" class="btn btn-primary">Wybierz plan</a>
             </div>
@@ -524,6 +524,56 @@
                     <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg> Wdrożenie on-premise</li>
                 </ul>
                 <a href="#contact" class="btn btn-outline">Skontaktuj się</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ======== TESTIMONIALS ======== -->
+<section class="section" id="testimonials">
+    <div class="section-inner">
+        <div class="section-head">
+            <span class="section-tag">Opinie klientów</span>
+            <h2>Co mówią nasi klienci</h2>
+            <p>Dołącz do ponad 500 firm, które zoptymalizowały swoje floty z FleetLink 4.0.</p>
+        </div>
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">„FleetLink 4.0 całkowicie zmienił sposób, w jaki zarządzamy naszą flotą 45 pojazdów. Oszczędzamy kilkadziesiąt godzin pracy miesięcznie, a koszty paliwa spadły o 18%."</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar" style="background: #1d4ed8;">MK</div>
+                    <div>
+                        <div class="testimonial-name">Marek Kowalczyk</div>
+                        <div class="testimonial-role">Dyrektor Logistyki, TransPol Sp. z o.o.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">„Intuicyjny panel, błyskawiczne wdrożenie i doskonałe wsparcie techniczne. Polecam każdej firmie, która poważnie traktuje zarządzanie flotą."</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar" style="background: #0891b2;">AW</div>
+                    <div>
+                        <div class="testimonial-name">Anna Wiśniewska</div>
+                        <div class="testimonial-role">CEO, FastCargo Group</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card fade-in">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">„System alertów i raportów jest dokładnie taki, jakiego potrzebowaliśmy. Nasi kierowcy jeżdżą bezpieczniej, a my mamy pełną kontrolę w czasie rzeczywistym."</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar" style="background: #7c3aed;">PZ</div>
+                    <div>
+                        <div class="testimonial-name">Piotr Zieliński</div>
+                        <div class="testimonial-role">Fleet Manager, BuildPro S.A.</div>
+                    </div>
+                </div>
             </div>
 
         </div>
