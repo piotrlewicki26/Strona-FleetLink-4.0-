@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $schema = file_get_contents(__DIR__ . '/../database/schema.sql');
 
         if ($schema === false) {
-            throw new RuntimeException('Nie można odczytać schema.sql');
+            throw new RuntimeException('Nie można odczytać pliku database/schema.sql (sprawdź czy plik istnieje i ma poprawne uprawnienia).');
         }
 
         $pdo->exec($schema);
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $saved = file_put_contents(__DIR__ . '/../config/config.php', $configContent, LOCK_EX);
 
         if ($saved === false) {
-            throw new RuntimeException('Nie można zapisać config/config.php');
+            throw new RuntimeException('Nie można zapisać config/config.php (sprawdź uprawnienia katalogu config/).');
         }
 
         if (!chmod(__DIR__ . '/../config/config.php', 0600)) {

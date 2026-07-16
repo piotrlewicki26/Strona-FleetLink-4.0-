@@ -42,6 +42,7 @@
     stats.service.textContent = String(service);
     stats.offline.textContent = String(offline);
   } catch (error) {
+    console.error(error);
     const row = document.createElement('tr');
     const cell = document.createElement('td');
     cell.colSpan = 5;

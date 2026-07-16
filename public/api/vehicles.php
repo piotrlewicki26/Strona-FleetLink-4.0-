@@ -13,6 +13,7 @@ try {
         'vehicles' => $statement->fetchAll(),
     ], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 } catch (Throwable $e) {
+    error_log('FleetLink API vehicles error: ' . $e->getMessage());
     http_response_code(500);
     echo json_encode([
         'error' => 'Błąd pobierania danych pojazdów.',
