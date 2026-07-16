@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS vehicles (
     plate_number VARCHAR(40) NOT NULL UNIQUE,
     status ENUM('online', 'offline', 'service') NOT NULL DEFAULT 'offline',
     latitude DECIMAL(10, 7) NULL,
-    longitude DECIMAL(10, 7) NULL,
+    longitude DECIMAL(11, 7) NULL,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 

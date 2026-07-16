@@ -7,7 +7,7 @@ header('Content-Type: application/json; charset=utf-8');
 try {
     require_once __DIR__ . '/../../src/bootstrap.php';
 
-    $statement = $pdo->query('SELECT name, plate_number, status, latitude, longitude, updated_at FROM vehicles ORDER BY updated_at DESC');
+    $statement = $pdo->query('SELECT name, plate_number, status, latitude, longitude, updated_at FROM vehicles ORDER BY updated_at DESC LIMIT 500');
 
     echo json_encode([
         'vehicles' => $statement->fetchAll(),
