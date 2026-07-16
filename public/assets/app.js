@@ -14,10 +14,15 @@ const navLinks = document.getElementById('navLinks');
 if (burger && navLinks) {
   burger.addEventListener('click', () => {
     navLinks.classList.toggle('open');
+    burger.setAttribute('aria-expanded', navLinks.classList.contains('open') ? 'true' : 'false');
   });
-  // Close on link click
+  // Close on non-dropdown link click
   navLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => navLinks.classList.remove('open'));
+    link.addEventListener('click', () => {
+      if (link.classList.contains('nav-has-sub')) return;
+      navLinks.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+    });
   });
 }
 
@@ -106,3 +111,85 @@ if (contactForm) {
     }, 1200);
   });
 }
+
+// ---- Hero Slider ----
+const slides = document.querySelectorAll('.hero-slide');
+const dots   = document.querySelectorAll('.slider-dot');
+const prevBtn = document.getElementById('sliderPrev');
+const nextBtn = document.getElementById('sliderNext');
+let currentSlide = 0;
+let sliderInterval;
+
+function goToSlide(n) {
+  slides[currentSlide].classList.remove('active');
+  dots[currentSlide].classList.remove('active');
+  currentSlide = (n + slides.length) % slides.length;
+  slides[currentSlide].classList.add('active');
+  dots[currentSlide].classList.add('active');
+}
+
+function startSlider() {
+  sliderInterval = setInterval(() => goToSlide(currentSlide + 1), 6000);
+}
+
+if (slides.length) {
+  if (prevBtn) prevBtn.addEventListener('click', () => { clearInterval(sliderInterval); goToSlide(currentSlide - 1); startSlider(); });
+  if (nextBtn) nextBtn.addEventListener('click', () => { clearInterval(sliderInterval); goToSlide(currentSlide + 1); startSlider(); });
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => { clearInterval(sliderInterval); goToSlide(parseInt(dot.dataset.index, 10)); startSlider(); });
+  });
+  startSlider();
+}
+
+// ---- FAQ Accordion ----
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item   = btn.closest('.faq-item');
+    const answer = item.querySelector('.faq-answer');
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+    // Close all
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      i.querySelector('.faq-answer').style.maxHeight = null;
+      i.classList.remove('open');
+    });
+    if (!isOpen) {
+      btn.setAttribute('aria-expanded', 'true');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+      item.classList.add('open');
+    }
+  });
+});
+
+// ---- Newsletter form ----
+const newsletterForm = document.getElementById('newsletterForm');
+if (newsletterForm) {
+  newsletterForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const btn = newsletterForm.querySelector('[type="submit"]');
+    const email = newsletterForm.querySelector('[name="email"]').value.trim();
+    if (!email || !email.includes('@')) {
+      alert('Podaj poprawny adres e-mail.');
+      return;
+    }
+    btn.disabled = true;
+    btn.textContent = '✓ Zapisano!';
+    btn.style.background = '#16a34a';
+    newsletterForm.reset();
+  });
+}
+
+// ---- Mega menu keyboard/click close ----
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.has-dropdown')) {
+    document.querySelectorAll('.has-dropdown').forEach(d => d.classList.remove('open'));
+  }
+});
+document.querySelectorAll('.has-dropdown > a').forEach(a => {
+  a.addEventListener('click', (e) => {
+    const li = a.closest('.has-dropdown');
+    const wasOpen = li.classList.contains('open');
+    document.querySelectorAll('.has-dropdown').forEach(d => d.classList.remove('open'));
+    if (!wasOpen) li.classList.add('open');
+  });
+});
