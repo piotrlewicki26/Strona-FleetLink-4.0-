@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'port' => (int) ($_POST['port'] ?? 3306),
         'database' => trim($_POST['database'] ?? ''),
         'username' => trim($_POST['username'] ?? ''),
-        'password' => (string) ($_POST['password'] ?? ''),
+        'password' => trim((string) ($_POST['password'] ?? '')),
         'charset' => 'utf8mb4',
     ];
 
