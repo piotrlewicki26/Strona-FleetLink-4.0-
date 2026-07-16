@@ -73,8 +73,9 @@ td {
 }
 
 .installer-form label {
-    display: grid;
-    gap: 0.35rem;
+    display: block;
+    margin-top: 0.4rem;
+    margin-bottom: 0.35rem;
 }
 
 input,

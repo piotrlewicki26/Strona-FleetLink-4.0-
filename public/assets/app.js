@@ -45,7 +45,7 @@
     const row = document.createElement('tr');
     const cell = document.createElement('td');
     cell.colSpan = 5;
-    cell.textContent = 'Nie udało się pobrać danych pojazdów.';
+    cell.textContent = 'Nie udało się pobrać danych pojazdów. Sprawdź połączenie sieciowe lub spróbuj ponownie później.';
     row.appendChild(cell);
     tableBody.appendChild(row);
   }
