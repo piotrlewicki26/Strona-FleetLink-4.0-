@@ -143,55 +143,11 @@
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
-                        <div class="gps-map-visual">
-                            <svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" class="world-map-svg">
-                                <!-- Grid lines -->
-                                <defs>
-                                    <radialGradient id="mapGlow" cx="50%" cy="50%" r="50%">
-                                        <stop offset="0%" stop-color="#2563eb" stop-opacity="0.15"/>
-                                        <stop offset="100%" stop-color="#080f1e" stop-opacity="0"/>
-                                    </radialGradient>
-                                </defs>
-                                <rect width="480" height="320" fill="url(#mapGlow)" rx="12"/>
-                                <!-- Map grid -->
-                                <line x1="0" y1="80" x2="480" y2="80" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-                                <line x1="0" y1="160" x2="480" y2="160" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-                                <line x1="0" y1="240" x2="480" y2="240" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-                                <line x1="120" y1="0" x2="120" y2="320" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-                                <line x1="240" y1="0" x2="240" y2="320" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-                                <line x1="360" y1="0" x2="360" y2="320" stroke="#1e3a5f" stroke-width="1" opacity="0.5"/>
-                                <!-- Routes -->
-                                <polyline points="60,60 130,100 200,140 280,120 360,160 420,140" stroke="#2563eb" stroke-width="2" fill="none" stroke-dasharray="8 4" opacity="0.7" class="route-line"/>
-                                <polyline points="80,200 160,180 240,220 320,200 400,240" stroke="#22d3ee" stroke-width="1.5" fill="none" stroke-dasharray="6 3" opacity="0.5" class="route-line-2"/>
-                                <!-- GPS Pins with pulse -->
-                                <circle cx="130" cy="100" r="5" fill="#22c55e" class="gps-dot"/>
-                                <circle cx="130" cy="100" r="12" fill="#22c55e" opacity="0.2" class="gps-pulse"/>
-                                <circle cx="280" cy="120" r="5" fill="#22c55e" class="gps-dot"/>
-                                <circle cx="280" cy="120" r="12" fill="#22c55e" opacity="0.2" class="gps-pulse"/>
-                                <circle cx="360" cy="160" r="5" fill="#2563eb" class="gps-dot"/>
-                                <circle cx="360" cy="160" r="12" fill="#2563eb" opacity="0.2" class="gps-pulse"/>
-                                <circle cx="200" cy="220" r="5" fill="#f59e0b" class="gps-dot"/>
-                                <circle cx="200" cy="220" r="12" fill="#f59e0b" opacity="0.2" class="gps-pulse"/>
-                                <circle cx="400" cy="80" r="5" fill="#22c55e" class="gps-dot"/>
-                                <circle cx="400" cy="80" r="12" fill="#22c55e" opacity="0.2" class="gps-pulse"/>
-                                <!-- Connection lines -->
-                                <line x1="130" y1="100" x2="280" y2="120" stroke="#2563eb" stroke-width="1" opacity="0.3" stroke-dasharray="4 2"/>
-                                <line x1="280" y1="120" x2="360" y2="160" stroke="#2563eb" stroke-width="1" opacity="0.3" stroke-dasharray="4 2"/>
-                            </svg>
-                            <!-- Live status overlay -->
-                            <div class="gps-status-overlay">
-                                <div class="gps-status-item">
-                                    <span class="status-indicator online"></span>
-                                    <span>21 Online</span>
-                                </div>
-                                <div class="gps-status-item">
-                                    <span class="status-indicator warn"></span>
-                                    <span>3 Serwis</span>
-                                </div>
-                                <div class="gps-status-item">
-                                    <span class="status-indicator offline"></span>
-                                    <span>2 Offline</span>
-                                </div>
+                        <div class="slide-photo-frame">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&h=400&q=80" alt="Monitoring GPS floty pojazdów" class="slide-photo-img" loading="eager" />
+                            <div class="slide-photo-caption">
+                                <span class="blink-dot"></span>
+                                GPS Live — 21 pojazdów online
                             </div>
                         </div>
                     </div>
@@ -213,15 +169,11 @@
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
-                        <div class="telemetry-card">
-                            <div class="telemetry-header"><span class="blink-dot"></span> CAN BUS — Live Data</div>
-                            <div class="telemetry-grid">
-                                <div class="tel-item"><div class="tel-label">Prędkość</div><div class="tel-value blue">87 km/h</div></div>
-                                <div class="tel-item"><div class="tel-label">Obroty</div><div class="tel-value">1840 RPM</div></div>
-                                <div class="tel-item"><div class="tel-label">Paliwo</div><div class="tel-value green">68%</div></div>
-                                <div class="tel-item"><div class="tel-label">Temp. silnika</div><div class="tel-value">92°C</div></div>
-                                <div class="tel-item"><div class="tel-label">Eco score</div><div class="tel-value green">8.4/10</div></div>
-                                <div class="tel-item"><div class="tel-label">Czas jazdy</div><div class="tel-value">4h 22min</div></div>
+                        <div class="slide-photo-frame">
+                            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&h=400&q=80" alt="CAN BUS telematyka pojazdów" class="slide-photo-img" loading="lazy" />
+                            <div class="slide-photo-caption">
+                                <span class="blink-dot"></span>
+                                CAN BUS — dane z komputera pokładowego
                             </div>
                         </div>
                     </div>
@@ -243,31 +195,12 @@
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
-                        <div class="eco-card">
-                            <div class="eco-header">🌿 Eco Driving Score — Styczeń 2025</div>
-                            <div class="eco-bars">
-                                <div class="eco-bar-item">
-                                    <span class="eco-name">J. Kowalski</span>
-                                    <div class="eco-bar-track"><div class="eco-bar-fill" style="width:92%"></div></div>
-                                    <span class="eco-score green">9.2</span>
-                                </div>
-                                <div class="eco-bar-item">
-                                    <span class="eco-name">A. Nowak</span>
-                                    <div class="eco-bar-track"><div class="eco-bar-fill" style="width:78%"></div></div>
-                                    <span class="eco-score blue">7.8</span>
-                                </div>
-                                <div class="eco-bar-item">
-                                    <span class="eco-name">P. Wiśniewska</span>
-                                    <div class="eco-bar-track"><div class="eco-bar-fill" style="width:65%"></div></div>
-                                    <span class="eco-score warn">6.5</span>
-                                </div>
-                                <div class="eco-bar-item">
-                                    <span class="eco-name">M. Zielińska</span>
-                                    <div class="eco-bar-track"><div class="eco-bar-fill" style="width:88%"></div></div>
-                                    <span class="eco-score green">8.8</span>
-                                </div>
+                        <div class="slide-photo-frame">
+                            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=600&h=400&q=80" alt="Eco Driving oszczędność paliwa" class="slide-photo-img" loading="lazy" />
+                            <div class="slide-photo-caption">
+                                <span class="blink-dot"></span>
+                                Eco Driving — oszczędność nawet 20% paliwa
                             </div>
-                            <div class="eco-saving">💰 Szacowane oszczędności: <strong>-18% paliwa</strong></div>
                         </div>
                     </div>
                 </div>
@@ -288,18 +221,11 @@
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
-                        <div class="reports-card">
-                            <div class="reports-header">📊 Raport miesięczny — czerwiec 2025</div>
-                            <div class="reports-stats">
-                                <div class="rep-stat"><div class="rep-val">48 291</div><div class="rep-lbl">km łącznie</div></div>
-                                <div class="rep-stat"><div class="rep-val">4 820 L</div><div class="rep-lbl">zużycie paliwa</div></div>
-                                <div class="rep-stat"><div class="rep-val">-17%</div><div class="rep-lbl green">vs miesiąc wcześniej</div></div>
-                            </div>
-                            <div class="rep-chart">
-                                <svg viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
-                                    <polyline points="0,70 50,55 100,60 150,40 200,30 250,20 300,15" fill="none" stroke="#2563eb" stroke-width="2"/>
-                                    <polyline points="0,70 50,55 100,60 150,40 200,30 250,20 300,15 300,80 0,80" fill="rgba(37,99,235,0.1)" stroke="none"/>
-                                </svg>
+                        <div class="slide-photo-frame">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80" alt="Raporty flotowe i analizy" class="slide-photo-img" loading="lazy" />
+                            <div class="slide-photo-caption">
+                                <span class="blink-dot"></span>
+                                Raporty flotowe — eksport PDF i Excel
                             </div>
                         </div>
                     </div>
@@ -321,15 +247,12 @@
                         </div>
                     </div>
                     <div class="hero-visual" aria-hidden="true">
-                        <div class="industries-mini-grid">
-                            <div class="ind-mini">🚚 Transport</div>
-                            <div class="ind-mini">🏗️ Budownictwo</div>
-                            <div class="ind-mini">🌾 Rolnictwo</div>
-                            <div class="ind-mini">🚕 Taxi</div>
-                            <div class="ind-mini">📦 Kurierzy</div>
-                            <div class="ind-mini">🏙️ Miasta</div>
-                            <div class="ind-mini">🔧 Serwis</div>
-                            <div class="ind-mini">🚑 Ratownictwo</div>
+                        <div class="slide-photo-frame">
+                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&h=400&q=80" alt="Transport logistyka flota pojazdów" class="slide-photo-img" loading="lazy" />
+                            <div class="slide-photo-caption">
+                                <span class="blink-dot"></span>
+                                Obsługujemy wszystkie branże transportowe
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -449,181 +372,8 @@
             <h2>Intuicyjny panel zarządzania</h2>
             <p>Przejrzysty dashboard z mapą i kluczowymi danymi — wszystko w jednym ekranie.</p>
         </div>
-        <div class="dashboard-preview">
-            <div class="dp-sidebar">
-                <div class="dp-logo">
-                    <svg width="20" height="20" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="7" fill="#2563eb"/><path d="M7 14l4 4 10-10" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="8" r="3" fill="#22d3ee"/></svg>
-                    FleetLink
-                </div>
-                <nav class="dp-nav">
-                    <a class="dp-nav-item active" href="#dashboard">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="9" height="9" rx="2"/><rect x="13" y="2" width="9" height="9" rx="2"/><rect x="2" y="13" width="9" height="9" rx="2"/><rect x="13" y="13" width="9" height="9" rx="2"/></svg>
-                        Dashboard
-                    </a>
-                    <a class="dp-nav-item" href="#features">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg>
-                        Pojazdy
-                    </a>
-                    <a class="dp-nav-item" href="#features">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        Mapa
-                    </a>
-                    <a class="dp-nav-item" href="#features">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                        Raporty
-                    </a>
-                    <a class="dp-nav-item" href="#features">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                        Kierowcy
-                    </a>
-                    <a class="dp-nav-item" href="#features">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-                        Alerty <span class="dp-badge">4</span>
-                    </a>
-                    <a class="dp-nav-item" href="#features">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
-                        Ustawienia
-                    </a>
-                </nav>
-            </div>
-            <div class="dp-main">
-                <div class="dp-topbar">
-                    <div class="dp-topbar-title">Dashboard</div>
-                    <div class="dp-topbar-right">
-                        <span class="dp-date">Śr, 16 lip 2025</span>
-                        <span class="dp-avatar">JK</span>
-                    </div>
-                </div>
-                <div class="dp-kpi-row">
-                    <div class="dp-kpi">
-                        <div class="dp-kpi-icon kpi-green">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg>
-                        </div>
-                        <div class="dp-kpi-body">
-                            <div class="dp-kpi-val">24</div>
-                            <div class="dp-kpi-lbl">Aktywne pojazdy</div>
-                        </div>
-                        <div class="dp-kpi-trend up">↑ +3</div>
-                    </div>
-                    <div class="dp-kpi">
-                        <div class="dp-kpi-icon kpi-blue">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                        </div>
-                        <div class="dp-kpi-body">
-                            <div class="dp-kpi-val">4 283 km</div>
-                            <div class="dp-kpi-lbl">Przebieg dziś</div>
-                        </div>
-                        <div class="dp-kpi-trend up">↑ 12%</div>
-                    </div>
-                    <div class="dp-kpi">
-                        <div class="dp-kpi-icon kpi-yellow">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
-                        </div>
-                        <div class="dp-kpi-body">
-                            <div class="dp-kpi-val">4</div>
-                            <div class="dp-kpi-lbl">Aktywne alerty</div>
-                        </div>
-                        <div class="dp-kpi-trend down">↓ -2</div>
-                    </div>
-                    <div class="dp-kpi">
-                        <div class="dp-kpi-icon kpi-cyan">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-                        </div>
-                        <div class="dp-kpi-body">
-                            <div class="dp-kpi-val">18</div>
-                            <div class="dp-kpi-lbl">Aktywni kierowcy</div>
-                        </div>
-                        <div class="dp-kpi-trend up">↑ +1</div>
-                    </div>
-                </div>
-                <div class="dp-lower">
-                    <div class="dp-map-area">
-                        <div class="dp-map-header">
-                            <span>Mapa lokalizacji</span>
-                            <span class="dp-map-live"><span class="blink-dot"></span>LIVE</span>
-                        </div>
-                        <div class="dp-map-body">
-                            <svg class="dp-map-roads" viewBox="0 0 500 240" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="500" height="240" fill="#0e1f36"/>
-                                <line x1="0" y1="120" x2="500" y2="120" stroke="#162a44" stroke-width="4"/>
-                                <line x1="250" y1="0" x2="250" y2="240" stroke="#162a44" stroke-width="3"/>
-                                <line x1="0" y1="60" x2="500" y2="180" stroke="#1a3050" stroke-width="2"/>
-                                <line x1="0" y1="180" x2="500" y2="60" stroke="#1a3050" stroke-width="2"/>
-                                <line x1="125" y1="0" x2="125" y2="240" stroke="#152030" stroke-width="1"/>
-                                <line x1="375" y1="0" x2="375" y2="240" stroke="#152030" stroke-width="1"/>
-                                <line x1="0" y1="180" x2="500" y2="180" stroke="#152030" stroke-width="1"/>
-                                <line x1="0" y1="60" x2="500" y2="60" stroke="#152030" stroke-width="1"/>
-                                <circle cx="110" cy="80" r="4" fill="#22c55e" opacity="0.9"/>
-                                <circle cx="110" cy="80" r="10" fill="#22c55e" opacity="0.2"/>
-                                <circle cx="310" cy="140" r="4" fill="#22c55e" opacity="0.9"/>
-                                <circle cx="310" cy="140" r="10" fill="#22c55e" opacity="0.2"/>
-                                <circle cx="420" cy="70" r="4" fill="#22c55e" opacity="0.9"/>
-                                <circle cx="420" cy="70" r="10" fill="#22c55e" opacity="0.2"/>
-                                <circle cx="180" cy="190" r="4" fill="#f59e0b" opacity="0.9"/>
-                                <circle cx="180" cy="190" r="10" fill="#f59e0b" opacity="0.2"/>
-                                <circle cx="70" cy="150" r="4" fill="#64748b" opacity="0.7"/>
-                                <circle cx="60" cy="40" r="4" fill="#22c55e" opacity="0.9"/>
-                                <circle cx="60" cy="40" r="10" fill="#22c55e" opacity="0.2"/>
-                                <!-- route line -->
-                                <polyline points="60,40 110,80 180,120 250,100 310,140" stroke="#2563eb" stroke-width="2" stroke-dasharray="6 3" fill="none" opacity="0.7"/>
-                            </svg>
-                            <div class="dp-map-overlay-legend">
-                                <span><em class="dot-g"></em>Online (21)</span>
-                                <span><em class="dot-y"></em>Serwis (3)</span>
-                                <span><em class="dot-s"></em>Offline (2)</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dp-vehicles-panel">
-                        <div class="dp-panel-header">
-                            <span>Pojazdy</span>
-                            <span class="dp-panel-count">26 pojazdów</span>
-                        </div>
-                        <div class="dp-vehicle-list">
-                            <div class="dp-vehicle-item">
-                                <div class="dp-vehicle-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg></div>
-                                <div class="dp-vehicle-info">
-                                    <strong>FL-001 — Van Sprinter</strong>
-                                    <span>J. Kowalski • 72 km/h</span>
-                                </div>
-                                <span class="status-pill online">Online</span>
-                            </div>
-                            <div class="dp-vehicle-item">
-                                <div class="dp-vehicle-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg></div>
-                                <div class="dp-vehicle-info">
-                                    <strong>FL-002 — Ciężarówka MAN</strong>
-                                    <span>M. Nowak • 94 km/h</span>
-                                </div>
-                                <span class="status-pill online">Online</span>
-                            </div>
-                            <div class="dp-vehicle-item">
-                                <div class="dp-vehicle-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg></div>
-                                <div class="dp-vehicle-info">
-                                    <strong>FL-003 — Osobowy BMW</strong>
-                                    <span>Serwis — P. Wiśniewski</span>
-                                </div>
-                                <span class="status-pill warn">Serwis</span>
-                            </div>
-                            <div class="dp-vehicle-item">
-                                <div class="dp-vehicle-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg></div>
-                                <div class="dp-vehicle-info">
-                                    <strong>FL-004 — Dostawczy Ford</strong>
-                                    <span>A. Zielińska • 56 km/h</span>
-                                </div>
-                                <span class="status-pill online">Online</span>
-                            </div>
-                            <div class="dp-vehicle-item">
-                                <div class="dp-vehicle-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3m0 0h3l3 3v4h-1m-2 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM7 20a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/></svg></div>
-                                <div class="dp-vehicle-info">
-                                    <strong>FL-005 — Bus Mercedes</strong>
-                                    <span>Offline — ostatni sygnał 2h temu</span>
-                                </div>
-                                <span class="status-pill offline">Offline</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="devices-showcase">
+            <img src="/assets/devices2.png" alt="FleetLink 4.0 — panel zarządzania na laptopie, tablecie i telefonie" class="devices-img" />
         </div>
     </div>
 </section>
