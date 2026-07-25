@@ -142,15 +142,7 @@
                             <strong>500+</strong> firm w Polsce
                         </div>
                     </div>
-                    <div class="hero-visual" aria-hidden="true">
-                        <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&h=400&q=80" alt="Mapa GPS z lokalizacją pojazdów w czasie rzeczywistym" class="slide-photo-img" loading="eager" />
-                            <div class="slide-photo-caption">
-                                <span class="blink-dot"></span>
-                                GPS Live — 21 pojazdów online
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -168,15 +160,7 @@
                             <a href="#features" class="btn btn-ghost btn-lg">Poznaj funkcje</a>
                         </div>
                     </div>
-                    <div class="hero-visual" aria-hidden="true">
-                        <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1474978528675-4a50a4508b2f?auto=format&fit=crop&w=600&h=400&q=80" alt="Kokpit pojazdu ciężarowego z systemem telematycznym" class="slide-photo-img" loading="lazy" />
-                            <div class="slide-photo-caption">
-                                <span class="blink-dot"></span>
-                                CAN BUS — dane z komputera pokładowego
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -194,15 +178,7 @@
                             <a href="#pricing" class="btn btn-ghost btn-lg">Zobacz cennik</a>
                         </div>
                     </div>
-                    <div class="hero-visual" aria-hidden="true">
-                        <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1519003300449-534518bad975?auto=format&fit=crop&w=600&h=400&q=80" alt="Ciężarówki na autostradzie — Eco Driving i oszczędność paliwa" class="slide-photo-img" loading="lazy" />
-                            <div class="slide-photo-caption">
-                                <span class="blink-dot"></span>
-                                Eco Driving — oszczędność nawet 20% paliwa
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -220,15 +196,7 @@
                             <a href="#dashboard" class="btn btn-ghost btn-lg">Zobacz dashboard</a>
                         </div>
                     </div>
-                    <div class="hero-visual" aria-hidden="true">
-                        <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80" alt="Raporty flotowe i analizy danych na ekranie" class="slide-photo-img" loading="lazy" />
-                            <div class="slide-photo-caption">
-                                <span class="blink-dot"></span>
-                                Raporty flotowe — eksport PDF i Excel
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -246,15 +214,7 @@
                             <a href="#contact" class="btn btn-ghost btn-lg">Bezpłatna konsultacja</a>
                         </div>
                     </div>
-                    <div class="hero-visual" aria-hidden="true">
-                        <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&h=400&q=80" alt="Flota pojazdów ciężarowych — wszystkie branże transportowe" class="slide-photo-img" loading="lazy" />
-                            <div class="slide-photo-caption">
-                                <span class="blink-dot"></span>
-                                Obsługujemy wszystkie branże transportowe
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
