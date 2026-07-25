@@ -144,7 +144,7 @@
                     </div>
                     <div class="hero-visual" aria-hidden="true">
                         <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&h=400&q=80" alt="Monitoring GPS floty pojazdów" class="slide-photo-img" loading="eager" />
+                            <img src="https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=600&h=400&q=80" alt="Mapa GPS z lokalizacją pojazdów w czasie rzeczywistym" class="slide-photo-img" loading="eager" />
                             <div class="slide-photo-caption">
                                 <span class="blink-dot"></span>
                                 GPS Live — 21 pojazdów online
@@ -170,7 +170,7 @@
                     </div>
                     <div class="hero-visual" aria-hidden="true">
                         <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&h=400&q=80" alt="CAN BUS telematyka pojazdów" class="slide-photo-img" loading="lazy" />
+                            <img src="https://images.unsplash.com/photo-1474978528675-4a50a4508b2f?auto=format&fit=crop&w=600&h=400&q=80" alt="Kokpit pojazdu ciężarowego z systemem telematycznym" class="slide-photo-img" loading="lazy" />
                             <div class="slide-photo-caption">
                                 <span class="blink-dot"></span>
                                 CAN BUS — dane z komputera pokładowego
@@ -196,7 +196,7 @@
                     </div>
                     <div class="hero-visual" aria-hidden="true">
                         <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=600&h=400&q=80" alt="Eco Driving oszczędność paliwa" class="slide-photo-img" loading="lazy" />
+                            <img src="https://images.unsplash.com/photo-1519003300449-534518bad975?auto=format&fit=crop&w=600&h=400&q=80" alt="Ciężarówki na autostradzie — Eco Driving i oszczędność paliwa" class="slide-photo-img" loading="lazy" />
                             <div class="slide-photo-caption">
                                 <span class="blink-dot"></span>
                                 Eco Driving — oszczędność nawet 20% paliwa
@@ -222,7 +222,7 @@
                     </div>
                     <div class="hero-visual" aria-hidden="true">
                         <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80" alt="Raporty flotowe i analizy" class="slide-photo-img" loading="lazy" />
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=400&q=80" alt="Raporty flotowe i analizy danych na ekranie" class="slide-photo-img" loading="lazy" />
                             <div class="slide-photo-caption">
                                 <span class="blink-dot"></span>
                                 Raporty flotowe — eksport PDF i Excel
@@ -248,7 +248,7 @@
                     </div>
                     <div class="hero-visual" aria-hidden="true">
                         <div class="slide-photo-frame">
-                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&h=400&q=80" alt="Transport logistyka flota pojazdów" class="slide-photo-img" loading="lazy" />
+                            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&h=400&q=80" alt="Flota pojazdów ciężarowych — wszystkie branże transportowe" class="slide-photo-img" loading="lazy" />
                             <div class="slide-photo-caption">
                                 <span class="blink-dot"></span>
                                 Obsługujemy wszystkie branże transportowe
