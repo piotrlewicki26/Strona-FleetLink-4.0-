@@ -1,11 +1,23 @@
 # FleetLink 4.0
 
-Minimalna baza projektu strony do lokalizacji pojazdów i zarządzania flotą.
+Profesjonalna strona landing page do lokalizacji pojazdów i zarządzania flotą.
 
 ## Struktura
 
-- `public/` — aplikacja i assets
-- `public/install.php` — instalator (podajesz tylko dane bazy)
+```
+public/
+├── index.html              ← główna strona (pure HTML)
+├── install.php             ← instalator bazy danych
+├── api/
+│   └── vehicles.php        ← API JSON dla pojazdów
+└── assets/
+    ├── css/
+    │   └── styles.css      ← style strony
+    ├── js/
+    │   └── app.js          ← JavaScript strony
+    └── img/                ← obrazy (og-image.jpg, devices2.png, …)
+```
+
 - `database/schema.sql` — struktura tabel + dane startowe
 - `config/config.sample.php` — przykładowa konfiguracja
 - `.github/workflows/deploy.yml` — automatyczne wdrożenie na serwer po pushu do `main`
