@@ -40,9 +40,10 @@ function animateCounter(el) {
   }, 16);
 }
 
-// ---- Intersection Observer — fade-in + counters ----
+// ---- Intersection Observer — fade-in + fade-up + counters ----
 const counters = document.querySelectorAll('.stat-num');
 const fadeEls  = document.querySelectorAll('.fade-in');
+const fadeUpEls = document.querySelectorAll('.fade-up');
 
 let countersStarted = false;
 
@@ -51,14 +52,15 @@ const observer = new IntersectionObserver((entries) => {
     if (!entry.isIntersecting) return;
 
     // Fade-in cards
-    if (entry.target.classList.contains('fade-in')) {
+    if (entry.target.classList.contains('fade-in') || entry.target.classList.contains('fade-up')) {
       entry.target.classList.add('visible');
       observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.15 });
+}, { threshold: 0.12 });
 
 fadeEls.forEach(el => observer.observe(el));
+fadeUpEls.forEach(el => observer.observe(el));
 
 // Counter observer — trigger when stats bar visible
 const statsBar = document.querySelector('.stats-bar');
@@ -210,3 +212,7 @@ document.querySelectorAll('.has-dropdown > a').forEach(a => {
     }
   });
 });
+
+// ---- Footer year ----
+const yearEl = document.getElementById('currentYear');
+if (yearEl) yearEl.textContent = new Date().getFullYear();
