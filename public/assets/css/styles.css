@@ -405,10 +405,10 @@ img, svg { display: block; max-width: 100%; }
 }
 .slide-bg-2 {
     background:
-        radial-gradient(circle at 75% 35%, rgba(37,99,235,.28), transparent 24%),
-        radial-gradient(circle at 25% 20%, rgba(168,85,247,.2), transparent 25%),
-        linear-gradient(180deg, rgba(10,18,38,.48), rgba(7,17,31,.82)),
-        url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        radial-gradient(circle at 18% 74%, rgba(37,99,235,.34), transparent 30%),
+        linear-gradient(90deg, rgba(6,15,30,.62) 0%, rgba(6,15,30,.55) 35%, rgba(6,15,30,.84) 100%),
+        linear-gradient(180deg, rgba(7,17,31,.30), rgba(7,17,31,.74)),
+        url('https://github.com/user-attachments/assets/c67127f1-35fd-4cd0-99a6-f61c5604b040') center/cover no-repeat;
 }
 .slide-bg-3 {
     background:
