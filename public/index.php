@@ -58,10 +58,7 @@
 <nav class="navbar" id="navbar">
     <div class="nav-inner">
         <a href="/" class="nav-logo">
-            <span class="logo-icon">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="7" fill="#2563eb"/><path d="M7 14l4 4 10-10" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="8" r="3" fill="#22d3ee"/></svg>
-            </span>
-            FleetLink <span class="logo-version">4.0</span>
+            <img src="/assets/img/logo.svg" alt="FleetLink System GPS" class="nav-logo-img" />
         </a>
         <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
             <span></span><span></span><span></span>
@@ -333,7 +330,57 @@
             <p>Przejrzysty dashboard z mapą i kluczowymi danymi — wszystko w jednym ekranie.</p>
         </div>
         <div class="devices-showcase">
-            <img src="/assets/devices2.png" alt="FleetLink 4.0 — panel zarządzania na laptopie, tablecie i telefonie" class="devices-img" />
+            <div class="devices-glow"></div>
+            <div class="devices-mockup">
+                <div class="dm-laptop">
+                    <div class="dm-screen">
+                        <div class="dm-titlebar">
+                            <span class="dm-dot dm-red"></span>
+                            <span class="dm-dot dm-yellow"></span>
+                            <span class="dm-dot dm-green"></span>
+                            <span class="dm-title-url">fleetlink.pl/dashboard</span>
+                        </div>
+                        <div class="dm-content">
+                            <div class="dm-sidebar">
+                                <div class="dm-si dm-si-active">📍 Mapa</div>
+                                <div class="dm-si">🚗 Pojazdy</div>
+                                <div class="dm-si">📊 Raporty</div>
+                                <div class="dm-si">⚙️ Ustawienia</div>
+                            </div>
+                            <div class="dm-main">
+                                <div class="dm-stats-row">
+                                    <div class="dm-stat"><span class="dm-sv dm-sv-green">42</span><span class="dm-sl">Online</span></div>
+                                    <div class="dm-stat"><span class="dm-sv dm-sv-blue">5</span><span class="dm-sl">Postój</span></div>
+                                    <div class="dm-stat"><span class="dm-sv dm-sv-warn">3</span><span class="dm-sl">Alarm</span></div>
+                                </div>
+                                <div class="dm-map-area">
+                                    <div class="dm-map-grid"></div>
+                                    <div class="dm-pin dm-p1"></div>
+                                    <div class="dm-pin dm-p2"></div>
+                                    <div class="dm-pin dm-p3"></div>
+                                    <div class="dm-route"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dm-laptop-base"></div>
+                    <div class="dm-laptop-foot"></div>
+                </div>
+                <div class="dm-phone">
+                    <div class="dm-phone-screen">
+                        <div class="dm-phone-topbar"></div>
+                        <div class="dm-phone-map">
+                            <div class="dm-map-grid"></div>
+                            <div class="dm-pin dm-ph-p1"></div>
+                            <div class="dm-pin dm-ph-p2"></div>
+                        </div>
+                        <div class="dm-phone-cards">
+                            <div class="dm-phone-card"><span class="dm-sv dm-sv-green">●</span> 12 aktywnych</div>
+                            <div class="dm-phone-card"><span class="dm-sv dm-sv-blue">↑</span> 87 km/h</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -848,8 +895,7 @@
     <div class="footer-inner">
         <div class="footer-brand">
             <a href="/" class="nav-logo">
-                <svg width="22" height="22" viewBox="0 0 28 28" fill="none"><rect width="28" height="28" rx="7" fill="#2563eb"/><path d="M7 14l4 4 10-10" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="8" r="3" fill="#22d3ee"/></svg>
-                FleetLink <span class="logo-version">4.0</span>
+                <img src="/assets/img/logo.svg" alt="FleetLink System GPS" class="nav-logo-img" style="height:38px" />
             </a>
             <p>Profesjonalne zarządzanie flotą<br>i monitoring GPS pojazdów.<br>Polska firma, polskie wsparcie.</p>
             <div class="footer-social">
