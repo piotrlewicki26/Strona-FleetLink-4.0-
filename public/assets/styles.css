@@ -144,7 +144,7 @@ img, svg { display: block; max-width: 100%; }
     flex-shrink: 0;
 }
 .nav-logo-img {
-    height: 44px;
+    height: 40px;
     width: auto;
     display: block;
 }
@@ -1427,7 +1427,7 @@ select option { background: var(--bg2); }
     background: radial-gradient(circle at 18% 74%, rgba(37,99,235,.34), transparent 30%),
                 linear-gradient(90deg, rgba(6,15,30,.62) 0%, rgba(6,15,30,.55) 35%, rgba(6,15,30,.84) 100%),
                 linear-gradient(180deg, rgba(7,17,31,.30), rgba(7,17,31,.74)),
-                url('https://github.com/user-attachments/assets/c67127f1-35fd-4cd0-99a6-f61c5604b040') center/cover no-repeat;
+                url('https://github.com/user-attachments/assets/fe402460-9091-42da-b392-4f2aaf8ff8c0') center/cover no-repeat;
 }
 
 .slide-bg-3 {
