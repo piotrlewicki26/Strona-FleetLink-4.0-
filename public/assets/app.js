@@ -4,9 +4,11 @@
 
 // ---- Navbar scroll shadow ----
 const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 20);
-}, { passive: true });
+if (navbar) {
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+}
 
 // ---- Mobile burger menu ----
 const burger   = document.getElementById('navBurger');

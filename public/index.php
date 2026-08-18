@@ -13,7 +13,7 @@
     <meta property="og:url" content="https://fleetlink.pl/" />
     <meta property="og:title" content="FleetLink 4.0 — Nowoczesny monitoring GPS i zarządzanie flotą" />
     <meta property="og:description" content="Kompleksowa platforma do śledzenia i zarządzania flotą pojazdów. GPS, raporty, alerty, CAN BUS, tachografy." />
-    <meta property="og:image" content="https://fleetlink.pl/assets/og-image.jpg" />
+    <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="FleetLink 4.0 — Monitoring GPS i Zarządzanie Flotą" />
@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/styles.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
     <!-- Schema.org -->
     <script type="application/ld+json">
     {
@@ -117,6 +117,8 @@
 
 <!-- ======== HERO SLIDER ======== -->
 <section class="hero" id="home">
+    <div class="hero-orb1"></div>
+    <div class="hero-orb2"></div>
     <div class="hero-slider" id="heroSlider">
         <!-- Slide 1 -->
         <div class="hero-slide active">
@@ -139,7 +141,6 @@
                             <strong>500+</strong> firm w Polsce
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -157,7 +158,6 @@
                             <a href="#features" class="btn btn-ghost btn-lg">Zobacz rozwiązania</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -167,15 +167,14 @@
             <div class="slide-content">
                 <div class="hero-inner">
                     <div class="hero-text">
-                        <span class="badge pulse"><span class="badge-dot"></span>Eco Driving & Raportowanie</span>
-                        <h1>Redukuj koszty paliwa<br><span class="gradient-text">nawet o 20%</span></h1>
-                        <p class="hero-sub">Moduł Eco Driving analizuje styl jazdy każdego kierowcy. Nagradzaj dobrych kierowców, identyfikuj obszary do poprawy i oszczędzaj na paliwie.</p>
+                        <span class="badge pulse"><span class="badge-dot"></span>Flota osobowa</span>
+                        <h1>Flota osobowa —<br><span class="gradient-text">bezpiecznie i efektywnie</span></h1>
+                        <p class="hero-sub">Pełna telematyka dla flot samochodów osobowych. Kontroluj styl jazdy, zużycie paliwa i koszty eksploatacji.</p>
                         <div class="hero-actions">
                             <a href="#contact" class="btn btn-primary btn-lg">Wypróbuj za darmo</a>
                             <a href="#pricing" class="btn btn-ghost btn-lg">Zobacz cennik</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -193,7 +192,6 @@
                             <a href="#dashboard" class="btn btn-ghost btn-lg">Zobacz dashboard</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -211,7 +209,6 @@
                             <a href="#contact" class="btn btn-ghost btn-lg">Bezpłatna konsultacja</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -259,8 +256,66 @@
     </div>
 </section>
 
+<!-- ======== ABOUT ======== -->
+<section class="section" id="about">
+    <div class="section-inner">
+        <div class="about-grid">
+            <div class="about-text">
+                <span class="section-tag">O nas</span>
+                <h2>Polski lider w telematyce<br><span class="gradient-text">i zarządzaniu flotą</span></h2>
+                <p>FleetLink to polska firma z ponad 10-letnim doświadczeniem w branży telematycznej. Tworzymy inteligentne systemy GPS, które pomagają setkom przedsiębiorstw optymalizować koszty, zwiększać bezpieczeństwo i zyskiwać pełną kontrolę nad flotą.</p>
+                <p>Nasz zespół 50+ specjalistów każdego dnia pracuje nad rozwojem platformy FleetLink 4.0 — systemu, który odpowiada na realne potrzeby polskich firm transportowych, logistycznych i budowlanych.</p>
+                <div class="about-stats">
+                    <div class="about-stat fade-in">
+                        <div class="about-stat-num">10+</div>
+                        <div class="about-stat-label">Lat doświadczenia</div>
+                    </div>
+                    <div class="about-stat fade-in">
+                        <div class="about-stat-num">500+</div>
+                        <div class="about-stat-label">Obsługiwanych pojazdów</div>
+                    </div>
+                    <div class="about-stat fade-in">
+                        <div class="about-stat-num">50+</div>
+                        <div class="about-stat-label">Specjalistów w zespole</div>
+                    </div>
+                    <div class="about-stat fade-in">
+                        <div class="about-stat-num">16+</div>
+                        <div class="about-stat-label">Obsługiwanych branż</div>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-lg">Poznaj nasz zespół</a>
+            </div>
+            <div class="about-visual">
+                <div class="about-visual-inner">
+                    <div class="about-icons-grid">
+                        <div class="about-icon-box fade-in">
+                            <img src="/assets/img/about-polish.svg" alt="Ikona polskiej firmy FleetLink" class="about-icon-image" />
+                            <div class="about-icon-label">Polska firma</div>
+                        </div>
+                        <div class="about-icon-box fade-in">
+                            <img src="/assets/img/about-leader.svg" alt="Ikona lidera rynku FleetLink" class="about-icon-image" />
+                            <div class="about-icon-label">Lider rynku</div>
+                        </div>
+                        <div class="about-icon-box fade-in">
+                            <img src="/assets/img/about-security.svg" alt="Ikona bezpieczeństwa i zgodności RODO oraz ISO" class="about-icon-image" />
+                            <div class="about-icon-label">RODO & ISO</div>
+                        </div>
+                        <div class="about-icon-box fade-in">
+                            <img src="/assets/img/about-sla.svg" alt="Ikona wysokiej dostępności SLA 99,9%" class="about-icon-image" />
+                            <div class="about-icon-label">SLA 99,9%</div>
+                        </div>
+                    </div>
+                    <div class="about-tagline">
+                        Zaufało nam ponad <span>120 firm</span> — od małych flotowców po duże korporacje transportowe.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- ======== FEATURES ======== -->
-<section class="section" id="features">
+<section class="section section-dark" id="features">
     <div class="section-inner">
         <div class="section-head">
             <span class="section-tag">Funkcjonalności</span>
@@ -322,60 +377,90 @@
 </section>
 
 <!-- ======== DASHBOARD PREVIEW ======== -->
-<section class="section section-dark" id="dashboard">
+<section class="section" id="dashboard">
     <div class="section-inner">
-        <div class="section-head">
-            <span class="section-tag">Podgląd systemu</span>
-            <h2>Intuicyjny panel zarządzania</h2>
-            <p>Przejrzysty dashboard z mapą i kluczowymi danymi — wszystko w jednym ekranie.</p>
-        </div>
-        <div class="devices-showcase">
-            <div class="devices-glow"></div>
-            <img src="/assets/img/devices2.png" alt="Podgląd FleetLink na laptopie i smartfonie" class="devices-img" />
+        <div class="dashboard-hero-grid fade-up">
+            <div class="dashboard-hero-text">
+                <span class="section-tag">Podgląd systemu</span>
+                <h2>Jeden panel —<br><span class="gradient-text">pełna kontrola</span></h2>
+                <p>FleetLink działa płynnie na komputerze, tablecie i smartfonie. Manager ma pełny podgląd floty, a kierowca korzysta z dedykowanej aplikacji DriverLink — w czasie rzeczywistym, wszędzie.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn btn-primary btn-lg">Zamów demo <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="vertical-align:middle"><polyline points="9 18 15 12 9 6"/></svg></a>
+                    <a href="#devices" class="btn btn-outline btn-lg">Zobacz urządzenia</a>
+                </div>
+            </div>
+            <div class="dashboard-hero-img">
+                <div class="devices-showcase">
+                    <div class="devices-glow"></div>
+                    <img src="/assets/img/devices2.png" alt="Podgląd FleetLink na laptopie i smartfonie" class="devices-img" />
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- ======== HOW IT WORKS ======== -->
-<section class="section" id="how">
+<section class="section section-dark" id="how">
     <div class="section-inner">
         <div class="section-head">
-            <span class="section-tag">Jak to działa?</span>
-            <h2>Trzy kroki do pełnej kontroli</h2>
+            <span class="section-tag">Jak to działa</span>
+            <h2>Od zamówienia do <span class="gradient-text">pełnej kontroli</span></h2>
+            <p>Wdrożenie zajmuje godziny, nie miesiące. Żadnych skomplikowanych integracji.</p>
         </div>
-        <div class="steps">
-            <div class="step fade-in">
-                <div class="step-num">01</div>
-                <div class="step-icon">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+        <div class="steps-visual">
+            <!-- Step 1 -->
+            <div class="step-visual fade-in" data-step="1">
+                <div class="step-circle-wrap">
+                    <div class="step-circle step-circle-1">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                    </div>
+                    <span class="step-badge">01</span>
                 </div>
-                <h3>Montaż lokalizatora</h3>
-                <p>Wygodny montaż urządzenia GPS w Twoim pojeździe — samodzielnie lub przez naszego technika.</p>
+                <div class="step-line step-line-1"></div>
+                <h3>Zamów urządzenie</h3>
+                <p>Wybierasz GPS tracker odpowiedni do swoich pojazdów. Wysyłamy kurierem w 24h. Plug & play — bez technika, bez kabli.</p>
             </div>
-            <div class="step-arrow">→</div>
-            <div class="step fade-in">
-                <div class="step-num">02</div>
-                <div class="step-icon">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <!-- Step 2 -->
+            <div class="step-visual fade-in" data-step="2">
+                <div class="step-circle-wrap">
+                    <div class="step-circle step-circle-2">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12.55a11 11 0 0114.08 0"/><path d="M1.42 9a16 16 0 0121.16 0"/><path d="M8.53 16.11a6 6 0 016.95 0"/><circle cx="12" cy="20" r="1" fill="currentColor"/></svg>
+                    </div>
+                    <span class="step-badge">02</span>
                 </div>
-                <h3>Konfiguracja panelu</h3>
-                <p>Dodaj pojazdy i kierowców do systemu. Panel gotowy w 5 minut — bez wiedzy technicznej.</p>
+                <div class="step-line step-line-2"></div>
+                <h3>Podłącz i aktywuj</h3>
+                <p>Urządzenie podłączasz do złącza OBD lub wiązki zasilania. Skan kodu QR w aplikacji i masz pojazd w systemie w 2 minuty.</p>
             </div>
-            <div class="step-arrow">→</div>
-            <div class="step fade-in">
-                <div class="step-num">03</div>
-                <div class="step-icon">
-                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <!-- Step 3 -->
+            <div class="step-visual fade-in" data-step="3">
+                <div class="step-circle-wrap">
+                    <div class="step-circle step-circle-3">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    </div>
+                    <span class="step-badge">03</span>
                 </div>
-                <h3>Śledzenie i zarządzanie</h3>
-                <p>Obserwuj flotę w czasie rzeczywistym z przeglądarki lub aplikacji mobilnej — 24/7.</p>
+                <div class="step-line step-line-3"></div>
+                <h3>Dane płyną live</h3>
+                <p>Panel FleetLink od razu pokazuje mapę, prędkość, paliwo, styl jazdy. Zero konfiguracji — algorytmy AI uczą się Twojej floty.</p>
+            </div>
+            <!-- Step 4 -->
+            <div class="step-visual fade-in" data-step="4">
+                <div class="step-circle-wrap">
+                    <div class="step-circle step-circle-4">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                    </div>
+                    <span class="step-badge">04</span>
+                </div>
+                <h3>Optymalizuj i oszczędzaj</h3>
+                <p>Raporty, alerty, rekomendacje. Widzisz gdzie tracisz pieniądze i jak przestać. Zwrot z inwestycji średnio w 6 tygodni.</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ======== PRICING ======== -->
-<section class="section section-dark" id="pricing">
+<section class="section" id="pricing">
     <div class="section-inner">
         <div class="section-head">
             <span class="section-tag">Cennik</span>
@@ -432,173 +517,435 @@
 </section>
 
 <!-- ======== TESTIMONIALS ======== -->
-<section class="section" id="testimonials">
+<section class="section section-dark" id="testimonials">
     <div class="section-inner">
-        <div class="section-head">
-            <span class="section-tag">Opinie klientów</span>
-            <h2>Co mówią nasi klienci</h2>
-            <p>Dołącz do ponad 500 firm, które zoptymalizowały swoje floty z FleetLink 4.0.</p>
+        <div class="section-head fade-up">
+            <span class="section-tag">Zaufali nam</span>
+            <h2>Co mówią nasi <span class="gradient-text">klienci?</span></h2>
+            <p>Dołącz do ponad 120 firm, które zoptymalizowały swoje floty z FleetLink.</p>
         </div>
-        <div class="testimonials-grid">
-
-            <div class="testimonial-card fade-in">
-                <div class="testimonial-stars">★★★★★</div>
-                <p class="testimonial-text">„FleetLink 4.0 całkowicie zmienił sposób, w jaki zarządzamy naszą flotą 45 pojazdów. Oszczędzamy kilkadziesiąt godzin pracy miesięcznie, a koszty paliwa spadły o 18%."</p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar" style="background: #1d4ed8;">MK</div>
-                    <div>
-                        <div class="testimonial-name">Marek Kowalczyk</div>
-                        <div class="testimonial-role">Dyrektor Logistyki, TransPol Sp. z o.o.</div>
+        <!-- Testimonials auto-scroll track -->
+        <div class="testimonials-track-wrap">
+            <div class="testimonials-track" id="testimonialsTrack">
+                <!-- Row 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„FleetLink całkowicie zmienił sposób, w jaki zarządzamy flotą 45 pojazdów. Oszczędzamy kilkadziesiąt godzin miesięcznie, a koszty paliwa spadły o 18%."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#1d4ed8;">MK</div>
+                        <div>
+                            <div class="testimonial-name">Marek Kowalczyk</div>
+                            <div class="testimonial-role">Dyrektor Logistyki, TransPol Sp. z o.o.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Intuicyjny panel, błyskawiczne wdrożenie i doskonałe wsparcie techniczne. Polecam każdej firmie, która poważnie traktuje zarządzanie flotą."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#0891b2;">AW</div>
+                        <div>
+                            <div class="testimonial-name">Anna Wiśniewska</div>
+                            <div class="testimonial-role">CEO, FastCargo Group</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„System alertów i raportów jest dokładnie taki, jakiego potrzebowaliśmy. Nasi kierowcy jeżdżą bezpieczniej, a my mamy pełną kontrolę w czasie rzeczywistym."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#7c3aed;">PZ</div>
+                        <div>
+                            <div class="testimonial-name">Piotr Zieliński</div>
+                            <div class="testimonial-role">Fleet Manager, BuildPro S.A.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Dzięki FleetLink zredukowaliśmy koszty paliwa o ponad 22% w ciągu pierwszych 3 miesięcy. ROI przekroczył nasze oczekiwania."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#059669;">TB</div>
+                        <div>
+                            <div class="testimonial-name">Tomasz Brodzki</div>
+                            <div class="testimonial-role">Właściciel, BrodzkiTrans</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Wdrożenie zajęło jeden dzień. Teraz mamy 24/7 wgląd w każdy pojazd. Geofencing i alerty to funkcje, bez których nie wyobrażam sobie pracy."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#d97706;">KN</div>
+                        <div>
+                            <div class="testimonial-name">Katarzyna Nowak</div>
+                            <div class="testimonial-role">Fleet Manager, UrbanLogistics</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Raporty tachografów i CAN BUS to prawdziwy game-changer. Rozliczamy kierowców sprawiedliwie i zgodnie z przepisami."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#be185d;">RW</div>
+                        <div>
+                            <div class="testimonial-name">Robert Wierzbicki</div>
+                            <div class="testimonial-role">Dyrektor Transportu, MegaSpedycja</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Duplicate for infinite loop -->
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„FleetLink całkowicie zmienił sposób, w jaki zarządzamy flotą 45 pojazdów. Oszczędzamy kilkadziesiąt godzin miesięcznie, a koszty paliwa spadły o 18%."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#1d4ed8;">MK</div>
+                        <div>
+                            <div class="testimonial-name">Marek Kowalczyk</div>
+                            <div class="testimonial-role">Dyrektor Logistyki, TransPol Sp. z o.o.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Intuicyjny panel, błyskawiczne wdrożenie i doskonałe wsparcie techniczne. Polecam każdej firmie, która poważnie traktuje zarządzanie flotą."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#0891b2;">AW</div>
+                        <div>
+                            <div class="testimonial-name">Anna Wiśniewska</div>
+                            <div class="testimonial-role">CEO, FastCargo Group</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„System alertów i raportów jest dokładnie taki, jakiego potrzebowaliśmy. Nasi kierowcy jeżdżą bezpieczniej, a my mamy pełną kontrolę w czasie rzeczywistym."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#7c3aed;">PZ</div>
+                        <div>
+                            <div class="testimonial-name">Piotr Zieliński</div>
+                            <div class="testimonial-role">Fleet Manager, BuildPro S.A.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Dzięki FleetLink zredukowaliśmy koszty paliwa o ponad 22% w ciągu pierwszych 3 miesięcy. ROI przekroczył nasze oczekiwania."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#059669;">TB</div>
+                        <div>
+                            <div class="testimonial-name">Tomasz Brodzki</div>
+                            <div class="testimonial-role">Właściciel, BrodzkiTrans</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Wdrożenie zajęło jeden dzień. Teraz mamy 24/7 wgląd w każdy pojazd. Geofencing i alerty to funkcje, bez których nie wyobrażam sobie pracy."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#d97706;">KN</div>
+                        <div>
+                            <div class="testimonial-name">Katarzyna Nowak</div>
+                            <div class="testimonial-role">Fleet Manager, UrbanLogistics</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">„Raporty tachografów i CAN BUS to prawdziwy game-changer. Rozliczamy kierowców sprawiedliwie i zgodnie z przepisami."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background:#be185d;">RW</div>
+                        <div>
+                            <div class="testimonial-name">Robert Wierzbicki</div>
+                            <div class="testimonial-role">Dyrektor Transportu, MegaSpedycja</div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="testimonial-card fade-in">
-                <div class="testimonial-stars">★★★★★</div>
-                <p class="testimonial-text">„Intuicyjny panel, błyskawiczne wdrożenie i doskonałe wsparcie techniczne. Polecam każdej firmie, która poważnie traktuje zarządzanie flotą."</p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar" style="background: #0891b2;">AW</div>
-                    <div>
-                        <div class="testimonial-name">Anna Wiśniewska</div>
-                        <div class="testimonial-role">CEO, FastCargo Group</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="testimonial-card fade-in">
-                <div class="testimonial-stars">★★★★★</div>
-                <p class="testimonial-text">„System alertów i raportów jest dokładnie taki, jakiego potrzebowaliśmy. Nasi kierowcy jeżdżą bezpieczniej, a my mamy pełną kontrolę w czasie rzeczywistym."</p>
-                <div class="testimonial-author">
-                    <div class="testimonial-avatar" style="background: #7c3aed;">PZ</div>
-                    <div>
-                        <div class="testimonial-name">Piotr Zieliński</div>
-                        <div class="testimonial-role">Fleet Manager, BuildPro S.A.</div>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </section>
 
 <!-- ======== INDUSTRIES ======== -->
-<section class="section section-dark" id="industries">
+<section class="section" id="industries">
     <div class="section-inner">
-        <div class="section-head">
+        <div class="section-head fade-up">
             <span class="section-tag">Branże</span>
-            <h2>Rozwiązania dla każdej branży</h2>
-            <p>FleetLink 4.0 wspiera firmy z ponad 16 branż. Każde wdrożenie dostosowujemy do specyficznych potrzeb.</p>
+            <h2>Rozwiązania dla <span class="gradient-text">każdej branży</span></h2>
+            <p>FleetLink obsługuje firmy z ponad 16 branż. Każde wdrożenie dopasowujemy do specyfiki Twojego biznesu.</p>
         </div>
         <div class="industries-grid">
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🚚</div>
-                <h4>Transport i logistyka</h4>
-                <p>Optymalizacja tras, monitoring czasu pracy, integracja z WMS/ERP.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🏗️</div>
-                <h4>Budownictwo</h4>
-                <p>Monitoring maszyn budowlanych, kontrola czasu pracy na budowach.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🌾</div>
-                <h4>Rolnictwo</h4>
-                <p>Śledzenie maszyn rolniczych, monitoring pól i operacji agrotechnicznych.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🚕</div>
-                <h4>Taxi i car sharing</h4>
-                <p>Dispatch, rozliczenia kilometrów, bezpieczeństwo pasażerów.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">📦</div>
-                <h4>Kurierzy i dostawy</h4>
-                <p>Optymalizacja tras dostawy, potwierdzenia doręczeń, śledzenie paczek.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🏙️</div>
-                <h4>Samorządy i miasta</h4>
-                <p>Monitoring pojazdów komunalnych, odśnieżarki, śmieciarki, autobusy.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🔧</div>
-                <h4>Serwisy i usługi</h4>
-                <p>Dyspozytornia, planowanie zleceń, monitoring techników w terenie.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">💼</div>
-                <h4>Handlowcy</h4>
-                <p>Kontrola wizyt u klientów, raporty ze spotkań, planowanie tras.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🚌</div>
-                <h4>Busy i minibusy</h4>
-                <p>Monitoring przewozu osób, bezpieczeństwo pasażerów, tachografy.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🚗</div>
-                <h4>Leasing i wypożyczalnie</h4>
-                <p>Kontrola użytkowania pojazdów, ochrona przed kradzieżą.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🚒</div>
-                <h4>Straż i policja</h4>
-                <p>Monitoring pojazdów ratowniczych i służb mundurowych.</p>
-            </div>
-            <div class="industry-card fade-in">
-                <div class="industry-icon">🚛</div>
-                <h4>Pomoc drogowa</h4>
-                <p>Dyspozytornia, monitoring holowników, szybki czas reakcji.</p>
-            </div>
+            <article class="industry-card fade-in ind-transport featured">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🚚</div>
+                    </div>
+                    <span class="industry-badge">Najpopularniejsze</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Transport</span>
+                    <h4>Transport i logistyka</h4>
+                    <p>Optymalizacja tras, monitoring czasu pracy kierowców i pełna kontrola nad łańcuchem dostaw.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Planowanie i rozliczanie kursów</li>
+                    <li>Integracja z WMS i ERP</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-build">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🏗️</div>
+                    </div>
+                    <span class="industry-badge">Place budów</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Budownictwo</span>
+                    <h4>Budownictwo</h4>
+                    <p>Monitoring maszyn budowlanych, kontrola godzin pracy i geofencing stref roboczych.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Sprzęt ciężki i auta serwisowe</li>
+                    <li>Historia pracy na obiektach</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-agri">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🌾</div>
+                    </div>
+                    <span class="industry-badge">Sezonowość</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Rolnictwo</span>
+                    <h4>Rolnictwo</h4>
+                    <p>Śledzenie maszyn rolniczych, monitoring pól i pełny wgląd w operacje agrotechniczne.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Kontrola prac polowych</li>
+                    <li>Lepsze planowanie sezonowe</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-taxi">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🚕</div>
+                    </div>
+                    <span class="industry-badge">Mobilność</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Taxi</span>
+                    <h4>Taxi i car sharing</h4>
+                    <p>Dispatch w czasie rzeczywistym, rozliczenia kilometrów i bezpieczeństwo pasażerów.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Lepsza rotacja pojazdów</li>
+                    <li>Szybsza obsługa zgłoszeń</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-courier">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">📦</div>
+                    </div>
+                    <span class="industry-badge">Last mile</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Dostawy</span>
+                    <h4>Kurierzy i dostawy</h4>
+                    <p>Optymalizacja tras dostawy, e-potwierdzenia doręczeń i monitoring paczek.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Krótszy czas dojazdu</li>
+                    <li>Widoczność statusów dostaw</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-city">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🏙️</div>
+                    </div>
+                    <span class="industry-badge">Sektor publiczny</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Miasta</span>
+                    <h4>Samorządy i miasta</h4>
+                    <p>Monitoring pojazdów komunalnych, autobusów i sprzętu miejskiego w jednym panelu.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Raporty dla jednostek miejskich</li>
+                    <li>Nadzór nad flotą komunalną</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-service">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🔧</div>
+                    </div>
+                    <span class="industry-badge">Field service</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Usługi</span>
+                    <h4>Serwisy i usługi</h4>
+                    <p>Dyspozytornia, planowanie zleceń i monitoring techników pracujących w terenie.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Krótki czas reakcji</li>
+                    <li>Lepsze wykorzystanie ekip</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-sales">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">💼</div>
+                    </div>
+                    <span class="industry-badge">Sprzedaż</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Handel</span>
+                    <h4>Przedstawiciele handlowi</h4>
+                    <p>Kontrola wizyt u klientów, raporty z tras i lepsze planowanie spotkań zespołu.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Harmonogramy i wizyty</li>
+                    <li>Pełna historia przejazdów</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-bus">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🚌</div>
+                    </div>
+                    <span class="industry-badge">Przewóz osób</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Busy</span>
+                    <h4>Busy i minibusy</h4>
+                    <p>Monitoring przewozu osób, bezpieczeństwo pasażerów i integracja z tachografami.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Kontrola kursów i postojów</li>
+                    <li>Stały nadzór nad kierowcami</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-lease">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🚗</div>
+                    </div>
+                    <span class="industry-badge">Asset tracking</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Wynajem</span>
+                    <h4>Leasing i wypożyczalnie</h4>
+                    <p>Kontrola użytkowania pojazdów, monitoring przebiegu i ochrona przed kradzieżą.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Alerty nieautoryzowanego użycia</li>
+                    <li>Rozliczanie przejechanych kilometrów</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-rescue">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🚒</div>
+                    </div>
+                    <span class="industry-badge">Priorytet</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Ratownictwo</span>
+                    <h4>Służby ratunkowe</h4>
+                    <p>Monitoring pojazdów ratowniczych i błyskawiczny podgląd dostępności zasobów.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Szybsze dysponowanie zespołów</li>
+                    <li>Widoczność lokalizacji w czasie rzeczywistym</li>
+                </ul>
+            </article>
+            <article class="industry-card fade-in ind-road">
+                <div class="industry-card-head">
+                    <div class="industry-icon-wrap">
+                        <div class="industry-icon">🚛</div>
+                    </div>
+                    <span class="industry-badge">24/7</span>
+                </div>
+                <div class="industry-copy">
+                    <span class="industry-kicker">Wsparcie w trasie</span>
+                    <h4>Pomoc drogowa</h4>
+                    <p>Dyspozytornia dla holowników, automatyczny przydział zleceń i optymalizacja czasu dojazdu.</p>
+                </div>
+                <ul class="industry-points">
+                    <li>Najbliższy pojazd do zdarzenia</li>
+                    <li>Podgląd realizacji zgłoszeń</li>
+                </ul>
+            </article>
         </div>
     </div>
 </section>
 
 <!-- ======== WHY US ======== -->
-<section class="section" id="why">
+<section class="section section-dark" id="why">
     <div class="section-inner">
-        <div class="section-head">
-            <span class="section-tag">Dlaczego my</span>
-            <h2>Dlaczego warto wybrać FleetLink 4.0?</h2>
-            <p>Jesteśmy polskim dostawcą z 10-letnim doświadczeniem. Znamy potrzeby polskich firm flotowych.</p>
+        <div class="section-head fade-up">
+            <span class="section-tag">Dlaczego FleetLink</span>
+            <h2>Dlaczego firmy wybierają <span class="gradient-text">FleetLink?</span></h2>
+            <p>Ponad 10 lat doświadczenia, setki wdrożeń i realne wyniki — oto co wyróżnia FleetLink na polskim rynku.</p>
         </div>
         <div class="why-grid">
             <div class="why-card fade-in">
-                <div class="why-icon">🇵🇱</div>
-                <h3>Polski system, polskie wsparcie</h3>
-                <p>Rozmawiaj z nami po polsku. Nasze wsparcie techniczne jest dostępne telefonicznie i mailowo w godzinach pracy.</p>
+                <div class="why-icon-wrap">
+                    <div class="why-icon">🇵🇱</div>
+                </div>
+                <div class="why-metric">100%</div>
+                <h3>Polski system i wsparcie</h3>
+                <p>Rozmawiaj z nami po polsku. Wsparcie telefoniczne i mailowe bez pośredników — nasi inżynierowie znają Twój rynek.</p>
             </div>
             <div class="why-card fade-in">
-                <div class="why-icon">⚡</div>
-                <h3>Wdrożenie w 24h</h3>
-                <p>Uruchomienie systemu w ciągu 24 godzin. Montaż urządzeń przez naszych techników lub samodzielnie — plug and play.</p>
+                <div class="why-icon-wrap">
+                    <div class="why-icon">⚡</div>
+                </div>
+                <div class="why-metric">24h</div>
+                <h3>Błyskawiczne wdrożenie</h3>
+                <p>System działa już po 24 godzinach od zamówienia. Montaż urządzeń przez naszych techników lub plug-and-play samodzielnie.</p>
             </div>
             <div class="why-card fade-in">
-                <div class="why-icon">🔒</div>
+                <div class="why-icon-wrap">
+                    <div class="why-icon">🔒</div>
+                </div>
+                <div class="why-metric">RODO</div>
                 <h3>Bezpieczeństwo danych</h3>
-                <p>Serwery w Polsce, szyfrowanie SSL/TLS, kopie zapasowe co godzinę. Twoje dane są bezpieczne i zgodne z RODO.</p>
+                <p>Serwery w Polsce, szyfrowanie SSL/TLS, kopie zapasowe co godzinę. Pełna zgodność z RODO i europejskimi regulacjami.</p>
             </div>
             <div class="why-card fade-in">
-                <div class="why-icon">📱</div>
+                <div class="why-icon-wrap">
+                    <div class="why-icon">📱</div>
+                </div>
+                <div class="why-metric">iOS + Android</div>
                 <h3>Aplikacja mobilna</h3>
-                <p>Pełna funkcjonalność systemu na smartfonie. iOS i Android. Powiadomienia push w czasie rzeczywistym.</p>
+                <p>Pełna funkcjonalność na smartfonie: FMC Manager dla dyspozytorów i DriverLink dla kierowców. Powiadomienia push w czasie rzeczywistym.</p>
             </div>
             <div class="why-card fade-in">
-                <div class="why-icon">🔗</div>
-                <h3>Integracje API</h3>
-                <p>Gotowe integracje z systemami ERP, WMS, Symfonia, Optima, Comarch. Otwarte API dla deweloperów.</p>
+                <div class="why-icon-wrap">
+                    <div class="why-icon">🔗</div>
+                </div>
+                <div class="why-metric">API REST</div>
+                <h3>Integracje bez limitów</h3>
+                <p>Gotowe integracje z ERP, WMS, Symphonia, Optima, Comarch, SAP. Otwarte API REST dla Twoich deweloperów.</p>
             </div>
             <div class="why-card fade-in">
-                <div class="why-icon">💰</div>
-                <h3>Zwrot z inwestycji</h3>
-                <p>Średnio klienci odnotowują zwrot inwestycji w ciągu 3 miesięcy. Oszczędności na paliwie, serwisie i czasie pracy.</p>
+                <div class="why-icon-wrap">
+                    <div class="why-icon">💰</div>
+                </div>
+                <div class="why-metric">–20%</div>
+                <h3>Realny zwrot z inwestycji</h3>
+                <p>Średnio klienci odnotowują zwrot inwestycji w ciągu 3 miesięcy. Oszczędności na paliwie do 20%, serwisie i czasie pracy.</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ======== PARTNERS ======== -->
-<section class="section section-dark partners-section" id="partners">
+<section class="section partners-section" id="partners">
     <div class="section-inner">
         <div class="section-head">
             <span class="section-tag">Partnerzy</span>
@@ -631,8 +978,31 @@
     </div>
 </section>
 
+<!-- ======== SWITCH CTA ======== -->
+<section class="section section-dark section-switch" id="switch-to-fleetlink">
+    <div class="section-inner">
+        <div class="switch-card">
+            <div class="switch-copy">
+                <span class="section-tag section-tag-light">Migracja do FleetLink</span>
+                <h2>Masz już urządzenie GPS?<br>Przenieś się do FleetLink</h2>
+                <p>Oferujemy możliwość przejścia do naszego systemu z Twoim obecnym nadajnikiem. Testuj za darmo, płać tylko gdy jesteś zadowolony.</p>
+                <div class="switch-actions">
+                    <a href="#contact" class="btn btn-light btn-lg">
+                        Zamów bezpłatne demo
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="tel:+48000000000" class="btn btn-switch btn-lg">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.3h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        Zadzwoń do nas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- ======== FAQ ======== -->
-<section class="section" id="faq">
+<section class="section section-dark" id="faq">
     <div class="section-inner">
         <div class="section-head">
             <span class="section-tag">FAQ</span>
@@ -699,7 +1069,7 @@
 </section>
 
 <!-- ======== BLOG ======== -->
-<section class="section section-dark" id="blog">
+<section class="section" id="blog">
     <div class="section-inner">
         <div class="section-head">
             <span class="section-tag">Blog</span>
@@ -710,7 +1080,7 @@
             <article class="blog-card fade-in">
                 <div class="blog-card-img blog-img-1"></div>
                 <div class="blog-card-body">
-                    <span class="blog-cat">GPS & Telematyka</span>
+                    <span class="blog-cat">GPS &amp; Telematyka</span>
                     <h3><a href="#blog">Jak CAN BUS rewolucjonizuje monitoring pojazdów?</a></h3>
                     <p>Dowiedz się, jakie dane możesz odczytać z magistrali CAN BUS i jak je wykorzystać do obniżenia kosztów eksploatacji floty.</p>
                     <div class="blog-meta">
@@ -857,7 +1227,7 @@
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
                 </a>
                 <a href="#" aria-label="YouTube" class="social-link">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#080f1e"/></svg>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#060c1b"/></svg>
                 </a>
             </div>
         </div>
@@ -878,15 +1248,11 @@
             <a href="#testimonials">Referencje</a>
             <a href="#contact">Kariera</a>
             <a href="#contact">Prasa</a>
-        </div>
-        <div class="footer-links-group">
-            <h4>Branże</h4>
+            <h4 style="margin-top:1rem">Branże</h4>
             <a href="#industries">Transport</a>
             <a href="#industries">Logistyka</a>
             <a href="#industries">Budownictwo</a>
             <a href="#industries">Rolnictwo</a>
-            <a href="#industries">Taxi</a>
-            <a href="#industries">Kurierzy</a>
         </div>
         <div class="footer-links-group">
             <h4>Wsparcie</h4>
@@ -897,9 +1263,47 @@
             <a href="#contact">Kontakt</a>
             <a href="/login">Logowanie</a>
         </div>
+        <div class="footer-links-group footer-apps-group">
+            <h4>Aplikacje mobilne</h4>
+            <p class="footer-apps-desc">Zarządzaj flotą i komunikuj się z kierowcami z poziomu smartfona.</p>
+            <div class="footer-apps">
+                <div class="footer-app-block">
+                    <div class="footer-app-label">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="app-icon-fmc"><path d="M12 2a5 5 0 1 1 0 10A5 5 0 0 1 12 2zm0 12c5.33 0 8 2.67 8 4v2H4v-2c0-1.33 2.67-4 8-4z"/></svg>
+                        FMC — Manager floty
+                    </div>
+                    <div class="footer-app-stores">
+                        <a href="https://play.google.com/store/apps/details?id=ideabits.fmc&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="app-store-btn android">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.33.19.7.24 1.06.14L13.5 12l-3-3-7.32 13.76zM20.18 9.9l-2.38-1.37-3.44 3.44 3.44 3.44 2.4-1.38c.68-.4.68-1.73-.02-2.13zM2.01 1.03C1.89 1.27 1.82 1.55 1.82 1.87v20.26c0 .32.07.6.19.84L13.5 12 2.01 1.03zM14.5 11l2.46-2.46-9.82-5.66c-.34-.2-.7-.25-1.04-.16L14.5 11z"/></svg>
+                            Google Play
+                        </a>
+                        <a href="https://apps.apple.com/pl/app/fmc/id879075470?l=pl" target="_blank" rel="noopener noreferrer" class="app-store-btn ios">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-app-block">
+                    <div class="footer-app-label">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" class="app-icon-dl"><path d="M12 3c-4.42 0-8 .5-8 4v9.5C4 18.43 5.57 20 7.5 20S11 18.43 11 16.5V16h2v.5c0 1.93 1.57 3.5 3.5 3.5S20 18.43 20 16.5V7c0-3.5-3.58-4-8-4zM7.5 18C6.67 18 6 17.33 6 16.5S6.67 15 7.5 15 9 15.67 9 16.5 8.33 18 7.5 18zM10 13H6V7h4v6zm4 0h-4V7h4v6zm2 5c-.83 0-1.5-.67-1.5-1.5S15.17 15 16 15s1.5.67 1.5 1.5S16.83 18 16 18zm2-5h-4V7h4v6z"/></svg>
+                        DriverLink — dla kierowcy
+                    </div>
+                    <div class="footer-app-stores">
+                        <a href="https://play.google.com/store/apps/details?id=com.ideabits.driverlink_2022&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="app-store-btn android">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.33.19.7.24 1.06.14L13.5 12l-3-3-7.32 13.76zM20.18 9.9l-2.38-1.37-3.44 3.44 3.44 3.44 2.4-1.38c.68-.4.68-1.73-.02-2.13zM2.01 1.03C1.89 1.27 1.82 1.55 1.82 1.87v20.26c0 .32.07.6.19.84L13.5 12 2.01 1.03zM14.5 11l2.46-2.46-9.82-5.66c-.34-.2-.7-.25-1.04-.16L14.5 11z"/></svg>
+                            Google Play
+                        </a>
+                        <a href="https://apps.apple.com/pl/app/driverlink/id1614231274?l=pl" target="_blank" rel="noopener noreferrer" class="app-store-btn ios">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer-bottom">
-        <span>© <?= date('Y') ?> FleetLink 4.0. Wszelkie prawa zastrzeżone. Polska firma.</span>
+        <span>© <span id="currentYear"></span> FleetLink. Wszelkie prawa zastrzeżone. Polska firma.</span>
         <div class="footer-legal">
             <a href="#contact">Polityka prywatności</a>
             <span>·</span>
@@ -912,6 +1316,6 @@
     </div>
 </footer>
 
-<script src="/assets/app.js" defer></script>
+<script src="/assets/js/app.js" defer></script>
 </body>
 </html>
