@@ -825,56 +825,119 @@ img, svg { display: block; max-width: 100%; }
     50%       { transform: translateY(-12px); }
 }
 
-/* ---------- HOW IT WORKS ---------- */
-.steps {
+/* ---------- HOW IT WORKS — visual steps ---------- */
+.steps-visual {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 0;
+    flex-wrap: nowrap;
+    padding: 2.5rem 0 1rem;
+    overflow-x: auto;
 }
-.step {
+@media (max-width: 768px) {
+    .steps-visual { flex-wrap: wrap; gap: 2rem; padding: 1.5rem 0; }
+}
+.step-visual {
     flex: 1;
-    min-width: 200px;
-    max-width: 280px;
+    min-width: 180px;
+    max-width: 240px;
     text-align: center;
-    padding: 2rem 1.5rem;
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-md);
     position: relative;
-    transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+    padding: 0 .5rem;
 }
-.step:hover { border-color: rgba(37,99,235,.35); transform: translateY(-4px); box-shadow: var(--shadow-card-hover); }
-.step-num {
-    font-size: .75rem;
-    font-weight: 700;
-    color: var(--accent2);
-    letter-spacing: .12em;
-    margin-bottom: .75rem;
-    text-transform: uppercase;
+.step-circle-wrap {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1.5rem;
 }
-.step-icon {
-    width: 66px; height: 66px;
-    border-radius: 18px;
-    background: rgba(37,99,235,.13);
-    color: var(--accent2);
+/* Spinning gradient border ring */
+.step-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 1rem;
-    border: 1px solid rgba(37,99,235,.2);
-    transition: box-shadow var(--transition);
+    position: relative;
+    cursor: pointer;
+    transition: transform .35s ease;
 }
-.step:hover .step-icon { box-shadow: var(--glow-blue); }
-.step h3 { font-size: 1rem; font-weight: 700; margin-bottom: .5rem; letter-spacing: -.01em; }
-.step p  { font-size: .88rem; color: var(--muted); }
-.step-arrow {
-    font-size: 1.5rem;
-    color: var(--border2);
-    align-self: center;
-    padding-top: 1rem;
+/* Conic gradient border via pseudo-element */
+.step-circle::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    background: conic-gradient(var(--c1) 0%, var(--c2) 50%, transparent 50%);
+    z-index: 0;
+    transition: transform .6s ease;
 }
+.step-circle::after {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: var(--bg2);
+    z-index: 1;
+}
+.step-circle svg {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    opacity: .9;
+}
+/* Hover: rotate the conic ring */
+.step-visual:hover .step-circle::before {
+    transform: rotate(360deg);
+}
+.step-visual:hover .step-circle {
+    transform: scale(1.06);
+}
+/* Per-step gradient colors */
+.step-circle-1 { --c1: #2563eb; --c2: #60a5fa; }
+.step-circle-2 { --c1: #7c3aed; --c2: #c084fc; }
+.step-circle-3 { --c1: #7c3aed; --c2: #f97316; }
+.step-circle-4 { --c1: #f97316; --c2: #fbbf24; }
+/* Step number badge */
+.step-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: .65rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(37,99,235,.5);
+}
+/* Connecting horizontal line between steps */
+.step-line {
+    position: absolute;
+    top: 50px; /* center of 100px circle */
+    left: calc(50% + 56px);
+    width: calc(100% - 12px);
+    height: 2px;
+    z-index: 0;
+}
+.step-line-1 { background: linear-gradient(90deg, #2563eb, #7c3aed); }
+.step-line-2 { background: linear-gradient(90deg, #7c3aed, #a855f7); }
+.step-line-3 { background: linear-gradient(90deg, #a855f7, #f97316); }
+@media (max-width: 768px) { .step-line { display: none; } }
+.step-visual h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    letter-spacing: -.01em;
+}
+.step-visual p { font-size: .84rem; color: var(--muted); line-height: 1.55; }
+
 
 /* ---------- PRICING ---------- */
 .pricing-grid {
