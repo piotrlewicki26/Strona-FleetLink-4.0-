@@ -38,7 +38,7 @@
                 <div class="nav-dropdown mega-menu">
                     <div class="mega-col mega-col-featured">
                         <div class="mega-feature-head">
-                            <img src="/assets/img/LeMar3.png" alt="LeMar3" class="mega-device-img" loading="lazy" />
+
                             <div class="mega-title">Optymalizacja kosztów</div>
                         </div>
                         <a href="/system-gps/zarzadzanie-paliwem" class="mega-item"><span class="mega-icon">⛽</span><span><strong>Zarządzanie paliwem</strong><em>Pełna kontrola kosztów tankowania</em></span></a>
