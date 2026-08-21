@@ -201,9 +201,30 @@ if (newsletterForm) {
       return;
     }
     btn.disabled = true;
-    btn.textContent = '✓ Zapisano!';
-    btn.style.background = '#16a34a';
-    newsletterForm.reset();
+    btn.textContent = 'Zapisywanie…';
+
+    fetch('/api/newsletter.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          btn.textContent = '✓ Zapisano!';
+          btn.style.background = '#16a34a';
+          newsletterForm.reset();
+        } else {
+          btn.disabled = false;
+          btn.textContent = 'Zapisz się';
+          alert(data.error || 'Wystąpił błąd. Spróbuj ponownie.');
+        }
+      })
+      .catch(() => {
+        btn.disabled = false;
+        btn.textContent = 'Zapisz się';
+        alert('Błąd sieci. Sprawdź połączenie i spróbuj ponownie.');
+      });
   });
 }
 
