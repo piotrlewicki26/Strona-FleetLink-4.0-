@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Sprawdź wszystkie branże obsługiwane przez FleetLink 4.0: transport, rolnictwo, kurierzy, budowa, taxi, transport pasażerski, odpady i usługi." />
+    <meta name="description" content="Poznaj zespół FleetLink 4.0. Wspieramy firmy w monitoringu GPS, zarządzaniu flotą i optymalizacji kosztów operacyjnych." />
     <meta name="robots" content="index, follow" />
-    <title>Wszystkie branże | FleetLink 4.0</title>
+    <title>O nas | FleetLink 4.0 — system GPS i zarządzanie flotą</title>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fleetlink.pl/branze" />
-    <meta property="og:title" content="Wszystkie branże | FleetLink 4.0" />
-    <meta property="og:description" content="Poznaj podstrony branżowe FleetLink i wybierz sektor odpowiedni dla Twojej firmy." />
+    <meta property="og:url" content="https://fleetlink.pl/o-nas" />
+    <meta property="og:title" content="O nas | FleetLink 4.0" />
+    <meta property="og:description" content="Dowiedz się więcej o zespole FleetLink i naszym podejściu do wdrożeń systemów GPS." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Wszystkie branże | FleetLink 4.0" />
-    <meta name="twitter:description" content="Poznaj podstrony branżowe FleetLink i wybierz sektor odpowiedni dla Twojej firmy." />
-    <link rel="canonical" href="https://fleetlink.pl/branze" />
+    <meta name="twitter:title" content="O nas | FleetLink 4.0" />
+    <meta name="twitter:description" content="Dowiedz się więcej o zespole FleetLink i naszym podejściu do wdrożeń systemów GPS." />
+    <link rel="canonical" href="https://fleetlink.pl/o-nas" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -61,28 +61,36 @@
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
-            <span class="section-tag">Wszystkie branże</span>
-            <h1>FleetLink 4.0 dla wielu branż</h1>
-            <p>Wybierz branżę i sprawdź, jak dopasowujemy monitoring GPS, raportowanie i zarządzanie flotą do codziennych potrzeb operacyjnych.</p>
+            <span class="section-tag">O nas</span>
+            <h1>Tworzymy FleetLink 4.0 dla firm, które chcą pełnej kontroli nad flotą</h1>
+            <p>Jesteśmy polskim zespołem telematycznym, który od lat wspiera przedsiębiorstwa transportowe, logistyczne i usługowe w budowie bardziej efektywnych operacji.</p>
         </div>
     </section>
 
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Nawigacja</span>
-                <h2>Przegląd branż</h2>
-                <p>Poniżej znajdziesz wszystkie aktualnie przygotowane podstrony branżowe.</p>
+                <span class="section-tag">Kim jesteśmy</span>
+                <h2>Doświadczenie, technologia i wsparcie</h2>
+                <p>Łączymy wiedzę z obszaru GPS, zarządzania flotą i automatyzacji procesów. Dostarczamy rozwiązania, które szybko przekładają się na realne oszczędności i lepszą organizację pracy.</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>🚚 Transport i logistyka</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: transport i logistyka.</p><a href="/branze/transport-i-logistyka" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>🌾 Rolnictwo</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: rolnictwo.</p><a href="/branze/rolnictwo" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>📦 Kurierzy i dostawy</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: kurierzy i dostawy.</p><a href="/branze/kurierzy-i-dostawy" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>🏗️ Budowa</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: budowa.</p><a href="/branze/budowa" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>🚖 Usługi taksówkarskie i przewozowe</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: usługi taksówkarskie i przewozowe.</p><a href="/branze/uslugi-taksowkarskie-i-przewozowe" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>🚌 Transport pasażerski</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: transport pasażerski.</p><a href="/branze/transport-pasazerski" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>♻️ Gospodarka odpadami</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: gospodarka odpadami.</p><a href="/branze/gospodarka-odpadami" class="industry-premium-link">Przejdź do podstrony</a></article>
-                <article class="industry-info-card fade-in"><h3>🛠️ Dostawcy usług</h3><p>Dedykowane rozwiązanie FleetLink 4.0 dla branży: dostawcy usług.</p><a href="/branze/dostawcy-uslug" class="industry-premium-link">Przejdź do podstrony</a></article>
+                <article class="industry-info-card fade-in"><h3>10+ lat na rynku</h3><p>Realizujemy wdrożenia dla flot różnej wielkości, od kilku do setek pojazdów.</p></article>
+                <article class="industry-info-card fade-in"><h3>Polskie wsparcie</h3><p>Nasz zespół doradców i techników wspiera klientów na każdym etapie współpracy.</p></article>
+                <article class="industry-info-card fade-in"><h3>Skalowalna platforma</h3><p>FleetLink 4.0 rośnie razem z Twoją firmą i odpowiada na zmiany operacyjne.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="industry-page-cta fade-up">
+                <h2>Poznaj FleetLink bliżej</h2>
+                <p>Umów rozmowę i sprawdź, jak możemy pomóc Twojej firmie usprawnić codzienną pracę floty.</p>
+                <div class="hero-actions">
+                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się z nami</a>
+                    <a href="/branze" class="btn btn-ghost btn-lg">Zobacz branże</a>
+                </div>
             </div>
         </div>
     </section>

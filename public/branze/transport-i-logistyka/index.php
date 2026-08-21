@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="FleetLink 4.0 dla transportu i logistyki: monitoring GPS ciężarówek, optymalizacja tras, kontrola kosztów paliwa i raportowanie czasu pracy." />
+    <meta name="description" content="FleetLink 4.0 dla branży transport i logistyka: monitoring GPS, raportowanie i zarządzanie flotą dopasowane do specyfiki operacyjnej." />
     <meta name="robots" content="index, follow" />
-    <title>Transport i logistyka | FleetLink 4.0 GPS dla flot ciężkich</title>
+    <title>Transport i logistyka | FleetLink 4.0</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/branze/transport-i-logistyka" />
     <meta property="og:title" content="Transport i logistyka | FleetLink 4.0" />
-    <meta property="og:description" content="System GPS dla transportu i logistyki: planowanie kursów, analiza kosztów i pełna kontrola floty." />
+    <meta property="og:description" content="Poznaj rozwiązania FleetLink dla branży transport i logistyka." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Transport i logistyka | FleetLink 4.0" />
-    <meta name="twitter:description" content="System GPS dla transportu i logistyki: planowanie kursów, analiza kosztów i pełna kontrola floty." />
+    <meta name="twitter:description" content="Poznaj rozwiązania FleetLink dla branży transport i logistyka." />
     <link rel="canonical" href="https://fleetlink.pl/branze/transport-i-logistyka" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,14 +32,19 @@
         </button>
         <ul class="nav-links" id="navLinks">
             <li><a href="/">Strona główna</a></li>
-            <li><a href="/#about">O nas</a></li>
+            <li><a href="/o-nas">O nas</a></li>
             <li><a href="/#features">System GPS</a></li>
             <li class="has-dropdown">
                 <a href="/branze" class="nav-has-sub">Branże <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
                 <div class="nav-dropdown">
                     <a href="/branze/transport-i-logistyka" class="dropdown-item">🚚 Transport i logistyka</a>
+                    <a href="/branze/rolnictwo" class="dropdown-item">🌾 Rolnictwo</a>
                     <a href="/branze/kurierzy-i-dostawy" class="dropdown-item">📦 Kurierzy i dostawy</a>
-                    <a href="/branze/budownictwo" class="dropdown-item">🏗️ Budownictwo</a>
+                    <a href="/branze/budowa" class="dropdown-item">🏗️ Budowa</a>
+                    <a href="/branze/uslugi-taksowkarskie-i-przewozowe" class="dropdown-item">🚖 Usługi taksówkarskie i przewozowe</a>
+                    <a href="/branze/transport-pasazerski" class="dropdown-item">🚌 Transport pasażerski</a>
+                    <a href="/branze/gospodarka-odpadami" class="dropdown-item">♻️ Gospodarka odpadami</a>
+                    <a href="/branze/dostawcy-uslug" class="dropdown-item">🛠️ Dostawcy usług</a>
                     <a href="/branze" class="dropdown-item">✨ Wszystkie branże</a>
                 </div>
             </li>
@@ -53,16 +58,16 @@
     </div>
 </nav>
 <main class="industry-page-main">
-    <section class="section industry-hero industry-hero-transport">
+    <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/branze">Wszystkie branże</a> <span>›</span> Transport i logistyka</div>
             <span class="section-tag">Transport i logistyka</span>
             <h1>Monitoring GPS dla transportu i logistyki</h1>
-            <p>FleetLink 4.0 wspiera przewoźników i operatorów logistycznych w codziennym planowaniu tras, kontroli kosztów oraz monitoringu realizacji zleceń.</p>
+            <p>Planowanie tras, rozliczanie kursów i kontrola kosztów floty ciężkiej.</p>
             <div class="hero-actions">
-                <a href="#cta" class="btn btn-primary btn-lg">Umów konsultację</a>
-                <a href="/branze" class="btn btn-ghost btn-lg">Wróć do hubu branż</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
+                <a href="/branze" class="btn btn-ghost btn-lg">Wróć do branż</a>
             </div>
         </div>
     </section>
@@ -71,12 +76,12 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
-                <h2>Najczęstsze wyzwania</h2>
+                <h2>Najczęstsze wyzwania w branży</h2>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Brak pełnej widoczności tras</h3><p>Dyspozytorzy nie mają aktualnego obrazu opóźnień, postojów i odchyleń od planu.</p></article>
-<article class="industry-info-card fade-in"><h3>Rosnące koszty paliwa</h3><p>Nieefektywne trasy i styl jazdy kierowców podnoszą koszt każdego kilometra.</p></article>
-<article class="industry-info-card fade-in"><h3>Rozliczanie czasu pracy</h3><p>Ręczne zestawienia utrudniają szybkie raportowanie i zgodność operacyjną.</p></article>
+                <article class="industry-info-card fade-in"><h3>Widoczność operacyjna</h3><p>Brak pełnych danych o lokalizacji pojazdów i statusie realizacji zadań.</p></article>
+                <article class="industry-info-card fade-in"><h3>Koszty</h3><p>Rosnące koszty paliwa i pracy wymagają większej kontroli efektywności.</p></article>
+                <article class="industry-info-card fade-in"><h3>Raportowanie</h3><p>Ręczne raporty zabierają czas i utrudniają szybkie decyzje operacyjne.</p></article>
             </div>
         </div>
     </section>
@@ -85,12 +90,12 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści</span>
-                <h2>Efekty wdrożenia FleetLink 4.0</h2>
+                <h2>Efekty wdrożenia FleetLink</h2>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>-18% kosztów paliwa</strong><span>Po wdrożeniu optymalizacji tras i monitoringu stylu jazdy.</span></article>
-<article class="industry-benefit-card fade-in"><strong>+27% terminowości</strong><span>Lepsza kontrola realizacji zleceń i czasu dostaw.</span></article>
-<article class="industry-benefit-card fade-in"><strong>24/7 podgląd floty</strong><span>Aktualna lokalizacja każdego pojazdu na jednej mapie.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Lepsza kontrola</strong><span>Stały podgląd sytuacji flotowej i szybsze reakcje.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Niższe koszty</strong><span>Optymalizacja tras i lepsze wykorzystanie zasobów.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Większa terminowość</strong><span>Poprawa jakości obsługi i realizacji zleceń.</span></article>
             </div>
         </div>
     </section>
@@ -99,12 +104,12 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Funkcje</span>
-                <h2>Funkcje dopasowane do branży</h2>
+                <h2>Kluczowe funkcje dla tej branży</h2>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Monitoring GPS na żywo</h3><p>Aktualna pozycja pojazdów, status postoju, historia przejazdów i alerty geostref.</p></article>
-<article class="industry-info-card fade-in"><h3>Raporty tras i aktywności</h3><p>Automatyczne zestawienia kilometrów, czasu pracy i wykorzystania floty.</p></article>
-<article class="industry-info-card fade-in"><h3>Kontrola kosztów operacyjnych</h3><p>Analiza zużycia paliwa, stylu jazdy i wskaźników efektywności trasy.</p></article>
+                <article class="industry-info-card fade-in"><h3>Monitoring GPS na żywo</h3><p>Aktualna lokalizacja i historia tras wszystkich pojazdów.</p></article>
+                <article class="industry-info-card fade-in"><h3>Alerty i geostrefy</h3><p>Powiadomienia o zdarzeniach krytycznych i przekroczeniach stref.</p></article>
+                <article class="industry-info-card fade-in"><h3>Raporty automatyczne</h3><p>Zestawienia dla managera floty i działu operacyjnego.</p></article>
             </div>
         </div>
     </section>
@@ -116,11 +121,11 @@
                 <h2>Przykładowy scenariusz wdrożenia</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Firma transportowa obsługująca 80 zestawów wdrożyła FleetLink w celu poprawy terminowości dostaw i ograniczenia pustych przebiegów.</p>
+                <p>Klient z branży transport i logistyka wdrożył FleetLink 4.0, by poprawić planowanie działań terenowych i podnieść efektywność operacyjną.</p>
                 <ul class="industry-case-points">
-                    <li>Skrócenie średniego czasu dostawy o 22%</li>
-<li>Spadek pustych kilometrów o 15%</li>
-<li>Stały wgląd managera floty w realizację kursów</li>
+                    <li>Lepsza kontrola realizacji zadań</li>
+                    <li>Szybsze reagowanie na opóźnienia</li>
+                    <li>Uproszczone raportowanie dla kadry zarządzającej</li>
                 </ul>
             </article>
         </div>
@@ -129,15 +134,15 @@
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <h2>Chcesz zwiększyć efektywność transportu?</h2>
-                <p>Umów konsultację i sprawdź, jak FleetLink 4.0 może wesprzeć Twoją flotę ciężką i logistykę kontraktową.</p>
+                <h2>Porozmawiajmy o wdrożeniu dla branży transport i logistyka</h2>
+                <p>Skontaktuj się z nami, a przygotujemy konfigurację FleetLink dopasowaną do Twoich procesów.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Porozmawiaj z doradcą</a>
-                    <a href="/branze" class="btn btn-ghost btn-lg">Zobacz wszystkie branże</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/branze" class="btn btn-ghost btn-lg">Wszystkie branże</a>
                 </div>
                 <div class="industry-inline-links">
+                    <a href="/branze/rolnictwo">Rolnictwo</a>
                     <a href="/branze/kurierzy-i-dostawy">Kurierzy i dostawy</a>
-                    <a href="/branze/budownictwo">Budownictwo</a>
                 </div>
             </div>
         </div>
@@ -154,13 +159,18 @@
         <div class="footer-links-group">
             <h4>Branże</h4>
             <a href="/branze/transport-i-logistyka">Transport i logistyka</a>
+            <a href="/branze/rolnictwo">Rolnictwo</a>
             <a href="/branze/kurierzy-i-dostawy">Kurierzy i dostawy</a>
-            <a href="/branze/budownictwo">Budownictwo</a>
+            <a href="/branze/budowa">Budowa</a>
+            <a href="/branze/uslugi-taksowkarskie-i-przewozowe">Usługi taksówkarskie i przewozowe</a>
+            <a href="/branze/transport-pasazerski">Transport pasażerski</a>
+            <a href="/branze/gospodarka-odpadami">Gospodarka odpadami</a>
+            <a href="/branze/dostawcy-uslug">Dostawcy usług</a>
             <a href="/branze">Wszystkie branże</a>
         </div>
         <div class="footer-links-group">
             <h4>Firma</h4>
-            <a href="/#about">O nas</a>
+            <a href="/o-nas">O nas</a>
             <a href="/#features">Funkcje</a>
             <a href="/#testimonials">Referencje</a>
             <a href="/#contact">Kontakt</a>
