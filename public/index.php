@@ -82,16 +82,18 @@
                         <a href="/system-gps/zadania-i-planowanie" class="mega-item"><span class="mega-icon">🗓️</span><span><strong>Zadania i planowanie</strong><em>Harmonogramy i przydziały pracy</em></span></a>
                     </div>
                     <div class="mega-col">
-                        <div class="mega-title">Automatyzacja procesów I</div>
-                        <a href="/system-gps/integracje" class="mega-item"><span class="mega-icon">🔌</span><span><strong>Integracje</strong><em>Połączenie z Twoimi systemami</em></span></a>
-                        <a href="/system-gps/sledzenie-gps-i-dane-na-zywo" class="mega-item"><span class="mega-icon">📍</span><span><strong>Śledzenie GPS i dane na żywo</strong><em>Aktualna lokalizacja i statusy</em></span></a>
-                        <a href="/system-gps/czas-pracy" class="mega-item"><span class="mega-icon">⏱️</span><span><strong>Czas pracy</strong><em>Rozliczanie aktywności i zmian</em></span></a>
+                        <div class="mega-title">Bezpieczeństwo</div>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">📱</span><span><strong>Aplikacje mobilne</strong><em>Bezpieczna obsługa floty z poziomu telefonu</em></span></a>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">📷</span><span><strong>Kamery</strong><em>Rejestracja zdarzeń i większa kontrola na trasie</em></span></a>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🍺</span><span><strong>Blokada alkoholowa</strong><em>Weryfikacja trzeźwości przed rozpoczęciem jazdy</em></span></a>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">📦</span><span><strong>Śledzenie zasobów</strong><em>Stała lokalizacja i ochrona narzędzi oraz ładunku</em></span></a>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🔒</span><span><strong>Blokada zapłonu</strong><em>Zdalne zabezpieczenie pojazdu przed użyciem</em></span></a>
                     </div>
                     <div class="mega-col">
-                        <div class="mega-title">Automatyzacja procesów II</div>
-                        <a href="/system-gps/inspekcje-pojazdow" class="mega-item"><span class="mega-icon">🛠️</span><span><strong>Inspekcje pojazdów</strong><em>Checklisty stanu technicznego</em></span></a>
-                        <a href="/system-gps/komunikacja" class="mega-item"><span class="mega-icon">💬</span><span><strong>Komunikacja</strong><em>Stały kontakt z zespołem terenowym</em></span></a>
-                        <a href="/system-gps/formularze" class="mega-item"><span class="mega-icon">📝</span><span><strong>Formularze</strong><em>Cyfrowy obieg danych z terenu</em></span></a>
+                        <div class="mega-title">Zdalne</div>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🪪</span><span><strong>Zdalny odczyt Tachografu</strong><em>Pobieranie danych bez zjazdu pojazdu do bazy</em></span></a>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🌡️</span><span><strong>Monitoring temperatury</strong><em>Kontrola warunków przewozu w czasie rzeczywistym</em></span></a>
+                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🛣️</span><span><strong>E-Toll / SENT-Geo</strong><em>Obsługa rozliczeń i zgodności z systemami opłat</em></span></a>
                     </div>
                 </div>
             </li>
