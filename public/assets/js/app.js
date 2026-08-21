@@ -203,7 +203,13 @@ document.addEventListener('keydown', (e) => {
 
 document.querySelectorAll('.has-dropdown > a').forEach(a => {
   a.addEventListener('click', (e) => {
-    toggleDropdown(a.closest('.has-dropdown'));
+    const dropdown = a.closest('.has-dropdown');
+    if (window.matchMedia('(max-width: 640px)').matches && !dropdown.classList.contains('open')) {
+      e.preventDefault();
+      toggleDropdown(dropdown);
+      return;
+    }
+    toggleDropdown(dropdown);
   });
   a.addEventListener('keydown', (e) => {
     if (e.key === 'Enter' || e.key === ' ') {

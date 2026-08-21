@@ -1,0 +1,211 @@
+<?php declare(strict_types=1); ?>
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Zadania i planowanie w FleetLink 4.0: harmonogramy, przypisania i kontrola realizacji działań w terenie." />
+    <meta name="robots" content="index, follow" />
+    <title>Zadania i planowanie | FleetLink 4.0</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fleetlink.pl/system-gps/zadania-i-planowanie" />
+    <meta property="og:title" content="Zadania i planowanie | FleetLink 4.0" />
+    <meta property="og:description" content="Sprawdź, jak FleetLink usprawnia planowanie pracy floty i zespołów terenowych." />
+    <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zadania i planowanie | FleetLink 4.0" />
+    <meta name="twitter:description" content="Sprawdź, jak FleetLink usprawnia planowanie pracy floty i zespołów terenowych." />
+    <link rel="canonical" href="https://fleetlink.pl/system-gps/zadania-i-planowanie" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+<nav class="navbar" id="navbar">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo">
+            <img src="/assets/img/logo.svg" alt="FleetLink System GPS" class="nav-logo-img" />
+        </a>
+        <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="/o-nas">O nas</a></li>
+            <li class="has-dropdown">
+                <a href="/system-gps" class="nav-has-sub">System GPS <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+                <div class="nav-dropdown mega-menu">
+                    <div class="mega-col">
+                        <div class="mega-title">Optymalizacja kosztów I</div>
+                        <a href="/system-gps/zarzadzanie-paliwem" class="mega-item"><span class="mega-icon">⛽</span><span><strong>Zarządzanie paliwem</strong><em>Pełna kontrola kosztów tankowania</em></span></a>
+                        <a href="/system-gps/eco-driving" class="mega-item"><span class="mega-icon">🌿</span><span><strong>Zachowania kierowców ECO-DRIVING</strong><em>Analiza stylu jazdy i spalania</em></span></a>
+                        <a href="/system-gps/wydajnosc-floty" class="mega-item"><span class="mega-icon">📈</span><span><strong>Wydajność floty</strong><em>Lepsze wykorzystanie pojazdów</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Optymalizacja kosztów II</div>
+                        <a href="/system-gps/carsharing" class="mega-item"><span class="mega-icon">🔑</span><span><strong>CarSharing</strong><em>Współdzielenie pojazdów w firmie</em></span></a>
+                        <a href="/system-gps/zarzadzanie-flota" class="mega-item"><span class="mega-icon">🚚</span><span><strong>Zarządzanie flotą</strong><em>Jedno miejsce do obsługi floty</em></span></a>
+                        <a href="/system-gps/zadania-i-planowanie" class="mega-item"><span class="mega-icon">🗓️</span><span><strong>Zadania i planowanie</strong><em>Harmonogramy i przydziały pracy</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Automatyzacja procesów I</div>
+                        <a href="/system-gps/integracje" class="mega-item"><span class="mega-icon">🔌</span><span><strong>Integracje</strong><em>Połączenie z Twoimi systemami</em></span></a>
+                        <a href="/system-gps/sledzenie-gps-i-dane-na-zywo" class="mega-item"><span class="mega-icon">📍</span><span><strong>Śledzenie GPS i dane na żywo</strong><em>Aktualna lokalizacja i statusy</em></span></a>
+                        <a href="/system-gps/czas-pracy" class="mega-item"><span class="mega-icon">⏱️</span><span><strong>Czas pracy</strong><em>Rozliczanie aktywności i zmian</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Automatyzacja procesów II</div>
+                        <a href="/system-gps/inspekcje-pojazdow" class="mega-item"><span class="mega-icon">🛠️</span><span><strong>Inspekcje pojazdów</strong><em>Checklisty stanu technicznego</em></span></a>
+                        <a href="/system-gps/komunikacja" class="mega-item"><span class="mega-icon">💬</span><span><strong>Komunikacja</strong><em>Stały kontakt z zespołem terenowym</em></span></a>
+                        <a href="/system-gps/formularze" class="mega-item"><span class="mega-icon">📝</span><span><strong>Formularze</strong><em>Cyfrowy obieg danych z terenu</em></span></a>
+                    </div>
+                </div>
+            </li>
+            <li class="has-dropdown">
+                <a href="/branze" class="nav-has-sub">Branże <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+                <div class="nav-dropdown">
+                    <a href="/branze/transport-i-logistyka" class="dropdown-item">🚚 Transport i logistyka</a>
+                    <a href="/branze/rolnictwo" class="dropdown-item">🌾 Rolnictwo</a>
+                    <a href="/branze/kurierzy-i-dostawy" class="dropdown-item">📦 Kurierzy i dostawy</a>
+                    <a href="/branze/budowa" class="dropdown-item">🏗️ Budowa</a>
+                    <a href="/branze/uslugi-taksowkarskie-i-przewozowe" class="dropdown-item">🚖 Usługi taksówkarskie i przewozowe</a>
+                    <a href="/branze/transport-pasazerski" class="dropdown-item">🚌 Transport pasażerski</a>
+                    <a href="/branze/gospodarka-odpadami" class="dropdown-item">♻️ Gospodarka odpadami</a>
+                    <a href="/branze/dostawcy-uslug" class="dropdown-item">🛠️ Dostawcy usług</a>
+                    <a href="/branze" class="dropdown-item">✨ Wszystkie branże</a>
+                </div>
+            </li>
+            <li><a href="/#pricing">Cennik</a></li>
+            <li><a href="/#contact">Kontakt</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="/login" class="btn btn-ghost btn-sm">Logowanie</a>
+            <a href="/register" class="btn btn-primary btn-sm">Rejestracja</a>
+        </div>
+    </div>
+</nav>
+<main class="industry-page-main">
+    <section class="section industry-hero industry-hero-hub">
+        <div class="industry-hero-bg" aria-hidden="true"></div>
+        <div class="section-inner industry-hero-inner">
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zadania i planowanie</div>
+            <span class="section-tag">Optymalizacja kosztów</span>
+            <h1>Planuj zadania szybciej i realizuj je z większą przewidywalnością</h1>
+            <p>Przypisuj zadania do pojazdów i kierowców, monitoruj realizację oraz ograniczaj opóźnienia w codziennej pracy.</p>
+            <div class="hero-actions">
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Wróć do System GPS</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Wyzwania</span>
+                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in"><h3>Ręczne przydziały</h3><p>Planowanie przez telefon i arkusze spowalnia pracę dyspozytorów.</p></article>
+                <article class="industry-info-card fade-in"><h3>Brak bieżącego statusu</h3><p>Trudno szybko sprawdzić, które zadania są w toku, a które zagrożone.</p></article>
+                <article class="industry-info-card fade-in"><h3>Niska elastyczność</h3><p>Nagłe zmiany w trasie lub grafiku destabilizują cały plan dnia.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Korzyści</span>
+                <h2>Co zyskujesz z FleetLink 4.0</h2>
+            </div>
+            <div class="industry-benefits-grid">
+                <article class="industry-benefit-card fade-in"><strong>Szybsze planowanie</strong><span>Zadania trafiają do właściwych osób i pojazdów bez zbędnych kroków.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Lepsza terminowość</strong><span>Masz stały podgląd realizacji i możesz reagować na opóźnienia.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Wyższa produktywność</strong><span>Zespół pracuje na jasnych priorytetach i aktualnych danych.</span></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Zakres rozwiązania</span>
+                <h2>Najważniejsze elementy funkcji</h2>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in"><h3>Harmonogram zadań</h3><p>Tworzysz i aktualizujesz plan działań dla całej floty.</p></article>
+                <article class="industry-info-card fade-in"><h3>Statusy realizacji</h3><p>Widzisz postęp prac w czasie rzeczywistym.</p></article>
+                <article class="industry-info-card fade-in"><h3>Przypisania zasobów</h3><p>Łączysz zadania z konkretnym pojazdem, kierowcą lub ekipą.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Praktyka</span>
+                <h2>Jak to działa w codziennej pracy</h2>
+            </div>
+            <article class="industry-case-box fade-in">
+                <p>Dyspozytor przesuwa zadanie do najbliższego wolnego pojazdu i od razu informuje zespół o zmianie planu.</p>
+                <ul class="industry-case-points">
+                    <li>Bieżąca kontrola harmonogramu</li>
+                    <li>Szybkie reagowanie na zmiany</li>
+                    <li>Lepsze wykorzystanie zasobów terenowych</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="section" id="cta">
+        <div class="section-inner">
+            <div class="industry-page-cta fade-up">
+                <h2>Porozmawiajmy o wdrożeniu modułu Zadania i planowanie</h2>
+                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <div class="hero-actions">
+                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
+                </div>
+                <div class="industry-inline-links">
+                    <a href="/system-gps/komunikacja">Komunikacja</a>
+                    <a href="/system-gps/formularze">Formularze</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a href="/" class="nav-logo">
+                <img src="/assets/img/logo.svg" alt="FleetLink System GPS" class="nav-logo-img" style="height:38px" />
+            </a>
+            <p>Profesjonalne zarządzanie flotą i monitoring GPS pojazdów.</p>
+        </div>
+        <div class="footer-links-group">
+            <h4>System GPS</h4>
+            <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
+            <a href="/system-gps/eco-driving">ECO-DRIVING</a>
+            <a href="/system-gps/wydajnosc-floty">Wydajność floty</a>
+            <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+            <a href="/system-gps/integracje">Integracje</a>
+            <a href="/system-gps/sledzenie-gps-i-dane-na-zywo">Śledzenie GPS i dane na żywo</a>
+            <a href="/system-gps">Wszystkie funkcje System GPS</a>
+        </div>
+        <div class="footer-links-group">
+            <h4>Firma</h4>
+            <a href="/o-nas">O nas</a>
+            <a href="/branze">Branże</a>
+            <a href="/#pricing">Cennik</a>
+            <a href="/#contact">Kontakt</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>© <span id="currentYear"></span> FleetLink. Wszelkie prawa zastrzeżone.</span>
+    </div>
+</footer>
+<script src="/assets/js/app.js" defer></script>
+</body>
+</html>

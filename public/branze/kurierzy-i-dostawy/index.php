@@ -33,7 +33,35 @@
         <ul class="nav-links" id="navLinks">
             <li><a href="/">Strona główna</a></li>
             <li><a href="/o-nas">O nas</a></li>
-            <li><a href="/#features">System GPS</a></li>
+            <li class="has-dropdown">
+                <a href="/system-gps" class="nav-has-sub">System GPS <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+                <div class="nav-dropdown mega-menu">
+                    <div class="mega-col">
+                        <div class="mega-title">Optymalizacja kosztów I</div>
+                        <a href="/system-gps/zarzadzanie-paliwem" class="mega-item"><span class="mega-icon">⛽</span><span><strong>Zarządzanie paliwem</strong><em>Pełna kontrola kosztów tankowania</em></span></a>
+                        <a href="/system-gps/eco-driving" class="mega-item"><span class="mega-icon">🌿</span><span><strong>Zachowania kierowców ECO-DRIVING</strong><em>Analiza stylu jazdy i spalania</em></span></a>
+                        <a href="/system-gps/wydajnosc-floty" class="mega-item"><span class="mega-icon">📈</span><span><strong>Wydajność floty</strong><em>Lepsze wykorzystanie pojazdów</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Optymalizacja kosztów II</div>
+                        <a href="/system-gps/carsharing" class="mega-item"><span class="mega-icon">🔑</span><span><strong>CarSharing</strong><em>Współdzielenie pojazdów w firmie</em></span></a>
+                        <a href="/system-gps/zarzadzanie-flota" class="mega-item"><span class="mega-icon">🚚</span><span><strong>Zarządzanie flotą</strong><em>Jedno miejsce do obsługi floty</em></span></a>
+                        <a href="/system-gps/zadania-i-planowanie" class="mega-item"><span class="mega-icon">🗓️</span><span><strong>Zadania i planowanie</strong><em>Harmonogramy i przydziały pracy</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Automatyzacja procesów I</div>
+                        <a href="/system-gps/integracje" class="mega-item"><span class="mega-icon">🔌</span><span><strong>Integracje</strong><em>Połączenie z Twoimi systemami</em></span></a>
+                        <a href="/system-gps/sledzenie-gps-i-dane-na-zywo" class="mega-item"><span class="mega-icon">📍</span><span><strong>Śledzenie GPS i dane na żywo</strong><em>Aktualna lokalizacja i statusy</em></span></a>
+                        <a href="/system-gps/czas-pracy" class="mega-item"><span class="mega-icon">⏱️</span><span><strong>Czas pracy</strong><em>Rozliczanie aktywności i zmian</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Automatyzacja procesów II</div>
+                        <a href="/system-gps/inspekcje-pojazdow" class="mega-item"><span class="mega-icon">🛠️</span><span><strong>Inspekcje pojazdów</strong><em>Checklisty stanu technicznego</em></span></a>
+                        <a href="/system-gps/komunikacja" class="mega-item"><span class="mega-icon">💬</span><span><strong>Komunikacja</strong><em>Stały kontakt z zespołem terenowym</em></span></a>
+                        <a href="/system-gps/formularze" class="mega-item"><span class="mega-icon">📝</span><span><strong>Formularze</strong><em>Cyfrowy obieg danych z terenu</em></span></a>
+                    </div>
+                </div>
+            </li>
             <li class="has-dropdown">
                 <a href="/branze" class="nav-has-sub">Branże <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
                 <div class="nav-dropdown">

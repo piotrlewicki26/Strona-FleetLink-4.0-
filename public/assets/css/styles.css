@@ -302,8 +302,8 @@ img, svg { display: block; max-width: 100%; }
 }
 
 .mega-menu {
-    width: min(860px, 86vw);
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: min(1180px, 96vw);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
 }
 .mega-col { display: grid; gap: .7rem; }
@@ -2128,7 +2128,7 @@ select option { background: var(--bg2); }
 @media (max-width: 1100px) {
     .nav-links { gap: .55rem; margin-left: .75rem; }
     .nav-auth { gap: .5rem; }
-    .mega-menu { width: min(760px, 88vw); }
+    .mega-menu { width: min(920px, 92vw); }
     .industries-grid, .why-grid, .blog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .newsletter-inner { grid-template-columns: 1fr; }
     .dp-kpi-row { grid-template-columns: repeat(2, 1fr); }
