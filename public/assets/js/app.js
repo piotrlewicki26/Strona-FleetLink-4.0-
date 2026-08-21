@@ -90,7 +90,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// ---- Contact form — basic client-side feedback ----
+// ---- Contact form — sends data to /api/contact.php ----
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
@@ -107,11 +107,36 @@ if (contactForm) {
     btn.disabled = true;
     btn.textContent = 'Wysyłanie…';
 
-    setTimeout(() => {
-      btn.textContent = '✓ Wiadomość wysłana!';
-      btn.style.background = '#16a34a';
-      contactForm.reset();
-    }, 1200);
+    const payload = {
+      name,
+      email,
+      company:  (contactForm.querySelector('[name="company"]')  || {}).value || '',
+      vehicles: (contactForm.querySelector('[name="vehicles"]') || {}).value || '',
+      message:  (contactForm.querySelector('[name="message"]')  || {}).value || '',
+    };
+
+    fetch('/api/contact.php', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    })
+      .then(r => r.json())
+      .then(data => {
+        if (data.success) {
+          btn.textContent = '✓ Wiadomość wysłana!';
+          btn.style.background = '#16a34a';
+          contactForm.reset();
+        } else {
+          btn.disabled = false;
+          btn.textContent = 'Wyślij zapytanie';
+          alert(data.error || 'Wystąpił błąd. Spróbuj ponownie.');
+        }
+      })
+      .catch(() => {
+        btn.disabled = false;
+        btn.textContent = 'Wyślij zapytanie';
+        alert('Błąd sieci. Sprawdź połączenie i spróbuj ponownie.');
+      });
   });
 }
 
