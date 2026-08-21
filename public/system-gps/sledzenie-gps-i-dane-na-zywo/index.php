@@ -37,10 +37,7 @@
                 <a href="/system-gps" class="nav-has-sub">System GPS <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
                 <div class="nav-dropdown mega-menu">
                     <div class="mega-col mega-col-featured">
-                        <div class="mega-feature-head">
-
-                            <div class="mega-title">Optymalizacja kosztów</div>
-                        </div>
+                        <div class="mega-title">Optymalizacja kosztów</div>
                         <a href="/system-gps/zarzadzanie-paliwem" class="mega-item"><span class="mega-icon">⛽</span><span><strong>Zarządzanie paliwem</strong><em>Pełna kontrola kosztów tankowania</em></span></a>
                         <a href="/system-gps/eco-driving" class="mega-item"><span class="mega-icon">🌿</span><span><strong>Zachowania kierowców ECO-DRIVING</strong><em>Analiza stylu jazdy i spalania</em></span></a>
                         <a href="/system-gps/wydajnosc-floty" class="mega-item"><span class="mega-icon">📈</span><span><strong>Wydajność floty</strong><em>Lepsze wykorzystanie pojazdów</em></span></a>
