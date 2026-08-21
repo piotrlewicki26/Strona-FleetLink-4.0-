@@ -2224,3 +2224,152 @@ select option { background: var(--bg2); }
         justify-content: center;
     }
 }
+
+
+/* ---------- INDUSTRY PAGES ---------- */
+.industry-page-main { padding-top: 64px; }
+.industry-hero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+.industry-hero .section-inner { position: relative; z-index: 2; }
+.industry-hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    filter: saturate(1.05);
+}
+.industry-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(160deg, rgba(2,6,23,.78), rgba(2,6,23,.48));
+}
+.industry-hero-inner {
+    min-height: 420px;
+    display: grid;
+    align-content: center;
+    gap: 1rem;
+}
+.industry-hero-inner h1 {
+    color: #f8fafc;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    max-width: 780px;
+}
+.industry-hero-inner p {
+    color: rgba(226,232,240,.95);
+    max-width: 760px;
+    line-height: 1.75;
+}
+.industry-breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    color: rgba(226,232,240,.86);
+    font-size: .82rem;
+}
+.industry-breadcrumbs a { color: #e0f2fe; }
+.industry-hero-hub .industry-hero-bg {
+    background-image: linear-gradient(180deg, rgba(2,6,23,.2), rgba(2,6,23,.68)), url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1800&q=80');
+}
+.industry-hero-transport .industry-hero-bg {
+    background-image: linear-gradient(180deg, rgba(2,6,23,.2), rgba(2,6,23,.68)), url('https://images.unsplash.com/photo-1465447142348-e9952c393450?auto=format&fit=crop&w=1800&q=80');
+}
+.industry-hero-courier .industry-hero-bg {
+    background-image: linear-gradient(180deg, rgba(2,6,23,.18), rgba(2,6,23,.68)), url('https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1800&q=80');
+}
+.industry-hero-build .industry-hero-bg {
+    background-image: linear-gradient(180deg, rgba(2,6,23,.2), rgba(2,6,23,.7)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1800&q=80');
+}
+.section-soft {
+    background: linear-gradient(180deg, rgba(255,255,255,.72), rgba(236,246,255,.9));
+}
+.industry-content-grid,
+.industry-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.15rem;
+}
+.industry-info-card,
+.industry-benefit-card,
+.industry-case-box {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.35rem;
+}
+.industry-info-card h3 {
+    margin-bottom: .45rem;
+    font-size: 1.03rem;
+}
+.industry-info-card p {
+    color: var(--muted);
+    font-size: .92rem;
+    line-height: 1.68;
+}
+.industry-benefit-card {
+    text-align: center;
+    display: grid;
+    gap: .45rem;
+}
+.industry-benefit-card strong {
+    font-size: 1.5rem;
+    color: var(--text);
+}
+.industry-benefit-card span {
+    font-size: .9rem;
+    color: var(--muted);
+    line-height: 1.55;
+}
+.industry-case-box p {
+    color: var(--muted);
+    line-height: 1.75;
+}
+.industry-case-points {
+    margin-top: .9rem;
+    padding-left: 1.1rem;
+    display: grid;
+    gap: .5rem;
+}
+.industry-case-points li {
+    color: var(--text);
+    line-height: 1.6;
+}
+.industry-page-cta {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(37,99,235,.08), rgba(34,211,238,.06));
+    border: 1px solid rgba(37,99,235,.22);
+    border-radius: 24px;
+    padding: clamp(1.8rem, 4vw, 2.8rem);
+}
+.industry-page-cta p {
+    max-width: 720px;
+    margin: .8rem auto 1.5rem;
+    color: var(--muted);
+    line-height: 1.72;
+}
+.industry-inline-links {
+    margin-top: 1.35rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.15rem;
+    flex-wrap: wrap;
+}
+.industry-inline-links a {
+    color: var(--accent);
+    font-weight: 600;
+}
+@media (max-width: 980px) {
+    .industry-content-grid,
+    .industry-benefits-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+    .industry-hero-inner { min-height: 360px; }
+    .industry-content-grid,
+    .industry-benefits-grid { grid-template-columns: 1fr; }
+}

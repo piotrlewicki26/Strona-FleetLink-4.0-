@@ -94,9 +94,9 @@
             <li class="has-dropdown">
                 <a href="#industries" class="nav-has-sub">Branże <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
                 <div class="nav-dropdown">
-                    <a href="#industries" class="dropdown-item">🚚 Transport i logistyka</a>
-                    <a href="#industries" class="dropdown-item">📦 Kurierzy i dostawy</a>
-                    <a href="#industries" class="dropdown-item">🏗️ Budownictwo</a>
+                    <a href="/branze/transport-i-logistyka" class="dropdown-item">🚚 Transport i logistyka</a>
+                    <a href="/branze/kurierzy-i-dostawy" class="dropdown-item">📦 Kurierzy i dostawy</a>
+                    <a href="/branze/budownictwo" class="dropdown-item">🏗️ Budownictwo</a>
                     <a href="/branze" class="dropdown-item">✨ Wszystkie branże</a>
                 </div>
             </li>
@@ -1100,10 +1100,10 @@
             <a href="#contact">Kariera</a>
             <a href="#contact">Prasa</a>
             <h4 style="margin-top:1rem">Branże</h4>
-            <a href="#industries">Transport</a>
-            <a href="#industries">Logistyka</a>
-            <a href="#industries">Budownictwo</a>
-            <a href="#industries">Rolnictwo</a>
+            <a href="/branze/transport-i-logistyka">Transport i logistyka</a>
+            <a href="/branze/kurierzy-i-dostawy">Kurierzy i dostawy</a>
+            <a href="/branze/budownictwo">Budownictwo</a>
+            <a href="/branze">Wszystkie branże</a>
         </div>
         <div class="footer-links-group">
             <h4>Wsparcie</h4>
