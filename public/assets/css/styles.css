@@ -302,6 +302,8 @@ img, svg { display: block; max-width: 100%; }
 }
 
 .mega-menu {
+    position: fixed;
+    top: 65px;
     left: 50%;
     width: min(1600px, 98vw);
     grid-template-columns: repeat(4, minmax(280px, 1fr));
