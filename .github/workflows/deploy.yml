@@ -17,9 +17,26 @@ jobs:
       - name: Sync files to server
         uses: burnett01/rsync-deployments@7.0.2
         with:
-          switches: -avz --delete --exclude='.git' --exclude='config/config.php'
+          switches: -avz --delete --exclude='.git' --exclude='config/config.php' --exclude='vendor/'
           path: ./
           remote_path: ${{ secrets.DEPLOY_PATH }}
           remote_host: ${{ secrets.DEPLOY_HOST }}
           remote_user: ${{ secrets.DEPLOY_USER }}
           remote_key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Install PHP dependencies on server
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            cd ${{ secrets.DEPLOY_PATH }}
+            if ! command -v composer &> /dev/null; then
+              php -r "copy('https://getcomposer.org/installer', '/tmp/composer-setup.php');"
+              php /tmp/composer-setup.php --install-dir=/tmp --filename=composer
+              COMPOSER_CMD="php /tmp/composer"
+            else
+              COMPOSER_CMD="composer"
+            fi
+            $COMPOSER_CMD install --no-dev --no-interaction --optimize-autoloader
