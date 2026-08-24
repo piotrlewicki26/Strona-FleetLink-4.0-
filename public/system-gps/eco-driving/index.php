@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Analiza ECO-DRIVING w FleetLink 4.0: styl jazdy kierowców, spalanie i bezpieczeństwo w jednym module." />
+    <meta name="description" content="Zachowania kierowców ECO-DRIVING w FleetLink 4.0: scoring jazdy, historia zdarzeń i coaching — obniż spalanie i popraw bezpieczeństwo floty." />
     <meta name="robots" content="index, follow" />
     <title>Zachowania kierowców ECO-DRIVING | FleetLink 4.0</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/eco-driving" />
     <meta property="og:title" content="Zachowania kierowców ECO-DRIVING | FleetLink 4.0" />
-    <meta property="og:description" content="Zobacz, jak poprawić styl jazdy kierowców i obniżyć koszty eksploatacji floty." />
+    <meta property="og:description" content="Scoring jazdy, historia zdarzeń i coaching — zmień styl jazdy kierowców i obniż koszty eksploatacji floty." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Zachowania kierowców ECO-DRIVING | FleetLink 4.0" />
-    <meta name="twitter:description" content="Zobacz, jak poprawić styl jazdy kierowców i obniżyć koszty eksploatacji floty." />
+    <meta name="twitter:description" content="Scoring jazdy, historia zdarzeń i coaching — zmień styl jazdy kierowców i obniż koszty eksploatacji floty." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/eco-driving" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -94,169 +94,215 @@
     </div>
 </nav>
 <main class="industry-page-main">
+
+    <!-- ═══ HERO ═══ -->
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zachowania kierowców ECO-DRIVING</div>
-            <span class="section-tag">Optymalizacja kosztów</span>
-            <h1>Analizuj styl jazdy i buduj oszczędniejsze nawyki kierowców</h1>
-            <p>Oceniaj zachowania za kierownicą i łącz dane z realnym wpływem na spalanie, bezpieczeństwo i trwałość pojazdów.</p>
+            <div class="badge pulse"><span class="badge-dot"></span> Scoring jazdy aktualizowany w czasie rzeczywistym</div>
+            <h1>Twoi kierowcy kosztują Cię więcej, niż myślisz — zacznij to mierzyć</h1>
+            <p>FleetLink 4.0 automatycznie ocenia styl jazdy każdego kierowcy — każdego dnia. Scoring, zdarzenia drogowe, coaching. Koniec z domysłami. Zarządzaj zachowaniami na podstawie faktów.</p>
             <div class="hero-actions">
-                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
-                <a href="/system-gps" class="btn btn-ghost btn-lg">Wróć do System GPS</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
             </div>
         </div>
     </section>
 
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓15</strong><span>%</span></div>
+                <span class="stat-label">mniej zużytego paliwa</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓30</strong><span>%</span></div>
+                <span class="stat-label">mniej zdarzeń drogowych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>100</strong><span>pkt</span></div>
+                <span class="stat-label">scoring dla każdego kierowcy</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
+                <span class="stat-label">monitoring stylu jazdy</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ PROBLEM / NA JAKIE POTRZEBY ═══ -->
     <section class="section">
         <div class="section-inner">
-            <div class="fuel-icon-grid">
-                <article class="fuel-icon-card fade-in">
-                    <span class="fic-icon">📊</span>
-                    <h3>Brak obiektywnej oceny</h3>
-                    <p>Ocena kierowców bez danych telemetrycznych jest niepełna i często zbyt późna. ECO-DRIVING zamienia zdarzenia drogowe w czytelne wskaźniki, z którymi możesz pracować na bieżąco.</p>
+            <div class="section-head fade-up">
+                <span class="section-tag">Wyzwania</span>
+                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <p>Bez danych o stylu jazdy nie wiesz, co powoduje nadmierne koszty. Oto problemy, które rozwiązujemy od pierwszego dnia.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>📊 Brak obiektywnej oceny kierowców</h3>
+                    <p>Ocena bez danych telemetrycznych jest niepełna i często zbyt późna. ECO-DRIVING zamienia zdarzenia drogowe w czytelne wskaźniki, z którymi możesz pracować na bieżąco.</p>
                 </article>
-                <article class="fuel-icon-card fade-in">
-                    <span class="fic-icon">⛽</span>
-                    <h3>Wyższe spalanie</h3>
+                <article class="industry-info-card fade-in">
+                    <h3>⛽ Niewyjaśnione wyższe spalanie</h3>
                     <p>Agresywna jazda bezpośrednio przekłada się na koszty paliwa i serwisu. Widzisz, które zachowania podnoszą koszty i gdzie najszybciej uzyskasz oszczędności.</p>
                 </article>
-                <article class="fuel-icon-card fade-in">
-                    <span class="fic-icon">🛡️</span>
-                    <h3>Większe ryzyko zdarzeń</h3>
-                    <p>Nagłe przyspieszenia, ostre hamowania i niepłynna jazda obniżają bezpieczeństwo pracy floty. System pomaga szybciej eliminować ryzykowne nawyki.</p>
+                <article class="industry-info-card fade-in">
+                    <h3>🛡️ Rosnące ryzyko zdarzeń</h3>
+                    <p>Nagłe przyspieszenia, ostre hamowania i niepłynna jazda obniżają bezpieczeństwo pracy floty. System pomaga szybciej eliminować ryzykowne nawyki zanim dojdzie do incydentu.</p>
                 </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ CO ZYSKUJESZ ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
-            <div class="fuel-split fade-in">
-                <div class="fuel-split__text">
-                    <h2>Przekształć dane o jeździe w realne oszczędności</h2>
-                    <p>Moduł Zachowania kierowców ECO-DRIVING zbiera dane o stylu jazdy i pokazuje ich wpływ na zużycie paliwa, bezpieczeństwo oraz eksploatację pojazdów. Zespół ma jeden widok na wyniki, trendy i obszary wymagające poprawy.</p>
-                    <p>To prostszy sposób na wdrożenie standardów jazdy, które obniżają spalanie i pomagają utrzymać flotę w lepszej kondycji.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--green">🌿 📉</div>
-                </div>
+            <div class="section-head fade-up">
+                <span class="section-tag">Korzyści biznesowe</span>
+                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <p>Realne wyniki, które możesz pokazać zarządowi już po pierwszym miesiącu użytkowania.</p>
+            </div>
+            <div class="industry-benefits-grid">
+                <article class="industry-benefit-card fade-in">
+                    <strong>🌿 Niższe koszty paliwa</strong>
+                    <span>Płynna jazda i eliminacja agresywnych manewrów bezpośrednio obniżają spalanie. Oszczędności widoczne już w pierwszym miesiącu.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>🛡️ Bezpieczniejsza flota</strong>
+                    <span>Czytelne dane o zdarzeniach i szybka reakcja managera zmniejszają ryzyko kolizji, uszkodzeń i przestojów pojazdów.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>🏆 Zmotywowani kierowcy</strong>
+                    <span>Scoring i programy premiowe oparte na danych budują kulturę jazdy. Najlepsi kierowcy są nagradzani, pozostali wiedzą, co poprawić.</span>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ NAJWAŻNIEJSZE ELEMENTY FUNKCJI ═══ -->
     <section class="section">
         <div class="section-inner">
-            <div class="fuel-split fuel-split--reverse fade-in">
-                <div class="fuel-split__text">
-                    <h2>Połącz scoring kierowców z codzienną pracą floty</h2>
-                    <p>Sam ranking to za mało, jeśli nie wspiera działań operacyjnych. Dlatego ECO-DRIVING łączy wyniki kierowców z historią zdarzeń, trasami i pracą pojazdów.</p>
-                    <p>Możesz szybko porównać styl jazdy między kierowcami, sprawdzić źródło niepożądanych manewrów i powiązać je z kosztami paliwa lub większym ryzykiem na trasie.</p>
-                    <p>W połączeniu z modułem <a href="/system-gps/zarzadzanie-paliwem" class="fuel-link">zarządzania paliwem</a> otrzymujesz pełniejszy obraz tego, jak zachowania kierowców wpływają na wynik całej floty.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--salmon">🚗 ⭐</div>
-                </div>
+            <div class="section-head fade-up">
+                <span class="section-tag">Zakres rozwiązania</span>
+                <h2>Najważniejsze elementy modułu</h2>
+                <p>Zestaw narzędzi zaprojektowany specjalnie dla managerów floty i koordynatorów bezpieczeństwa.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>📈 Scoring kierowców</h3>
+                    <p>Porównujesz styl jazdy w czytelnym rankingu. Widzisz, kto utrzymuje właściwe standardy, a kto wymaga szybkiej reakcji lub dodatkowego wsparcia.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>⚠️ Historia zdarzeń drogowych</h3>
+                    <p>Masz podgląd gwałtownych manewrów i trendów w czasie — ostre hamowania, nagłe przyspieszenia, przekroczenia prędkości. Wszystko z dokładnym znacznikiem czasu i miejsca.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🧑‍🏫 Raporty coachingowe</h3>
+                    <p>Jasne raporty ułatwiają rozmowy rozwojowe, wdrażanie procedur i monitorowanie poprawy po szkoleniu. Zarządzasz rozwojem całego zespołu w jednym miejscu.</p>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ JAK TO DZIAŁA ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
-            <div class="fuel-deep fade-up">
-                <h2>Uzyskaj pełniejszy wgląd w styl jazdy kierowców</h2>
-                <p>ECO-DRIVING pomaga rozumieć nie tylko wynik końcowy, ale też przyczyny spadku jakości jazdy. Dzięki temu manager floty może reagować szybciej, lepiej szkolić kierowców i skuteczniej kontrolować koszty.</p>
-                <span class="fuel-deep__subheading">Najważniejsze obszary analizy w module</span>
+            <div class="section-head fade-up">
+                <span class="section-tag">Praktyka</span>
+                <h2>Jak to działa w codziennej pracy</h2>
             </div>
-
-            <div class="fuel-split fade-in" style="margin-bottom:4rem;">
-                <div class="fuel-split__img">
-                    <div class="fuel-mock">📈 👨‍✈️</div>
-                </div>
-                <div class="fuel-split__text">
-                    <h2>Scoring kierowców</h2>
-                    <p>Porównujesz styl jazdy w czytelnym rankingu kierowców. Widzisz, kto utrzymuje właściwe standardy, a kto wymaga szybkiej reakcji lub dodatkowego wsparcia.</p>
-                </div>
-            </div>
+            <article class="industry-case-box fade-in">
+                <p><strong>Scenariusz z życia:</strong> Manager floty otwiera poniedziałkowy raport i widzi, że dwóch kierowców w minionym tygodniu znacząco odbiega od reszty zespołu — wysoki wskaźnik gwałtownych hamowań i scoring poniżej 60 punktów. W ciągu pięciu minut planuje indywidualny coaching, bez żmudnego przeglądania logów.</p>
+                <ul class="industry-case-points">
+                    <li>✅ Błyskawiczna identyfikacja kierowców wymagających interwencji</li>
+                    <li>✅ Realna redukcja spalania przez zmianę nawyków jazdy</li>
+                    <li>✅ Rozmowy z kierowcami oparte na danych, nie na intuicji managera</li>
+                    <li>✅ Automatyczne raporty tygodniowe — zero pracy ręcznej</li>
+                </ul>
+            </article>
         </div>
     </section>
 
+    <!-- ═══ KLUCZOWE FUNKCJE SYSTEMU ═══ -->
     <section class="section">
-        <div class="section-inner" style="display:flex;flex-direction:column;gap:4.5rem;">
-            <div class="fuel-split fade-in">
-                <div class="fuel-split__text">
-                    <h2>Historia zdarzeń drogowych</h2>
-                    <p>Masz podgląd gwałtownych manewrów i trendów w czasie. System pokazuje momenty ostrego hamowania, nagłych przyspieszeń i innych zdarzeń, które wpływają na bezpieczeństwo oraz kulturę jazdy.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--green">🛣️ ⚠️</div>
-                </div>
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Możliwości systemu</span>
+                <h2>Kluczowe funkcje modułu ECO-DRIVING</h2>
+                <p>Cztery filary skutecznej analizy zachowań — zaprojektowane z myślą o prostocie obsługi i głębi danych.</p>
             </div>
-
-            <div class="fuel-split fuel-split--reverse fade-in">
-                <div class="fuel-split__text">
-                    <h2>Raporty szkoleniowe i coaching</h2>
-                    <p>Wybierasz kierowców wymagających wsparcia lub dodatkowego coachingu. Jasne raporty ułatwiają rozmowy rozwojowe, wdrażanie procedur i monitorowanie poprawy po szkoleniu.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--salmon">🧑‍🏫 📋</div>
-                </div>
-            </div>
-
-            <div class="fuel-split fade-in">
-                <div class="fuel-split__text">
-                    <h2>Wpływ stylu jazdy na spalanie</h2>
-                    <p>Lepsze nawyki kierowców zmniejszają koszty przejazdów. Dzięki zestawieniu wyników ECO-DRIVING z danymi operacyjnymi szybciej wykrywasz zależność między zachowaniem za kierownicą a realnym zużyciem paliwa.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--green">⛽ 📉</div>
-                </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>🎯 Punktacja 0–100</h3>
+                    <p>Każdy kierowca otrzymuje dzienny i tygodniowy wynik. Jeden numer mówi więcej niż arkusz pełen danych — manager od razu wie, gdzie skupić uwagę.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🔗 Integracja z modułem paliwa</h3>
+                    <p>Łączysz scoring z rzeczywistym zużyciem paliwa i widzisz, jak styl jazdy przekłada się na koszty każdego przejazdu. Pełny obraz w jednym miejscu.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📅 Trendy i porównania okresy</h3>
+                    <p>Dzień, tydzień, miesiąc — śledzisz postęp każdego kierowcy i całego zespołu. Idealne do cyklicznych przeglądów i premiowania poprawy.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🏅 Programy motywacyjne</h3>
+                    <p>Czytelne wyniki ułatwiają wdrożenie standardów jazdy i tworzenie programów premiowych opartych na obiektywnych danych, nie subiektywnych ocenach.</p>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ DLACZEGO WARTO (3 POWODY) ═══ -->
     <section class="section section-soft">
-        <div class="section-inner" style="display:flex;flex-direction:column;gap:4.5rem;">
-            <div class="fuel-split fuel-split--reverse fade-in">
-                <div class="fuel-split__text">
-                    <h2>Buduj motywację i programy premiowe</h2>
-                    <p>Czytelne wyniki ułatwiają wdrożenie standardów jazdy i tworzenie programów premiowych. Manager floty może nagradzać poprawę oraz utrwalać najlepsze praktyki w całym zespole.</p>
-                    <p>To także praktyczne wsparcie do cyklicznych przeglądów wyników i rozmów z kierowcami opartych na danych, a nie na domysłach.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--salmon">🏆 🚦</div>
-                </div>
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Dlaczego warto</span>
+                <h2>3 powody, dla których firmy wdrażają moduł ECO-DRIVING</h2>
             </div>
-
-            <div class="fuel-split fade-in">
-                <div class="fuel-split__text">
-                    <h2>Bezpieczniejsza jazda i mniejsze zużycie floty</h2>
-                    <p>Zespół szybciej eliminuje ryzykowne zachowania na trasie, co poprawia bezpieczeństwo i ogranicza przeciążenie pojazdów. Płynniejsza jazda przekłada się na niższe koszty eksploatacji i lepszą trwałość auta.</p>
-                    <p>W efekcie ECO-DRIVING wspiera zarówno oszczędności, jak i stabilniejszą organizację pracy floty.</p>
-                </div>
-                <div class="fuel-split__img">
-                    <div class="fuel-mock fuel-mock--green">🛡️ 🚚</div>
-                </div>
+            <div class="industry-benefits-grid">
+                <article class="industry-benefit-card fade-in">
+                    <strong>🧠 Decyzje oparte na faktach</strong>
+                    <span>Koniec z zarządzaniem na przeczucie. Masz twarde liczby do każdej rozmowy z kierowcą — wyniki, zdarzenia, trend poprawy lub pogorszenia.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>💸 Niższe koszty eksploatacji</strong>
+                    <span>Lepszy styl jazdy = mniej paliwa, mniej serwisów, mniej uszkodzeń. Oszczędności widoczne już w pierwszym kwartale — bez inwestycji w nowy tabor.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>🚀 Kultura bezpiecznej jazdy</strong>
+                    <span>Firmy, które mierzą zachowania kierowców, szybciej budują standardy i zmniejszają rotację w zespole. To przewaga, którą trudno skopiować.</span>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ CTA ═══ -->
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <h2>Porozmawiajmy o wdrożeniu modułu Zachowania kierowców ECO-DRIVING</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <span class="section-tag">Zacznij dziś</span>
+                <h2>Sprawdź, ile kosztują Cię nawyki kierowców — i jak to zmienić</h2>
+                <p>Nasi eksperci przeanalizują Twoją flotę i pokażą konkretne oszczędności, jakie możesz osiągnąć z modułem ECO-DRIVING. Bezpłatna konsultacja, bez zobowiązań.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
                     <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
                     <a href="/system-gps/wydajnosc-floty">Wydajność floty</a>
+                    <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+                    <a href="/system-gps/zadania-i-planowanie">Zadania i planowanie</a>
                 </div>
             </div>
         </div>
     </section>
+
 </main>
 <footer class="footer">
     <div class="footer-inner">
