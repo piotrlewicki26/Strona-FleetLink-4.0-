@@ -108,6 +108,16 @@
         </div>
     </section>
 
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="industry-callout-box fade-up">
+                <h2>Śledzenie wydajności floty to wyzwanie!</h2>
+                <p>Nasze rozwiązanie pomaga uporać się z tym problemem, zapewniając automatyczne obliczanie efektywności Twojej floty na bieżąco, co tydzień i co miesiąc.</p>
+                <a href="/#contact" class="btn btn-primary">Umów bezpłatną konsultację</a>
+            </div>
+        </div>
+    </section>
+
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
@@ -164,6 +174,56 @@
                     <li>Szybsze planowanie zmian w operacji</li>
                 </ul>
             </article>
+        </div>
+    </section>
+
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Możliwości systemu</span>
+                <h2>Kluczowe funkcje modułu wydajności</h2>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>Obliczenia oparte na czasie zapłonu</h3>
+                    <p>Najwygodniejszy sposób porównywania wydajności między pojazdami, które są używane tylko w określonych godzinach dnia, podczas jazdy w trakcie pracy lub w stanie spoczynku.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>5 pulpitów nawigacyjnych</h3>
+                    <p>Pięć dedykowanych widoków prezentujących wszystkie kluczowe dane o wydajności floty w przejrzystej, gotowej do użycia formie.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>Dane za określony okres czasu</h3>
+                    <p>Uzyskaj przegląd wydajności floty w widoku dziennym, tygodniowym lub miesięcznym i porównuj trendy w czasie.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>Wygodna analiza efektywności</h3>
+                    <p>Śledź dane według wybranych grup pojazdów, pojazdów niezgrupowanych lub całej floty — elastycznie dopasowane do struktury Twojej organizacji.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Dlaczego warto</span>
+                <h2>Powody, dla których warto mieć zautomatyzowane rozwiązanie zwiększające wydajność floty</h2>
+            </div>
+            <div class="industry-benefits-grid">
+                <article class="industry-benefit-card fade-in">
+                    <strong>Świadome decyzje oparte na faktach</strong>
+                    <span>Podejmuj trafne decyzje dotyczące wielkości i wykorzystania swojej floty, opierając się na rzeczywistych danych, a nie intuicji.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>Niższe koszty paliwa i konserwacji</strong>
+                    <span>Zmniejsz koszty paliwa i konserwacji, co pozwoli Ci zaoszczędzić czas i pieniądze w całej organizacji.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>Lepszy obraz operacji biznesowych</strong>
+                    <span>Zobacz szerszy obraz i udoskonal sposób działania swoich operacji biznesowych dzięki kompleksowym raportom wydajności.</span>
+                </article>
+            </div>
         </div>
     </section>
 
