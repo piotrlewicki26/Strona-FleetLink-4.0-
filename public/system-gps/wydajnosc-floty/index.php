@@ -94,72 +94,123 @@
     </div>
 </nav>
 <main class="industry-page-main">
+
+    <!-- ═══ HERO ═══ -->
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Wydajność floty</div>
-            <span class="section-tag">Optymalizacja kosztów</span>
-            <h1>Mierz, porównuj i poprawiaj wydajność całej floty</h1>
-            <p>Zobacz, które pojazdy pracują najefektywniej, gdzie pojawiają się przestoje i jak lepiej planować wykorzystanie zasobów.</p>
+            <div class="badge pulse"><span class="badge-dot"></span> Automatyczne raporty w czasie rzeczywistym</div>
+            <h1>Twoja flota traci pieniądze każdego dnia — zacznij to mierzyć</h1>
+            <p>FleetLink 4.0 automatycznie oblicza efektywność każdego pojazdu — na bieżąco, co tydzień i co miesiąc. Koniec z domysłami. Zacznij zarządzać flotą na podstawie faktów.</p>
             <div class="hero-actions">
-                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
-                <a href="/system-gps" class="btn btn-ghost btn-lg">Wróć do System GPS</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
             </div>
         </div>
     </section>
 
-    <section class="section section-soft">
-        <div class="section-inner">
-            <div class="industry-callout-box fade-up">
-                <h2>Śledzenie wydajności floty to wyzwanie!</h2>
-                <p>Nasze rozwiązanie pomaga uporać się z tym problemem, zapewniając automatyczne obliczanie efektywności Twojej floty na bieżąco, co tydzień i co miesiąc.</p>
-                <a href="/#contact" class="btn btn-primary">Umów bezpłatną konsultację</a>
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↑30</strong><span>%</span></div>
+                <span class="stat-label">więcej zadań na ten sam tabor</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓25</strong><span>%</span></div>
+                <span class="stat-label">mniej pustych przebiegów</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>5</strong><span>×</span></div>
+                <span class="stat-label">pulpitów KPI w jednym miejscu</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
+                <span class="stat-label">monitoring bez przestojów</span>
             </div>
         </div>
-    </section>
+    </div>
 
+    <!-- ═══ PROBLEM / NA JAKIE POTRZEBY ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
                 <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <p>Bez danych nie ma decyzji. Oto problemy, które rozwiązujemy od pierwszego dnia.</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Nierówne obciążenie floty</h3><p>Jedne pojazdy są przeciążone, a inne pozostają niewykorzystane.</p></article>
-                <article class="industry-info-card fade-in"><h3>Ukryte przestoje</h3><p>Bez bieżących danych trudno ocenić realną produktywność zespołu i taboru.</p></article>
-                <article class="industry-info-card fade-in"><h3>Trudne planowanie</h3><p>Brakuje podstaw do szybkiego przesuwania zadań i pojazdów.</p></article>
+                <article class="industry-info-card fade-in">
+                    <h3>⚖️ Nierówne obciążenie floty</h3>
+                    <p>Jedne pojazdy pracują ponad normę, inne stoją bezczynnie. FleetLink pokazuje dokładnie, gdzie jest rezerwa — i jak ją wykorzystać.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🕵️ Ukryte przestoje i straty</h3>
+                    <p>Bez bieżących danych nie widać, ile godzin dziennie pojazd stoi. Z FleetLink każda minuta jest mierzona i raportowana automatycznie.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📋 Chaotyczne planowanie</h3>
+                    <p>Decyzje operacyjne podejmowane „na oko" kosztują. FleetLink daje twarde dane do szybkiego przesuwania zasobów tam, gdzie są potrzebne.</p>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ CO ZYSKUJESZ ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Korzyści</span>
+                <span class="section-tag">Korzyści biznesowe</span>
                 <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <p>Realne wyniki, które możesz pokazać zarządowi już po pierwszym miesiącu użytkowania.</p>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>Lepsze wykorzystanie zasobów</strong><span>Łatwiej rozdzielasz pracę między dostępne pojazdy.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Mniej pustych przebiegów</strong><span>Analizy wspierają optymalizację tras i obciążeń.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Czytelne KPI</strong><span>Widzisz wskaźniki produktywności w jednym miejscu.</span></article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>📈 Lepsze wykorzystanie zasobów</strong>
+                    <span>Widzisz, które pojazdy są dostępne i w ciągu sekund przypisujesz je do nowych zadań. Żaden zasób nie przepada.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>💰 Mniej pustych przebiegów</strong>
+                    <span>Dane o obciążeniu tras i pojazdów pozwalają ciąć zbędne kilometry — bezpośrednio przekłada się to na oszczędności paliwa i serwisu.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>📊 Czytelne KPI bez arkuszy</strong>
+                    <span>Wszystkie wskaźniki produktywności w jednym pulpicie — bez żmudnego zbierania danych z różnych źródeł.</span>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ NAJWAŻNIEJSZE ELEMENTY FUNKCJI ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Zakres rozwiązania</span>
                 <h2>Najważniejsze elementy funkcji</h2>
+                <p>Zestaw narzędzi zaprojektowany specjalnie dla menedżerów i koordynatorów floty.</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Analiza przestojów</h3><p>Szybko identyfikujesz niewykorzystany czas pracy pojazdów.</p></article>
-                <article class="industry-info-card fade-in"><h3>Porównania flotowe</h3><p>Zestawiasz efektywność między oddziałami, zespołami i okresami.</p></article>
-                <article class="industry-info-card fade-in"><h3>Wskaźniki operacyjne</h3><p>Śledzisz wykorzystanie, obłożenie i terminowość realizacji.</p></article>
+                <article class="industry-info-card fade-in">
+                    <h3>🔍 Analiza przestojów</h3>
+                    <p>Szybko identyfikujesz, kiedy i gdzie pojazdy stoją bezczynnie — i eliminujesz te przestoje w kolejnym tygodniu.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🏆 Porównania flotowe</h3>
+                    <p>Zestawiasz efektywność między oddziałami, zespołami i okresami. Jasno widać, kto osiąga najlepsze wyniki i dlaczego.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🎯 Wskaźniki operacyjne</h3>
+                    <p>Śledzisz wykorzystanie, obłożenie i terminowość realizacji — wszystkie KPI w jednym widoku, gotowe do raportu.</p>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ JAK TO DZIAŁA ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
@@ -167,82 +218,91 @@
                 <h2>Jak to działa w codziennej pracy</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Koordynator floty porównuje wykorzystanie aut w regionach i przesuwa zasoby do zespołu, który ma największe obłożenie zleceń.</p>
+                <p><strong>Scenariusz z życia:</strong> Koordynator floty zauważa w porannym raporcie, że trzy pojazdy w regionie północnym mają zaledwie 40% obłożenia, podczas gdy południe ma kolejkę zleceń. W ciągu pięciu minut przesuwa zasoby — bez telefonów, bez arkuszy.</p>
                 <ul class="industry-case-points">
-                    <li>Ocena wykorzystania pojazdów</li>
-                    <li>Mniej nieproduktywnych kilometrów</li>
-                    <li>Szybsze planowanie zmian w operacji</li>
+                    <li>✅ Błyskawiczna ocena wykorzystania pojazdów w każdym regionie</li>
+                    <li>✅ Realna redukcja nieproduktywnych kilometrów i kosztów paliwa</li>
+                    <li>✅ Szybsze planowanie zmian operacyjnych oparte na danych, nie intuicji</li>
+                    <li>✅ Raporty tygodniowe i miesięczne generowane automatycznie — zero pracy ręcznej</li>
                 </ul>
             </article>
         </div>
     </section>
 
-    <section class="section section-soft">
+    <!-- ═══ KLUCZOWE FUNKCJE SYSTEMU ═══ -->
+    <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Możliwości systemu</span>
                 <h2>Kluczowe funkcje modułu wydajności</h2>
+                <p>Cztery filary skutecznej analizy — zaprojektowane z myślą o prostocie obsługi i głębi danych.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in">
-                    <h3>Obliczenia oparte na czasie zapłonu</h3>
-                    <p>Najwygodniejszy sposób porównywania wydajności między pojazdami, które są używane tylko w określonych godzinach dnia, podczas jazdy w trakcie pracy lub w stanie spoczynku.</p>
+                    <h3>🔑 Obliczenia oparte na czasie zapłonu</h3>
+                    <p>Najdokładniejsza metoda pomiaru: porównujesz pojazdy pracujące w różnych godzinach, trybach jazdy i stanie spoczynku — wszystko w jednym miejscu.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>5 pulpitów nawigacyjnych</h3>
-                    <p>Pięć dedykowanych widoków prezentujących wszystkie kluczowe dane o wydajności floty w przejrzystej, gotowej do użycia formie.</p>
+                    <h3>📱 5 pulpitów nawigacyjnych</h3>
+                    <p>Pięć dedykowanych widoków — od przeglądu całej floty po szczegół pojedynczego pojazdu. Informacja na wyciągnięcie ręki, bez szukania w raportach.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>Dane za określony okres czasu</h3>
-                    <p>Uzyskaj przegląd wydajności floty w widoku dziennym, tygodniowym lub miesięcznym i porównuj trendy w czasie.</p>
+                    <h3>📅 Dane za dowolny okres</h3>
+                    <p>Dzień, tydzień, miesiąc — porównuj trendy i bądź o krok przed problemem. Idealne do cyklicznych przeglądów operacyjnych i raportów zarządczych.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>Wygodna analiza efektywności</h3>
-                    <p>Śledź dane według wybranych grup pojazdów, pojazdów niezgrupowanych lub całej floty — elastycznie dopasowane do struktury Twojej organizacji.</p>
+                    <h3>🗂️ Elastyczna analiza efektywności</h3>
+                    <p>Grupy pojazdów, pojazdy niezgrupowane lub cała flota — filtrujesz widok dokładnie tak, jak wygląda struktura Twojej organizacji.</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <!-- ═══ DLACZEGO WARTO (3 POWODY) ═══ -->
+    <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Dlaczego warto</span>
-                <h2>Powody, dla których warto mieć zautomatyzowane rozwiązanie zwiększające wydajność floty</h2>
+                <h2>3 powody, dla których firmy wdrażają moduł wydajności</h2>
             </div>
             <div class="industry-benefits-grid">
                 <article class="industry-benefit-card fade-in">
-                    <strong>Świadome decyzje oparte na faktach</strong>
-                    <span>Podejmuj trafne decyzje dotyczące wielkości i wykorzystania swojej floty, opierając się na rzeczywistych danych, a nie intuicji.</span>
+                    <strong>🧠 Decyzje oparte na faktach</strong>
+                    <span>Koniec z zarządzaniem na przeczucie. Masz twarde liczby do każdej decyzji — czy to zakup kolejnego pojazdu, czy restrukturyzacja tras.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>Niższe koszty paliwa i konserwacji</strong>
-                    <span>Zmniejsz koszty paliwa i konserwacji, co pozwoli Ci zaoszczędzić czas i pieniądze w całej organizacji.</span>
+                    <strong>💸 Niższe koszty operacyjne</strong>
+                    <span>Lepsze wykorzystanie taboru = mniej paliwa, mniej serwisów, mniej kilometrów. Oszczędności widoczne już w pierwszym kwartale.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>Lepszy obraz operacji biznesowych</strong>
-                    <span>Zobacz szerszy obraz i udoskonal sposób działania swoich operacji biznesowych dzięki kompleksowym raportom wydajności.</span>
+                    <strong>🚀 Przewaga konkurencyjna</strong>
+                    <span>Firmy, które mierzą wydajność, reagują szybciej, obsługują więcej klientów i rosną bez proporcjonalnego wzrostu kosztów floty.</span>
                 </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ CTA ═══ -->
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <h2>Porozmawiajmy o wdrożeniu modułu Wydajność floty</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <span class="section-tag">Zacznij dziś</span>
+                <h2>Sprawdź, ile traci Twoja flota — i jak to zmienić</h2>
+                <p>Nasi eksperci przeanalizują Twoją flotę i pokażą konkretne oszczędności, jakie możesz osiągnąć z FleetLink 4.0. Bezpłatna konsultacja, bez zobowiązań.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
+                    <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
+                    <a href="/system-gps/eco-driving">ECO-Driving</a>
                     <a href="/system-gps/carsharing">CarSharing</a>
                     <a href="/system-gps/zadania-i-planowanie">Zadania i planowanie</a>
                 </div>
             </div>
         </div>
     </section>
+
 </main>
 <footer class="footer">
     <div class="footer-inner">
