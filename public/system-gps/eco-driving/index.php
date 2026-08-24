@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Zachowania kierowców ECO-DRIVING w FleetLink 4.0: scoring jazdy, historia zdarzeń i coaching — obniż spalanie i popraw bezpieczeństwo floty." />
+    <meta name="description" content="Wydajność floty w FleetLink 4.0: wykorzystanie pojazdów, analiza obłożenia i poprawa produktywności." />
     <meta name="robots" content="index, follow" />
-    <title>Zachowania kierowców ECO-DRIVING | FleetLink 4.0</title>
+    <title>Wydajność floty | FleetLink 4.0</title>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fleetlink.pl/system-gps/eco-driving" />
-    <meta property="og:title" content="Zachowania kierowców ECO-DRIVING | FleetLink 4.0" />
-    <meta property="og:description" content="Scoring jazdy, historia zdarzeń i coaching — zmień styl jazdy kierowców i obniż koszty eksploatacji floty." />
+    <meta property="og:url" content="https://fleetlink.pl/system-gps/wydajnosc-floty" />
+    <meta property="og:title" content="Wydajność floty | FleetLink 4.0" />
+    <meta property="og:description" content="Sprawdź, jak FleetLink pomaga zwiększyć wykorzystanie pojazdów i ograniczyć przestoje." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Zachowania kierowców ECO-DRIVING | FleetLink 4.0" />
-    <meta name="twitter:description" content="Scoring jazdy, historia zdarzeń i coaching — zmień styl jazdy kierowców i obniż koszty eksploatacji floty." />
-    <link rel="canonical" href="https://fleetlink.pl/system-gps/eco-driving" />
+    <meta name="twitter:title" content="Wydajność floty | FleetLink 4.0" />
+    <meta name="twitter:description" content="Sprawdź, jak FleetLink pomaga zwiększyć wykorzystanie pojazdów i ograniczyć przestoje." />
+    <link rel="canonical" href="https://fleetlink.pl/system-gps/wydajnosc-floty" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -99,10 +99,10 @@
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
-            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zachowania kierowców ECO-DRIVING</div>
-            <div class="badge pulse"><span class="badge-dot"></span> Scoring jazdy aktualizowany w czasie rzeczywistym</div>
-            <h1>Twoi kierowcy kosztują Cię więcej, niż myślisz — zacznij to mierzyć</h1>
-            <p>FleetLink 4.0 automatycznie ocenia styl jazdy każdego kierowcy — każdego dnia. Scoring, historia zdarzeń, raporty coachingowe. Koniec z domysłami. Zarządzaj zachowaniami za kierownicą na podstawie twardych faktów.</p>
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Wydajność floty</div>
+            <div class="badge pulse"><span class="badge-dot"></span> Automatyczne raporty w czasie rzeczywistym</div>
+            <h1>Twoja flota traci pieniądze każdego dnia — zacznij to mierzyć</h1>
+            <p>FleetLink 4.0 automatycznie oblicza efektywność każdego pojazdu — na bieżąco, co tydzień i co miesiąc. Koniec z domysłami. Zacznij zarządzać flotą na podstawie faktów.</p>
             <div class="hero-actions">
                 <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                 <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
@@ -114,47 +114,47 @@
     <div class="stats-bar">
         <div class="stats-inner">
             <div class="stat-item">
-                <div class="stat-num-row"><strong>↓15</strong><span>%</span></div>
-                <span class="stat-label">mniej zużytego paliwa</span>
+                <div class="stat-num-row"><strong>↑30</strong><span>%</span></div>
+                <span class="stat-label">więcej zadań na ten sam tabor</span>
             </div>
             <div class="stat-divider" aria-hidden="true"></div>
             <div class="stat-item">
-                <div class="stat-num-row"><strong>↓30</strong><span>%</span></div>
-                <span class="stat-label">mniej groźnych zdarzeń drogowych</span>
+                <div class="stat-num-row"><strong>↓25</strong><span>%</span></div>
+                <span class="stat-label">mniej pustych przebiegów</span>
             </div>
             <div class="stat-divider" aria-hidden="true"></div>
             <div class="stat-item">
-                <div class="stat-num-row"><strong>100</strong><span>pkt</span></div>
-                <span class="stat-label">przejrzysty scoring każdego kierowcy</span>
+                <div class="stat-num-row"><strong>5</strong><span>×</span></div>
+                <span class="stat-label">pulpitów KPI w jednym miejscu</span>
             </div>
             <div class="stat-divider" aria-hidden="true"></div>
             <div class="stat-item">
                 <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
-                <span class="stat-label">automatyczny monitoring bez przerw</span>
+                <span class="stat-label">monitoring bez przestojów</span>
             </div>
         </div>
     </div>
 
-    <!-- ═══ NA JAKIE POTRZEBY ═══ -->
+    <!-- ═══ PROBLEM / NA JAKIE POTRZEBY ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
                 <h2>Na jakie potrzeby odpowiada ten moduł</h2>
-                <p>Bez danych o stylu jazdy nie wiesz, co napędza nadmierne koszty eksploatacji. Oto problemy, które rozwiązujemy od pierwszego dnia wdrożenia.</p>
+                <p>Bez danych nie ma decyzji. Oto problemy, które rozwiązujemy od pierwszego dnia.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in">
-                    <h3>📊 Brak obiektywnej oceny kierowców</h3>
-                    <p>Zarządzanie stylem jazdy bez danych telemetrycznych to strzelanie na ślepo — zbyt późno i zbyt subiektywnie. ECO-DRIVING zamienia każde zdarzenie drogowe w czytelny wskaźnik, na którym możesz działać tu i teraz.</p>
+                    <h3>⚖️ Nierówne obciążenie floty</h3>
+                    <p>Jedne pojazdy pracują ponad normę, inne stoją bezczynnie. FleetLink pokazuje dokładnie, gdzie jest rezerwa — i jak ją wykorzystać.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>⛽ Niewyjaśnione wyższe spalanie</h3>
-                    <p>Agresywne przyspieszanie, hamowanie w ostatniej chwili i jazda na wysokich obrotach bezpośrednio podnoszą rachunki za paliwo i serwis. System pokazuje dokładnie, które nawyki kosztują i gdzie szybko uzyskasz oszczędności.</p>
+                    <h3>🕵️ Ukryte przestoje i straty</h3>
+                    <p>Bez bieżących danych nie widać, ile godzin dziennie pojazd stoi. Z FleetLink każda minuta jest mierzona i raportowana automatycznie.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>🛡️ Rosnące ryzyko zdarzeń na trasie</h3>
-                    <p>Nagłe manewry i niepłynna jazda to nie tylko wyższe koszty — to realne zagrożenie dla kierowcy, pojazdu i ładunku. FleetLink identyfikuje ryzykowne nawyki zanim dojdzie do kolizji lub uszkodzenia auta.</p>
+                    <h3>📋 Chaotyczne planowanie</h3>
+                    <p>Decyzje operacyjne podejmowane „na oko" kosztują. FleetLink daje twarde dane do szybkiego przesuwania zasobów tam, gdzie są potrzebne.</p>
                 </article>
             </div>
         </div>
@@ -166,20 +166,20 @@
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści biznesowe</span>
                 <h2>Co zyskujesz z FleetLink 4.0</h2>
-                <p>Realne wyniki, które możesz pokazać zarządowi i działowi finansowemu już po pierwszym miesiącu użytkowania.</p>
+                <p>Realne wyniki, które możesz pokazać zarządowi już po pierwszym miesiącu użytkowania.</p>
             </div>
             <div class="industry-benefits-grid">
                 <article class="industry-benefit-card fade-in">
-                    <strong>🌿 Niższe koszty paliwa i serwisu</strong>
-                    <span>Płynna jazda i eliminacja agresywnych manewrów bezpośrednio redukują spalanie oraz zużycie opon i hamulców. Pierwsze oszczędności widoczne już w ciągu 30 dni.</span>
+                    <strong>📈 Lepsze wykorzystanie zasobów</strong>
+                    <span>Widzisz, które pojazdy są dostępne i w ciągu sekund przypisujesz je do nowych zadań. Żaden zasób nie przepada.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>🛡️ Bezpieczniejsza flota każdego dnia</strong>
-                    <span>Czytelny ranking i alerty o zdarzeniach dają managerowi natychmiastową podstawę do reakcji — zanim ryzykowny nawyk przerodzi się w kosztowną szkodę.</span>
+                    <strong>💰 Mniej pustych przebiegów</strong>
+                    <span>Dane o obciążeniu tras i pojazdów pozwalają ciąć zbędne kilometry — bezpośrednio przekłada się to na oszczędności paliwa i serwisu.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>🏆 Zmotywowany i rozwijający się zespół</strong>
-                    <span>Obiektywny scoring i programy premiowe budują kulturę odpowiedzialnej jazdy. Najlepsi kierowcy są doceniani, a ci z rezerwą wiedzą, co konkretnie poprawić.</span>
+                    <strong>📊 Czytelne KPI bez arkuszy</strong>
+                    <span>Wszystkie wskaźniki produktywności w jednym pulpicie — bez żmudnego zbierania danych z różnych źródeł.</span>
                 </article>
             </div>
         </div>
@@ -190,21 +190,21 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Zakres rozwiązania</span>
-                <h2>Najważniejsze elementy modułu</h2>
-                <p>Kompletny zestaw narzędzi zaprojektowany specjalnie dla managerów floty, koordynatorów bezpieczeństwa i działów HR.</p>
+                <h2>Najważniejsze elementy funkcji</h2>
+                <p>Zestaw narzędzi zaprojektowany specjalnie dla menedżerów i koordynatorów floty.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in">
-                    <h3>📈 Scoring i ranking kierowców</h3>
-                    <p>Przejrzysty ranking całego zespołu w jednym widoku. Natychmiast widzisz, kto konsekwentnie utrzymuje wysokie standardy, a kto wymaga szybkiej rozmowy lub dedykowanego coachingu.</p>
+                    <h3>🔍 Analiza przestojów</h3>
+                    <p>Szybko identyfikujesz, kiedy i gdzie pojazdy stoją bezczynnie — i eliminujesz te przestoje w kolejnym tygodniu.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>⚠️ Historia zdarzeń drogowych</h3>
-                    <p>Pełny zapis gwałtownych hamowań, nagłych przyspieszeń i przekroczeń prędkości — z dokładnym znacznikiem czasu, miejsca i pojazdu. Żaden incydent nie umknie uwadze.</p>
+                    <h3>🏆 Porównania flotowe</h3>
+                    <p>Zestawiasz efektywność między oddziałami, zespołami i okresami. Jasno widać, kto osiąga najlepsze wyniki i dlaczego.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>🧑‍🏫 Raporty coachingowe i szkoleniowe</h3>
-                    <p>Gotowe do druku raporty dla każdego kierowcy ułatwiają konstruktywne rozmowy, monitorowanie postępów po szkoleniu i dokumentowanie wdrożenia standardów jazdy.</p>
+                    <h3>🎯 Wskaźniki operacyjne</h3>
+                    <p>Śledzisz wykorzystanie, obłożenie i terminowość realizacji — wszystkie KPI w jednym widoku, gotowe do raportu.</p>
                 </article>
             </div>
         </div>
@@ -218,12 +218,12 @@
                 <h2>Jak to działa w codziennej pracy</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p><strong>Scenariusz z życia:</strong> Manager floty otwiera poniedziałkowy raport i widzi, że dwóch kierowców w minionym tygodniu drastycznie odbiega od reszty zespołu — wysoki wskaźnik gwałtownych hamowań, trzy zdarzenia ostrego przyspieszenia i scoring poniżej 55 punktów. W ciągu pięciu minut planuje indywidualny coaching i wysyła spersonalizowany raport — bez żmudnego przeglądania dziesiątek logów.</p>
+                <p><strong>Scenariusz z życia:</strong> Koordynator floty zauważa w porannym raporcie, że trzy pojazdy w regionie północnym mają zaledwie 40% obłożenia, podczas gdy południe ma kolejkę zleceń. W ciągu pięciu minut przesuwa zasoby — bez telefonów, bez arkuszy.</p>
                 <ul class="industry-case-points">
-                    <li>✅ Błyskawiczna identyfikacja kierowców wymagających interwencji — bez godzin analizy</li>
-                    <li>✅ Realna redukcja spalania przez zmianę nawyków jazdy — mierzalna co tydzień</li>
-                    <li>✅ Rozmowy z kierowcami oparte na faktach, nie na subiektywnych odczuciach managera</li>
-                    <li>✅ Automatyczne raporty tygodniowe i miesięczne — zero pracy ręcznej</li>
+                    <li>✅ Błyskawiczna ocena wykorzystania pojazdów w każdym regionie</li>
+                    <li>✅ Realna redukcja nieproduktywnych kilometrów i kosztów paliwa</li>
+                    <li>✅ Szybsze planowanie zmian operacyjnych oparte na danych, nie intuicji</li>
+                    <li>✅ Raporty tygodniowe i miesięczne generowane automatycznie — zero pracy ręcznej</li>
                 </ul>
             </article>
         </div>
@@ -234,25 +234,25 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Możliwości systemu</span>
-                <h2>Kluczowe funkcje modułu ECO-DRIVING</h2>
-                <p>Cztery filary skutecznej analizy zachowań kierowców — zaprojektowane z myślą o prostocie obsługi i głębi danych analitycznych.</p>
+                <h2>Kluczowe funkcje modułu wydajności</h2>
+                <p>Cztery filary skutecznej analizy — zaprojektowane z myślą o prostocie obsługi i głębi danych.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in">
-                    <h3>🎯 Punktacja 0–100 dla każdego kierowcy</h3>
-                    <p>Dzienny i tygodniowy wynik w skali 0–100 zastępuje stosy raportów jedną, czytelną liczbą. Manager od razu wie, gdzie skupić uwagę — bez żmudnego przeglądania danych.</p>
+                    <h3>🔑 Obliczenia oparte na czasie zapłonu</h3>
+                    <p>Najdokładniejsza metoda pomiaru: porównujesz pojazdy pracujące w różnych godzinach, trybach jazdy i stanie spoczynku — wszystko w jednym miejscu.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>🔗 Pełna integracja z modułem paliwa</h3>
-                    <p>Zestawiasz scoring stylu jazdy z rzeczywistym zużyciem paliwa i widzisz, jakie konkretne zachowania generują nadwyżkę kosztów. Pełny obraz — jedno miejsce, zero arkuszy.</p>
+                    <h3>📱 5 pulpitów nawigacyjnych</h3>
+                    <p>Pięć dedykowanych widoków — od przeglądu całej floty po szczegół pojedynczego pojazdu. Informacja na wyciągnięcie ręki, bez szukania w raportach.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>📅 Trendy i porównania w dowolnym okresie</h3>
-                    <p>Dzień, tydzień, miesiąc, kwartał — śledzisz postęp każdego kierowcy i całego zespołu w czasie. Idealne do cyklicznych przeglądów operacyjnych i obiektywnego premiowania poprawy.</p>
+                    <h3>📅 Dane za dowolny okres</h3>
+                    <p>Dzień, tydzień, miesiąc — porównuj trendy i bądź o krok przed problemem. Idealne do cyklicznych przeglądów operacyjnych i raportów zarządczych.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>🏅 Programy motywacyjne oparte na danych</h3>
-                    <p>Obiektywny scoring tworzy solidną podstawę dla programów premiowych. Nagradzaj realną poprawę, wyznaczaj wzorce dla całego zespołu i buduj kulturę jazdy, która procentuje każdego miesiąca.</p>
+                    <h3>🗂️ Elastyczna analiza efektywności</h3>
+                    <p>Grupy pojazdów, pojazdy niezgrupowane lub cała flota — filtrujesz widok dokładnie tak, jak wygląda struktura Twojej organizacji.</p>
                 </article>
             </div>
         </div>
@@ -263,20 +263,20 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Dlaczego warto</span>
-                <h2>3 powody, dla których firmy wdrażają moduł ECO-DRIVING</h2>
+                <h2>3 powody, dla których firmy wdrażają moduł wydajności</h2>
             </div>
             <div class="industry-benefits-grid">
                 <article class="industry-benefit-card fade-in">
-                    <strong>🧠 Zarządzanie oparte na faktach, nie intuicji</strong>
-                    <span>Koniec z rozmowami „wydaje mi się, że…". Masz twarde liczby do każdej decyzji — wyniki scoringu, lista zdarzeń, trend poprawy lub pogorszenia. Nikt nie może kwestionować danych.</span>
+                    <strong>🧠 Decyzje oparte na faktach</strong>
+                    <span>Koniec z zarządzaniem na przeczucie. Masz twarde liczby do każdej decyzji — czy to zakup kolejnego pojazdu, czy restrukturyzacja tras.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>💸 Niższe koszty operacyjne widoczne od razu</strong>
-                    <span>Lepszy styl jazdy = mniej paliwa, rzadsze serwisy, mniej uszkodzeń i mniej szkód. Firmy raportują zwrot z inwestycji już w pierwszym kwartale — bez rozbudowania taboru.</span>
+                    <strong>💸 Niższe koszty operacyjne</strong>
+                    <span>Lepsze wykorzystanie taboru = mniej paliwa, mniej serwisów, mniej kilometrów. Oszczędności widoczne już w pierwszym kwartale.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>🚀 Kultura bezpiecznej jazdy jako przewaga</strong>
-                    <span>Organizacje, które systematycznie mierzą i poprawiają zachowania kierowców, notują niższą rotację, mniej incydentów i lepszy wizerunek pracodawcy. To przewaga, którą konkurencja może skopiować dopiero za lata.</span>
+                    <strong>🚀 Przewaga konkurencyjna</strong>
+                    <span>Firmy, które mierzą wydajność, reagują szybciej, obsługują więcej klientów i rosną bez proporcjonalnego wzrostu kosztów floty.</span>
                 </article>
             </div>
         </div>
@@ -287,16 +287,16 @@
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
                 <span class="section-tag">Zacznij dziś</span>
-                <h2>Sprawdź, ile kosztują Cię nawyki kierowców — i jak to zmienić</h2>
-                <p>Nasi eksperci przeanalizują Twoją flotę i pokażą konkretne oszczędności możliwe do osiągnięcia z modułem ECO-DRIVING. Bezpłatna konsultacja, zero zobowiązań.</p>
+                <h2>Sprawdź, ile traci Twoja flota — i jak to zmienić</h2>
+                <p>Nasi eksperci przeanalizują Twoją flotę i pokażą konkretne oszczędności, jakie możesz osiągnąć z FleetLink 4.0. Bezpłatna konsultacja, bez zobowiązań.</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
                     <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
-                    <a href="/system-gps/wydajnosc-floty">Wydajność floty</a>
-                    <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+                    <a href="/system-gps/eco-driving">ECO-Driving</a>
+                    <a href="/system-gps/carsharing">CarSharing</a>
                     <a href="/system-gps/zadania-i-planowanie">Zadania i planowanie</a>
                 </div>
             </div>
