@@ -267,7 +267,6 @@
                     <article class="industry-info-card fade-in"><h3>Zachowanie kierowców</h3><p>Przedstawia pozytywne i negatywne praktyki jazdy, które mogą stanowić podstawę coachingu.</p></article>
                     <article class="industry-info-card fade-in"><h3>Formularze elektroniczne</h3><p>Usprawnia przepływ pracy, umożliwiając kierowcom przesyłanie formularzy za pośrednictwem telefonu, z dowolnego miejsca i o każdej porze.</p></article>
                 </div>
-                <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
