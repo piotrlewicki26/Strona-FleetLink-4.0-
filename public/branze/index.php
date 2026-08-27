@@ -93,7 +93,7 @@
         </div>
     </div>
 </nav>
-<main class="industry-page-main">
+<main class="industry-page-main premium-route-page">
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">

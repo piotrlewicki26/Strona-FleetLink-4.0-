@@ -93,7 +93,7 @@
         </div>
     </div>
 </nav>
-<main class="industry-page-main">
+<main class="industry-page-main premium-route-page">
 
     <!-- ══ HERO ══ -->
     <section class="section industry-hero industry-hero-hub">
