@@ -102,7 +102,7 @@
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Planowanie trasy i zadania</div>
             <div class="badge pulse"><span class="badge-dot"></span> Planowanie tras i zadań w czasie rzeczywistym</div>
             <h1>Planowanie trasy i zadania</h1>
-            <p>Zwiększ produktywność floty i oszczędzaj !</p>
+            <p>Zwiększ produktywność floty i oszczędzaj!</p>
             <p>Nasze oprogramowanie do planowania zadań i tras pomaga międzynarodowym firmom logistycznym eliminować nieefektywności, usprawniać przepływy pracy i zapewniać maksymalną wartość z każdego przejazdu. Dzięki funkcjom dla dyspozytorów i kierowców, planowanie i realizacja tras obejmujących wiele krajów nigdy nie była łatwiejsza.</p>
             <div class="hero-actions">
                 <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
@@ -193,7 +193,7 @@
                 </article>
                 <article class="industry-info-card fade-in">
                     <h3>Elastyczne zarządzanie zadaniami</h3>
-                    <p>Quickly edit, reassign, and plan upcoming tasks and routes directly from the interface. What’s more, the route planning software calculates the most efficient route based on vehicle dimensions and restrictions.</p>
+                    <p>Szybko edytuj, przekazuj i planuj kolejne zadania oraz trasy bezpośrednio z interfejsu. Co więcej, oprogramowanie do planowania tras oblicza najbardziej efektywną trasę na podstawie wymiarów pojazdu i obowiązujących ograniczeń.</p>
                 </article>
                 <article class="industry-info-card fade-in">
                     <h3>Kluczowe dane pojazdu w skrócie</h3>
@@ -212,7 +212,7 @@
                 </article>
                 <article class="industry-info-card fade-in">
                     <h3>Proste zarządzanie przyczepami</h3>
-                    <p>Aby uniknąć pustych naczep i uprościć proces przekazywania, należy przypisać określone zadania do naczep na wypadek, gdy naczepa jest ładowana i odczepiana w celu późniejszego rozładunku. Aby uprościć koordynację, w przypadku zamiany naczep, należy przypisać wybrane zadania do innej ciężarówki. efektywności (KPI), takich jak puste kilometry lub odstępstwa od trasy przez kierowców, i usprawnić przepływy pracy oraz rentowność firmy.</p>
+                    <p>Aby uniknąć pustych naczep i uprościć proces przekazywania, należy przypisać określone zadania do naczep na wypadek, gdy naczepa jest ładowana i odczepiana w celu późniejszego rozładunku. Aby uprościć koordynację, w przypadku zamiany naczep, należy przypisać wybrane zadania do innej ciężarówki.</p>
                 </article>
             </div>
             <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
