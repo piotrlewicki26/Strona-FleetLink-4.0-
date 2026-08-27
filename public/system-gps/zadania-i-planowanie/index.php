@@ -161,8 +161,7 @@
                     <p>Wysyłaj kierowcom zaplanowane zadania do aplikacji, proś o skorzystanie z nawigacji krok po kroku i udziel im dalszych informacji za pośrednictwem wiadomości w aplikacji, dzięki czemu będą popełniać mniej błędów.</p>
                 </article>
             </div>
-            <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni</p>
-            <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
+                        <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
         </div>
     </section>
 
@@ -216,7 +215,6 @@
                 </article>
             </div>
             <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
-            <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
         </div>
     </section>
 
@@ -244,8 +242,8 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Integracja</span>
-                <h2>Jak działa to rozwiązanie z Twoim systemem TMS ?</h2>
-                <p>Możesz korzystać z naszego rozwiązania  do planowania zadań i tras samodzielnie lub zintegrować je z systemem zarządzania transportem (TMS). Oto jak to działa, jeśli skonfigurowałeś integrację.</p>
+                <h2>Jak działa to rozwiązanie z Twoim systemem TMS?</h2>
+                <p>Możesz korzystać z naszego rozwiązania do planowania zadań i tras samodzielnie lub zintegrować je z systemem zarządzania transportem (TMS). Oto jak to działa, jeśli skonfigurowałeś integrację.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in"><h3>1. Utwórz zamówienie w swoim TMS</h3><p>Przypisz pojazdy do punktów dostaw i dodaj kluczowe szczegóły (np. adresy, rodzaje ładunków, daty dostaw).</p></article>
