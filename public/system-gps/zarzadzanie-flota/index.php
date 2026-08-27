@@ -98,9 +98,9 @@
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zarządzanie flotą</div>
-            <span class="section-tag">Optymalizacja kosztów</span>
-            <h1>Prowadź całą flotę z jednego, spójnego panelu</h1>
-            <p>Łącz monitoring, koszty, statusy i zadania w jednym miejscu, aby szybciej podejmować decyzje operacyjne.</p>
+            <span class="section-tag">Automatyzacja zarządzania</span>
+            <h1>Zarządzanie flotą — wszystkie kluczowe dane i procesy w jednym miejscu</h1>
+            <p>Potężne narzędzie zapewniające zautomatyzowany przegląd wszystkich danych dotyczących konserwacji floty — od przypomnień serwisowych po zużycie paliwa.</p>
             <div class="hero-actions">
                 <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
                 <a href="/system-gps" class="btn btn-ghost btn-lg">Wróć do System GPS</a>
@@ -111,13 +111,14 @@
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Wyzwania</span>
-                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <span class="section-tag">Wgląd operacyjny</span>
+                <h2>Wszystkie dane w jednym panelu</h2>
+                <p>Szybki dostęp do wszystkich informacji o flocie — nadchodzące daty serwisowania, koszty napraw, wygasające dokumenty, przebieg i wiele więcej. Korzystaj z historycznych danych i porównuj pojazdy swojej floty, aby podejmować decyzje biznesowe oparte na faktach.</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Rozproszone informacje</h3><p>Dane o pojazdach, kierowcach i kosztach są przechowywane w wielu narzędziach.</p></article>
-                <article class="industry-info-card fade-in"><h3>Wolne decyzje</h3><p>Brak pełnego obrazu sytuacji utrudnia szybkie reagowanie na problemy.</p></article>
-                <article class="industry-info-card fade-in"><h3>Trudna skalowalność</h3><p>Im większa flota, tym więcej ręcznej koordynacji i ryzyka błędów.</p></article>
+                <article class="industry-info-card fade-in"><h3>Oblicz wydajność swojej floty</h3><p>Śledź wydajność swojej floty, korzystając z automatycznego, przejrzystego rozwiązania. Pomoże Ci ono zrozumieć, czy masz wystarczająco dużo, za dużo czy za mało pojazdów, niezależnie od specyfiki Twojej floty.</p></article>
+                <article class="industry-info-card fade-in"><h3>Przypomnienia dotyczące ważnych zadań konserwacyjnych</h3><p>Ustawiaj przypomnienia w oparciu o jeden lub więcej wybranych czynników — przebyty dystans, godziny pracy silnika lub dni od ostatniej kontroli/naprawy serwisowej. To zwiększa wydajność konserwacji i oszczędza czas.</p></article>
+                <article class="industry-info-card fade-in"><h3>Kontroluj wszystkie koszty napraw</h3><p>Zarządzaj wszystkimi kosztami napraw w jednym pulpicie — informacje o zdarzeniach naprawczych, dodatkowe notatki, faktury i pełna historia. Dzięki temu łatwiej obliczysz rentowność floty i podejmiesz lepsze decyzje inwestycyjne.</p></article>
             </div>
         </div>
     </section>
@@ -125,13 +126,13 @@
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Korzyści</span>
-                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <span class="section-tag">Kontrola i zgodność</span>
+                <h2>Bezpieczne i uporządkowane zarządzanie dokumentacją</h2>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>Jedno centrum dowodzenia</strong><span>Cały zespół pracuje na tych samych, aktualnych danych.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Mniej ręcznej pracy</strong><span>Wiele procesów kontrolnych można prowadzić z jednego miejsca.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Lepsza obsługa floty</strong><span>Łatwiej utrzymać porządek w pojazdach, zadaniach i dokumentach.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Łatwe zarządzanie licencjami i dokumentami</strong><span>Nadzoruj daty wygaśnięcia licencji i innych ważnych dokumentów oraz ustawiaj automatyczne przypomnienia, aby uniknąć przestojów i ryzyka formalnego podczas pracy pojazdów w kraju i za granicą.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Inteligentne integracje systemowe</strong><span>Oszczędzaj czas spędzony na ręcznym sprawdzaniu dat ważności dokumentów. Rozwiązanie można zintegrować z innymi systemami, aby nie przeoczyć kalibracji tachografu i odnowienia prawa jazdy.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Jedno źródło prawdy dla zespołu</strong><span>Dział operacyjny, managerowie i administracja pracują na tym samym, aktualnym zestawie danych, co przyspiesza decyzje i ogranicza ryzyko błędów organizacyjnych.</span></article>
             </div>
         </div>
     </section>
@@ -140,12 +141,12 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Zakres rozwiązania</span>
-                <h2>Najważniejsze elementy funkcji</h2>
+                <h2>Najważniejsze elementy modułu Zarządzanie flotą</h2>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Widok całej floty</h3><p>Statusy pojazdów, kierowców i aktywnych zadań w jednym panelu.</p></article>
-                <article class="industry-info-card fade-in"><h3>Historia zdarzeń</h3><p>Masz dostęp do pełnego kontekstu działań i aktywności na flocie.</p></article>
-                <article class="industry-info-card fade-in"><h3>Raportowanie dla managera</h3><p>Szybko przygotowujesz zestawienia dla zarządu i operacji.</p></article>
+                <article class="industry-info-card fade-in"><h3>Panel konserwacji i serwisu</h3><p>Automatyczny harmonogram przeglądów i napraw z podglądem pojazdów wymagających działania w najbliższych dniach.</p></article>
+                <article class="industry-info-card fade-in"><h3>Analiza kosztów i rentowności</h3><p>Jedno miejsce do kontroli wydatków flotowych, porównywania pojazdów i wykrywania obszarów, w których możesz szybko ograniczyć koszty.</p></article>
+                <article class="industry-info-card fade-in"><h3>Zarządzanie dokumentacją i terminami</h3><p>Pełny nadzór nad wygasającymi dokumentami, licencjami i obowiązkami formalnymi wspierany automatycznymi alertami.</p></article>
             </div>
         </div>
     </section>
@@ -154,14 +155,14 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Praktyka</span>
-                <h2>Jak to działa w codziennej pracy</h2>
+                <h2>Jak mierzyć i poprawiać wydajność floty w swojej firmie</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Fleet manager codziennie sprawdza dostępność pojazdów, realizację zadań i wskaźniki kosztowe bez przełączania się między systemami.</p>
+                <p>Codzienna praca managera floty opiera się na danych aktualizowanych automatycznie: wydajność pojazdów, koszty napraw, status dokumentów i plan konserwacji. Dzięki temu szybciej reagujesz na odchylenia, planujesz działania i utrzymujesz kontrolę nad rentownością floty.</p>
                 <ul class="industry-case-points">
-                    <li>Scentralizowane dane flotowe</li>
-                    <li>Szybsze decyzje operacyjne</li>
-                    <li>Lepsza kontrola kosztów i wykorzystania</li>
+                    <li>Szybkie porównanie pojazdów i ich opłacalności</li>
+                    <li>Mniej opóźnień dzięki automatycznym przypomnieniom serwisowym</li>
+                    <li>Lepsze decyzje inwestycyjne na podstawie danych historycznych</li>
                 </ul>
             </article>
         </div>
@@ -171,13 +172,14 @@
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
                 <h2>Porozmawiajmy o wdrożeniu modułu Zarządzanie flotą</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <p>Skonfigurujemy FleetLink 4.0 tak, aby Twój zespół miał pełny i automatyczny nadzór nad serwisem, dokumentami i wydajnością pojazdów.</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
-                    <a href="/system-gps/zadania-i-planowanie">Zadania i planowanie</a>
+                    <a href="/system-gps/wydajnosc-floty">Wydajność floty</a>
+                    <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
                     <a href="/system-gps/integracje">Integracje</a>
                 </div>
             </div>
