@@ -2425,7 +2425,6 @@ select option { background: var(--bg2); }
 
 /* Premium look – route planning page */
 .premium-route-page .industry-hero-inner {
-    border: 1px solid rgba(255,255,255,.2);
     border-radius: 26px;
     box-shadow: 0 28px 60px rgba(2,6,23,.28);
     backdrop-filter: blur(2px);
