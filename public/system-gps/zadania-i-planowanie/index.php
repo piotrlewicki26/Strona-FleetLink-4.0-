@@ -161,7 +161,6 @@
                     <p>Wysyłaj kierowcom zaplanowane zadania do aplikacji, proś o skorzystanie z nawigacji krok po kroku i udziel im dalszych informacji za pośrednictwem wiadomości w aplikacji, dzięki czemu będą popełniać mniej błędów.</p>
                 </article>
             </div>
-                        <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
         </div>
     </section>
 
@@ -214,7 +213,6 @@
                     <p>Aby uniknąć pustych naczep i uprościć proces przekazywania, należy przypisać określone zadania do naczep na wypadek, gdy naczepa jest ładowana i odczepiana w celu późniejszego rozładunku. Aby uprościć koordynację, w przypadku zamiany naczep, należy przypisać wybrane zadania do innej ciężarówki.</p>
                 </article>
             </div>
-            <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
         </div>
     </section>
 
@@ -226,7 +224,7 @@
                 <h2>Przejrzyste instrukcje dla kierowców</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Udzielaj kierowcom precyzyjnych wskazówek za pośrednictwem aplikacji LeMar GO. Aplikacja uprości każdy etap ich codziennej pracy dzięki:</p>
+                <p>Udzielaj kierowcom precyzyjnych wskazówek za pośrednictwem aplikacji FleetLink GO. Aplikacja uprości każdy etap ich codziennej pracy dzięki:</p>
                 <ul class="industry-case-points">
                     <li>przejrzystemu przeglądowi trasy i zadań z aktualizacjami w czasie rzeczywistym</li>
                     <li>nawigacji krok po kroku dostosowanej do parametrów pojazdu</li>
@@ -249,7 +247,7 @@
                 <article class="industry-info-card fade-in"><h3>1. Utwórz zamówienie w swoim TMS</h3><p>Przypisz pojazdy do punktów dostaw i dodaj kluczowe szczegóły (np. adresy, rodzaje ładunków, daty dostaw).</p></article>
                 <article class="industry-info-card fade-in"><h3>2. Prześlij dane do FleetLink</h3><p>Użyj prostego interfejsu API, aby automatycznie przesłać wszystkie dane na naszą platformę.</p></article>
                 <article class="industry-info-card fade-in"><h3>3. Utwórz trasę na platformie FleetLink</h3><p>Utwórz trasę łączącą jedno lub kilka zadań załadunku/rozładunku i dodaj dodatkowe przystanki, takie jak przerwy na odpoczynek lub stacje benzynowe, w razie potrzeby.</p></article>
-                <article class="industry-info-card fade-in"><h3>4. Wyślij trasę kierowcy</h3><p>Kierowcy będą wykonywać polecenia zgodnie z sekwencją zadań i korzystać ze wskazówek nawigacji, korzystając z aplikacji LeMar GO.</p></article>
+                <article class="industry-info-card fade-in"><h3>4. Wyślij trasę kierowcy</h3><p>Kierowcy będą wykonywać polecenia zgodnie z sekwencją zadań i korzystać ze wskazówek nawigacji, korzystając z aplikacji FleetLink GO.</p></article>
                 <article class="industry-info-card fade-in"><h3>5. Monitoruj postęp zadania</h3><p>Sprawdź lokalizację pojazdu w czasie rzeczywistym i z wyprzedzeniem zidentyfikuj potencjalne problemy, takie jak zboczenia z trasy lub niewystarczający pozostały czas jazdy.</p></article>
                 <article class="industry-info-card fade-in"><h3>6. Synchronizuj z TMS i analizuj dane</h3><p>Przeanalizuj dane, aby sprawdzić, jak dobrze trasy zostały zaplanowane i wykonane, automatycznie pobierając status zadania i inne dane do systemu TMS.</p></article>
             </div>
@@ -260,8 +258,8 @@
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <span class="section-tag">Aplikacja LeMar GO</span>
-                <h2>Aplikacja LeMar GO – zarządzaj swoimi kierowcami pewnie</h2>
+                <span class="section-tag">Aplikacja FleetLink GO</span>
+                <h2>Aplikacja FleetLink GO – zarządzaj swoimi kierowcami pewnie</h2>
                 <p>Nasza aplikacja pomaga uprościć cały proces pracy kierowcy – nie tylko w zakresie realizacji zadań i tras. Oprócz wbudowanego modułu wiadomości, kierowcy mają dostęp do dodatkowych funkcji i dodatków.</p>
                 <div class="industry-content-grid industry-content-grid-compact">
                     <article class="industry-info-card fade-in"><h3>Kontrola pojazdu</h3><p>Pomaga w prosty, cyfrowy sposób monitorować stan techniczny pojazdu.</p></article>
@@ -269,7 +267,7 @@
                     <article class="industry-info-card fade-in"><h3>Zachowanie kierowców</h3><p>Przedstawia pozytywne i negatywne praktyki jazdy, które mogą stanowić podstawę coachingu.</p></article>
                     <article class="industry-info-card fade-in"><h3>Formularze elektroniczne</h3><p>Usprawnia przepływ pracy, umożliwiając kierowcom przesyłanie formularzy za pośrednictwem telefonu, z dowolnego miejsca i o każdej porze.</p></article>
                 </div>
-                <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
+                <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving, komunikacja, zarządzanie paliwem, planowanie trasy i zadania</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
