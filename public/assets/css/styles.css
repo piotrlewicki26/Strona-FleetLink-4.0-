@@ -2642,3 +2642,7 @@ select option { background: var(--bg2); }
 @media (max-width: 560px) {
     .fuel-icon-grid { grid-template-columns: 1fr; }
 }
+
+.route-planning-page .industry-hero-inner {
+    border: none;
+}
