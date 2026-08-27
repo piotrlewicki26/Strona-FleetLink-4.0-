@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Zadania i planowanie w FleetLink 4.0: harmonogramy, przypisania i kontrola realizacji działań w terenie." />
+    <meta name="description" content="Planowanie trasy i zadania w FleetLink 4.0: optymalizacja tras, kontrola realizacji dostaw i pełna koordynacja pracy kierowców." />
     <meta name="robots" content="index, follow" />
-    <title>Zadania i planowanie | FleetLink 4.0</title>
+    <title>Planowanie trasy i zadania | FleetLink 4.0</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/zadania-i-planowanie" />
-    <meta property="og:title" content="Zadania i planowanie | FleetLink 4.0" />
-    <meta property="og:description" content="Sprawdź, jak FleetLink usprawnia planowanie pracy floty i zespołów terenowych." />
+    <meta property="og:title" content="Planowanie trasy i zadania | FleetLink 4.0" />
+    <meta property="og:description" content="Sprawdź, jak FleetLink usprawnia planowanie tras, eliminuje puste kilometry i zwiększa produktywność floty." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Zadania i planowanie | FleetLink 4.0" />
-    <meta name="twitter:description" content="Sprawdź, jak FleetLink usprawnia planowanie pracy floty i zespołów terenowych." />
+    <meta name="twitter:title" content="Planowanie trasy i zadania | FleetLink 4.0" />
+    <meta name="twitter:description" content="Sprawdź, jak FleetLink usprawnia planowanie tras, eliminuje puste kilometry i zwiększa produktywność floty." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/zadania-i-planowanie" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -94,62 +94,129 @@
     </div>
 </nav>
 <main class="industry-page-main">
+
+    <!-- ═══ HERO ═══ -->
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
-            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zadania i planowanie</div>
-            <span class="section-tag">Optymalizacja kosztów</span>
-            <h1>Planuj zadania szybciej i realizuj je z większą przewidywalnością</h1>
-            <p>Przypisuj zadania do pojazdów i kierowców, monitoruj realizację oraz ograniczaj opóźnienia w codziennej pracy.</p>
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Planowanie trasy i zadania</div>
+            <div class="badge pulse"><span class="badge-dot"></span> Planowanie tras i zadań w czasie rzeczywistym</div>
+            <h1>Zwiększ produktywność floty i oszczędzaj na każdym przejeździe</h1>
+            <p>Nasze oprogramowanie do planowania zadań i tras pomaga eliminować nieefektywności, usprawniać przepływy pracy i maksymalizować wartość z każdego kursu — także na trasach międzynarodowych.</p>
             <div class="hero-actions">
-                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
-                <a href="/system-gps" class="btn btn-ghost btn-lg">Wróć do System GPS</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
             </div>
         </div>
     </section>
 
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓5</strong><span>%</span></div>
+                <span class="stat-label">mniej pustych kilometrów i objazdów</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>2400</strong><span>€</span></div>
+                <span class="stat-label">oszczędności rocznie na ciężarówce*</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↑25</strong><span>%</span></div>
+                <span class="stat-label">więcej pojazdów obsługiwanych przez dyspozytora</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
+                <span class="stat-label">bieżący monitoring realizacji tras</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ PROBLEM / NA JAKIE POTRZEBY ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
-                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <h2>Rozwiąż wyzwania dzięki modułowi tras i zadań FleetLink</h2>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Ręczne przydziały</h3><p>Planowanie przez telefon i arkusze spowalnia pracę dyspozytorów.</p></article>
-                <article class="industry-info-card fade-in"><h3>Brak bieżącego statusu</h3><p>Trudno szybko sprawdzić, które zadania są w toku, a które zagrożone.</p></article>
-                <article class="industry-info-card fade-in"><h3>Niska elastyczność</h3><p>Nagłe zmiany w trasie lub grafiku destabilizują cały plan dnia.</p></article>
+                <article class="industry-info-card fade-in">
+                    <h3>🚚 Masz problem z pustymi kilometrami?</h3>
+                    <p>Optymalizuj trasy na podstawie parametrów pojazdu i priorytetów dostaw, planuj postoje techniczne i odpoczynek oraz sprawnie obsługuj przekazywanie naczep.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📍 Nie masz pewności co do wykonania trasy?</h3>
+                    <p>Przydzielaj i modyfikuj zadania dostaw w czasie rzeczywistym, identyfikuj odchylenia od trasy i planuj kolejne kursy z wyprzedzeniem.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📦 Chaotyczny proces dostawy?</h3>
+                    <p>Widzisz wszystkie informacje o dostawie na mapie na żywo, śledzisz pozostały czas jazdy z tachografu i odbierasz zeskanowane dokumenty dostawy z aplikacji.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>💬 Trudności w komunikacji z kierowcami?</h3>
+                    <p>Wysyłaj zadania do aplikacji kierowcy, uruchamiaj nawigację krok po kroku i przekazuj dodatkowe instrukcje przez wiadomości w aplikacji.</p>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ CO ZYSKUJESZ ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Korzyści</span>
+                <span class="section-tag">Korzyści biznesowe</span>
                 <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <p>Dla flot, w których około 15% przebiegu to puste pojazdy, ograniczenie pustych kilometrów i objazdów o co najmniej 5% może oznaczać oszczędność do 2400 euro rocznie na ciężarówkę — zależnie od cen paliwa.</p>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>Szybsze planowanie</strong><span>Zadania trafiają do właściwych osób i pojazdów bez zbędnych kroków.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Lepsza terminowość</strong><span>Masz stały podgląd realizacji i możesz reagować na opóźnienia.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Wyższa produktywność</strong><span>Zespół pracuje na jasnych priorytetach i aktualnych danych.</span></article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>💶 Realne oszczędności paliwa i czasu</strong>
+                    <span>Mniej pustych kilometrów oraz lepsza organizacja tras przekładają się bezpośrednio na niższe koszty operacyjne i większą rentowność kursów.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>🧭 Lepsza przewidywalność dostaw</strong>
+                    <span>Dyspozytorzy mają pełny podgląd realizacji zadań i mogą wcześniej reagować na opóźnienia, objazdy oraz ograniczenia czasu jazdy.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>⚙️ Wyższa wydajność dyspozytorni</strong>
+                    <span>Jedno środowisko pracy pozwala obsłużyć więcej pojazdów bez proporcjonalnego zwiększania nakładu pracy zespołu.</span>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ NAJWAŻNIEJSZE ELEMENTY FUNKCJI ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Zakres rozwiązania</span>
-                <h2>Najważniejsze elementy funkcji</h2>
+                <h2>Co obejmuje oprogramowanie FleetLink do planowania zadań i tras?</h2>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Harmonogram zadań</h3><p>Tworzysz i aktualizujesz plan działań dla całej floty.</p></article>
-                <article class="industry-info-card fade-in"><h3>Statusy realizacji</h3><p>Widzisz postęp prac w czasie rzeczywistym.</p></article>
-                <article class="industry-info-card fade-in"><h3>Przypisania zasobów</h3><p>Łączysz zadania z konkretnym pojazdem, kierowcą lub ekipą.</p></article>
+                <article class="industry-info-card fade-in">
+                    <h3>🗺️ Wszystkie zadania w jednym miejscu</h3>
+                    <p>Zobacz wszystkie zadania przypisane kierowcom i pojazdom na mapie na żywo. Kliknij pojazd, aby sprawdzić postęp i szybko wykryć odchylenia od planu.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🔄 Elastyczne zarządzanie zadaniami</h3>
+                    <p>Edytuj, przekazuj i planuj zadania bezpośrednio w interfejsie. System wylicza najbardziej efektywną trasę z uwzględnieniem wymiarów pojazdu i ograniczeń.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🚛 Kluczowe dane pojazdu w skrócie</h3>
+                    <p>W kartach pojazdów sprawdzisz status bieżącego zadania, kolejne zadanie, prognozę czasu i odległości oraz dane z tachografu o jeździe, odpoczynku i pracy.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📊 Analiza tras historycznych</h3>
+                    <p>Porównuj plan z realizacją: puste kilometry, objazdy, odchylenia czasu i dystansu. Oceniaj KPI kierowców i pojazdów oraz poprawiaj rentowność procesów.</p>
+                </article>
             </div>
         </div>
     </section>
 
+    <!-- ═══ JAK TO DZIAŁA ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
@@ -157,32 +224,79 @@
                 <h2>Jak to działa w codziennej pracy</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Dyspozytor przesuwa zadanie do najbliższego wolnego pojazdu i od razu informuje zespół o zmianie planu.</p>
+                <p><strong>Scenariusz z życia:</strong> Dyspozytor przypisuje zadania do naczepy ładowanej i odczepianej pod późniejszy rozładunek, a przy zamianie naczep przenosi zadanie do innej ciężarówki bez utraty kontekstu realizacji.</p>
                 <ul class="industry-case-points">
-                    <li>Bieżąca kontrola harmonogramu</li>
-                    <li>Szybkie reagowanie na zmiany</li>
-                    <li>Lepsze wykorzystanie zasobów terenowych</li>
+                    <li>✅ Mniej pustych naczep i lepsza koordynacja przekazań</li>
+                    <li>✅ Szybsze reagowanie na zmiany tras oraz okien czasowych</li>
+                    <li>✅ Bieżąca kontrola realizacji zadań i dokumentów dostawy</li>
+                    <li>✅ Jasne instrukcje dla kierowców i mniej błędów operacyjnych</li>
                 </ul>
             </article>
         </div>
     </section>
 
+    <!-- ═══ KLUCZOWE FUNKCJE SYSTEMU ═══ -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Integracja TMS</span>
+                <h2>Jak działa to rozwiązanie z Twoim systemem TMS?</h2>
+                <p>Z modułu możesz korzystać samodzielnie albo zintegrować go z TMS przez API. Proces działa krok po kroku i synchronizuje dane w obie strony.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in"><h3>1️⃣ Utwórz zamówienie w TMS</h3><p>Przypisz pojazdy do punktów dostaw i dodaj kluczowe dane: adresy, rodzaje ładunków i terminy dostaw.</p></article>
+                <article class="industry-info-card fade-in"><h3>2️⃣ Prześlij dane do FleetLink</h3><p>Użyj prostego API, aby automatycznie przesłać dane i utworzyć podstawę planowania trasy na platformie.</p></article>
+                <article class="industry-info-card fade-in"><h3>3️⃣–4️⃣ Zaplanuj i wyślij trasę</h3><p>Połącz zadania załadunku/rozładunku, dodaj postoje i prześlij trasę kierowcy do aplikacji LeMar GO.</p></article>
+                <article class="industry-info-card fade-in"><h3>5️⃣–6️⃣ Monitoruj i synchronizuj</h3><p>Śledź realizację, wykrywaj ryzyka i pobieraj statusy zadań z powrotem do TMS, aby analizować skuteczność planowania.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ DLACZEGO WARTO (3 POWODY) ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Dlaczego warto</span>
+                <h2>3 powody, dla których firmy wdrażają moduł planowania tras i zadań</h2>
+            </div>
+            <div class="industry-benefits-grid">
+                <article class="industry-benefit-card fade-in">
+                    <strong>🧠 Lepsze decyzje dyspozytorskie</strong>
+                    <span>Jedna mapa i jeden panel statusów pozwalają szybciej oceniać sytuację i skuteczniej zarządzać priorytetami dostaw.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>💸 Trwała redukcja kosztów</strong>
+                    <span>Ograniczenie pustych kilometrów, objazdów i przestojów daje mierzalny wpływ na koszty paliwa oraz produktywność floty.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>🚀 Spójna praca kierowców i biura</strong>
+                    <span>Przejrzyste instrukcje i komunikacja w aplikacji poprawiają jakość realizacji tras oraz ograniczają liczbę błędów operacyjnych.</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CTA ═══ -->
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <h2>Porozmawiajmy o wdrożeniu modułu Zadania i planowanie</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <span class="section-tag">Aplikacja LeMar GO</span>
+                <h2>Przejrzyste instrukcje dla kierowców i pewna realizacja tras</h2>
+                <p>Aplikacja LeMar GO wspiera kierowców na każdym etapie pracy: trasy i zadania na żywo, nawigacja krok po kroku, komunikacja z dyspozytorem oraz skaner dokumentów dostawy. Dodatkowo wspiera kontrolę pojazdu, rejestrację czasu pracy, analizę zachowań kierowców i formularze elektroniczne.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
                     <a href="/system-gps/komunikacja">Komunikacja</a>
-                    <a href="/system-gps/formularze">Formularze</a>
+                    <a href="/system-gps/czas-pracy">Czas pracy</a>
+                    <a href="/system-gps/formularze">Formularze elektroniczne</a>
+                    <a href="/system-gps/eco-driving">ECO-DRIVING</a>
                 </div>
             </div>
         </div>
     </section>
+
 </main>
 <footer class="footer">
     <div class="footer-inner">
