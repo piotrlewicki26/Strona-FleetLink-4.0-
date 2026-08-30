@@ -141,14 +141,12 @@
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
                 <h2>Dlaczego warto korzystać z monitoringu floty GPS?</h2>
-                <p class="industry-keywords">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in"><h3>Zapewnij widoczność</h3><p>Kontroluj swoje zasoby dzięki śledzeniu floty GPS. Monitorowanie w czasie rzeczywistym zapewnia bezpieczeństwo i odpowiedzialność, pozwalając menedżerom reagować na sytuacje awaryjne i optymalizować trasy.</p></article>
                 <article class="industry-info-card fade-in"><h3>Zwiększ wydajność</h3><p>Monitorowanie GPS można dostosować do swoich celów. Ustaw geofence, udostępniaj linki śledzenia lub integruj GPS z innymi rozwiązaniami FleetLink, aby zapewnić inteligentne i usprawnione zarządzanie.</p></article>
                 <article class="industry-info-card fade-in"><h3>Uzyskaj ważne dane</h3><p>Śledzenie pojazdów flotowych oferuje więcej niż monitorowanie lokalizacji. Korzystaj z danych o trasie i prędkości, podsumowań działań kierowców i spersonalizowanych alertów, aby podejmować decyzje na podstawie danych.</p></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving</p>
         </div>
     </section>
 
@@ -166,7 +164,6 @@
                 <article class="industry-info-card fade-in"><h3>Warstwy mapy premium</h3><p>Spraw, aby śledzenie floty GPS było jeszcze bardziej informacyjne, włączając dodatkowe warstwy mapy, takie jak ruch drogowy, obiekty publiczne, drogi leśne, drogi płatne w wybranych krajach i nie tylko.</p></article>
                 <article class="industry-info-card fade-in"><h3>Warstwy mapy operacyjne</h3><p>Przełączaj widoki mapy pod konkretne zadanie zespołu: planowanie tras, kontrolę dróg płatnych, ocenę ruchu i analizę dostępności infrastruktury na trasie.</p></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving</p>
         </div>
     </section>
 
@@ -195,7 +192,6 @@
             <article class="industry-case-box fade-in">
                 <p>Na drodze zdarzają się nieoczekiwane rzeczy. Śledzenie floty GPS pozwala zawsze monitorować zasoby i zachować kontrolę.</p>
                 <p>Otrzymuj natychmiastowe alerty o nadchodzących terminach konserwacji i ubezpieczenia, a także powiadomienia o przekroczeniu prędkości, nadmiernej pracy na biegu jałowym i nie tylko.</p>
-                <p class="industry-keywords">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving</p>
             </article>
         </div>
     </section>
@@ -214,7 +210,6 @@
                 <article class="industry-info-card fade-in"><h3>Otrzymuj alerty</h3><p>W FleetLink możesz wdrożyć szeroki zakres alertów opartych na naszym systemie śledzenia GPS. Niezależnie od tego, czy jest to utracony sygnał, przerwa w transmisji danych, czy niskie napięcie akumulatora, zostaniesz natychmiast powiadomiony o wszystkich tych problemach.</p></article>
                 <article class="industry-info-card fade-in"><h3>Czat z kierowcą</h3><p>Możesz komunikować się z kierowcami bezpośrednio z pulpitu mapy GPS, korzystając z okna czatu w prawym dolnym rogu. Jest to uproszczona wersja naszej aplikacji dla kierowców FleetLink GO i można z niej korzystać, gdy mapa jest otwarta.</p></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving</p>
         </div>
     </section>
 
@@ -229,7 +224,6 @@
                 <article class="industry-info-card fade-in"><h3>Monitorowanie paliwa dla lepszego planowania</h3><p>Połącz śledzenie floty GPS z zarządzaniem paliwem, aby uzyskać dane na żywo o zużyciu paliwa.</p><p>Pomoże Ci to porównać wydajność pojazdu, zaplanować trasy, zidentyfikować nieefektywności i ostatecznie obniżyć koszty paliwa.</p></article>
                 <article class="industry-info-card fade-in"><h3>Śledzenie GPS z pełną widocznością</h3><p>Nasze rozwiązanie śledzenia floty można połączyć z systemami kamer, które zapewniają pełną widoczność tego, gdzie, kiedy i jak porusza się flota.</p><p>Dzięki naszym kartom pamięci do kamer możesz odtwarzać nagrania z dowolnej trasy, jaką pokonał pojazd. Wystarczy wybrać dowolny punkt na mapie i obejrzeć wideo!</p></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, FleetLink System GPS, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy, e-toll, Inspekcje pojazdów, blokada alkoholowa, carsharing, monitoring chłodni, eco driving</p>
         </div>
     </section>
 
