@@ -2505,15 +2505,18 @@ select option { background: var(--bg2); }
     gap: 1rem;
 }
 .integration-page .stats-inner {
-    flex-wrap: nowrap;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: start;
+    gap: .75rem;
 }
 .integration-page .stat-item {
-    flex: 1 1 0;
-    min-width: 0;
+    width: 100%;
 }
+.integration-page .stat-divider { display: none; }
 .integration-page .stat-label {
     font-size: .76rem;
+    line-height: 1.35;
 }
 .integration-page .integration-card {
     display: flex;
@@ -2541,11 +2544,12 @@ select option { background: var(--bg2); }
     .industry-benefits-grid,
     .integration-page .integration-grid { grid-template-columns: 1fr; }
     .integration-page .stats-inner {
-        gap: .55rem;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: .45rem;
     }
     .integration-page .stat-num-row strong { font-size: 2rem; }
     .integration-page .stat-num-row span { font-size: 1.25rem; }
-    .integration-page .stat-label { font-size: .68rem; }
+    .integration-page .stat-label { font-size: .62rem; line-height: 1.25; }
 }
 
 /* ---- Fuel / Feature-rich product page ---- */
