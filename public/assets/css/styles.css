@@ -667,11 +667,13 @@ img, svg { display: block; max-width: 100%; }
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 2rem;
     position: relative;
 }
 .stat-item {
+    flex: 1 1 0;
+    min-width: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -2239,6 +2241,7 @@ select option { background: var(--bg2); }
     .step-arrow { transform: rotate(90deg); }
     .form-row { grid-template-columns: 1fr; }
     .footer-inner { grid-template-columns: 1fr; }
+    .stats-inner { flex-wrap: wrap; }
     .stat-divider { display: none; }
     .dp-kpi-row { grid-template-columns: 1fr 1fr; }
     .slider-controls { bottom: 1.35rem; gap: .55rem; }
