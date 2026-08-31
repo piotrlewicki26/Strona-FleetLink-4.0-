@@ -94,45 +94,78 @@
     </div>
 </nav>
 <main class="industry-page-main premium-route-page">
+
+    <!-- ═══ HERO ═══ -->
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Czas pracy</div>
-            <span class="section-tag">Automatyzacja procesów</span>
-            <h1>Rozliczaj czas pracy na podstawie rzeczywistych danych z floty</h1>
-            <p>Łącz aktywność pojazdów, trasy i statusy z kontrolą czasu pracy, aby szybciej planować zmiany i raportować wyniki.</p>
+            <div class="badge pulse"><span class="badge-dot"></span> Czas pracy</div>
+            <h1>Czytelne rejestry czasu, lepsza produktywność</h1>
+            <p>Koordynowanie dużych zespołów w różnych miejscach pracy, śledzenie godzin pracy i obliczanie wynagrodzeń może być trudne. Nasze rozwiązanie Czas Pracy ułatwia te zadania — rejestruj i monitoruj godziny pracy 24/7, niezależnie od tego, czy korzystasz z urządzeń do śledzenia pojazdów, czy nie.</p>
             <div class="hero-actions">
-                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
-                <a href="/system-gps" class="btn btn-ghost btn-lg">Wróć do System GPS</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Darmowa wycena</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
             </div>
         </div>
     </section>
 
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
+                <span class="stat-label">rejestracja i monitorowanie czasu pracy</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>1</strong><span>apka</span></div>
+                <span class="stat-label">narzędzie mobilne dla całego zespołu</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>100</strong><span>%</span></div>
+                <span class="stat-label">przejrzystości godzin i działań</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓</strong><span>błędy</span></div>
+                <span class="stat-label">mniej pomyłek w naliczaniu wynagrodzeń</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ DLACZEGO WARTO ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
-                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <h2>Dlaczego warto korzystać z modułu Czas pracy ?</h2>
+                <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Ręczne rozliczenia</h3><p>Ewidencja oparta na deklaracjach i arkuszach zabiera czas i zwiększa ryzyko błędu.</p></article>
-                <article class="industry-info-card fade-in"><h3>Brak bieżącej kontroli</h3><p>Trudno ocenić wykorzystanie czasu pracy w ciągu dnia.</p></article>
-                <article class="industry-info-card fade-in"><h3>Problemy z planowaniem zmian</h3><p>Bez danych historycznych trudniej układać realne grafiki.</p></article>
+                <article class="industry-info-card fade-in"><h3>Rozmowy telefoniczne</h3><p>Ditch Control</p><p>Pożegnaj się z czasochłonnymi rozmowami telefonicznymi. Śledzenie i raportowanie w czasie rzeczywistym Czas Pracy eliminuje potrzebę ręcznego nadzoru, pozwalając zespołowi skupić się na ważniejszych zadaniach.</p></article>
+                <article class="industry-info-card fade-in"><h3>Koniec z chaosem papierowym</h3><p>Zmień papierkową robotę w usprawniony proces cyfrowy. Dzięki Czas Pracy pracownicy mogą wypełniać formularze i przeprowadzać przeglądy pojazdów w dowolnym czasie i miejscu. Wszystkie informacje są bezpiecznie przechowywane na naszej platformie.</p></article>
+                <article class="industry-info-card fade-in"><h3>Zapewnij dokładne wynagrodzenie</h3><p>Dokładne rejestrowanie czasu pracy w Czas pracy pomaga obliczyć dokładne wynagrodzenie dla każdego pracownika. Buduj zaufanie w całym zespole, zapewniając przejrzysty, uczciwy system śledzenia godzin pracy.</p></article>
             </div>
+            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
         </div>
     </section>
 
+    <!-- ═══ DLA PRACOWNIKÓW / MANAGERÓW / KSIĘGOWYCH ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Korzyści</span>
-                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <span class="section-tag">Korzyści biznesowe</span>
+                <h2>Czas pracy dla pracowników</h2>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>Dokładniejsze rozliczenia</strong><span>Masz twarde dane o aktywności i czasie realizacji zadań.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Lepsze planowanie</strong><span>Łatwiej układasz zmiany i obciążenie zespołów.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Większa przejrzystość</strong><span>Managerowie widzą, jak wygląda wykorzystanie czasu pracy w terenie.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Proste wdrażanie</strong><span>Śledź godziny pracy za pomocą jednej aplikacji mobilnej, dostępnej na platformach Android i iOS.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Narzędzie typu „wszystko w jednym”</strong><span>Używaj aplikacji mobilnej nie tylko do śledzenia czasu, ale także do komunikacji, wypełniania formularzy i przeglądów pojazdów.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Zdalny dostęp</strong><span>Nigdy więcej nie zgubisz papierowego dokumentu. Cyfrowe rejestry czasu pracy są dostępne online 24/7.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Zgodność i ochrona prawna</strong><span>Dokładnie rejestruj godziny pracy, aby kierownicy znali Twój harmonogram i mogli zorganizować pomoc w przypadku wypadków oraz bronić się przed fałszywymi oskarżeniami.</span></article>
             </div>
+            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
         </div>
     </section>
 
@@ -140,12 +173,14 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Zakres rozwiązania</span>
-                <h2>Najważniejsze elementy funkcji</h2>
+                <h2>Czas pracy dla menedżerów</h2>
+                <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Rejestr aktywności</h3><p>Śledzisz czas jazdy, postoju i realizacji działań.</p></article>
-                <article class="industry-info-card fade-in"><h3>Raporty zmianowe</h3><p>Tworzysz zestawienia dla brygad, kierowców lub regionów.</p></article>
-                <article class="industry-info-card fade-in"><h3>Analiza obciążeń</h3><p>Widzisz, gdzie potrzebne są korekty harmonogramu.</p></article>
+                <article class="industry-info-card fade-in"><h3>Globalny widok godzin pracy/odpoczynku</h3><p>Bądź na bieżąco z codziennym, tygodniowym i miesięcznym obciążeniem pracą każdego pracownika, aby równomiernie rozdzielić zadania.</p></article>
+                <article class="industry-info-card fade-in"><h3>Niestandardowe statusy pracy</h3><p>Śledź wszystkie rodzaje działań, korzystając z niestandardowych statusów pracy i zaznaczaj, czy są produktywne, czy nie.</p></article>
+                <article class="industry-info-card fade-in"><h3>Ocena wydajności</h3><p>Monitoruj czas pracy i wyniki produktywności pracowników, aby upewnić się, że wszystkie zadania są wykonywane na czas i doceniaj najlepszych pracowników.</p></article>
+                <article class="industry-info-card fade-in"><h3>Pełna przejrzystość</h3><p>Wyeliminuj nieporozumienia i wzmocnij wzajemne zaufanie – pozwól zarówno menedżerom, jak i pracownikom zobaczyć zarejestrowane godziny.</p></article>
             </div>
         </div>
     </section>
@@ -154,35 +189,102 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Praktyka</span>
-                <h2>Jak to działa w codziennej pracy</h2>
+                <h2>Czas pracy księgowych</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Koordynator zestawia czas pracy ekip serwisowych z liczbą wykonanych zleceń i poprawia układ grafiku na kolejny tydzień.</p>
                 <ul class="industry-case-points">
-                    <li>Lepsze planowanie zmian</li>
-                    <li>Dokładniejsze rozliczanie aktywności</li>
-                    <li>Więcej danych do optymalizacji pracy</li>
+                    <li>Zminimalizowane ryzyko błędów w naliczaniu wynagrodzeń: korzystaj z raportów czasu pracy, aby uniknąć błędnych obliczeń i zapewnić dokładne wynagrodzenie dla wszystkich.</li>
+                    <li>Wygodny eksport danych: usprawnij rutynowe zadania i szybko wykonuj obliczenia, łącząc oprogramowanie księgowe z naszymi raportami.</li>
+                    <li>Łatwe wystawianie faktur dla klientów i projektów: obliczaj wynagrodzenia, aby dostarczać klientom dokładne i szybkie faktury, niezależnie od rodzaju projektu pracy.</li>
                 </ul>
+                <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
             </article>
         </div>
     </section>
 
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Możliwości systemu</span>
+                <h2>Moduł Czas Pracy - Dostosowany dla każdego użytkownika</h2>
+                <p>Istnieją dwa sposoby korzystania z modułu Czasu Pracy – albo na platformie internetowej dla menedżerów i pracowników biurowych, albo w naszej aplikacji LeMar GO dla pracowników mobilnych.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>Dla menedżerów i biura</h3>
+                    <ul class="industry-case-points">
+                        <li>Nadzorowanie produktywności pracowników i codziennych zadań</li>
+                        <li>Przetwarzaj formularze cyfrowe przesyłane w ciągu dnia</li>
+                        <li>Generuj dokładne raporty dotyczące wynagrodzeń i rozliczeń</li>
+                        <li>Dostosuj ustawienia do potrzeb biznesowych</li>
+                    </ul>
+                    <p><a href="/system-gps/czas-pracy" class="btn btn-ghost btn-sm">Dowiedz się więcej</a></p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>Czas pracy księgowych</h3>
+                    <ul class="industry-case-points">
+                        <li>Usprawnij codzienne zadania dzięki uniwersalnemu narzędziu</li>
+                        <li>Śledź godziny pracy, miejsca pracy i działania</li>
+                        <li>Natychmiastowe przesyłanie formularzy cyfrowych i komentarzy</li>
+                        <li>Komunikuj się bezpośrednio z zapleczem</li>
+                    </ul>
+                    <p><a href="/system-gps/czas-pracy" class="btn btn-ghost btn-sm">Dowiedz się więcej</a></p>
+                </article>
+            </div>
+            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
+        </div>
+    </section>
+
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Przewodnik</span>
+                <h2>Przeczytaj szczegółowo o module Czas Pracy</h2>
+                <p>Przeczytaj nasz szczegółowy przewodnik po korzyściach modułu – Czas Pracy i dowiedz się, jak to rozwiązanie może zaoszczędzić czas wszystkim w Twojej firmie.</p>
+                <p><a href="/system-gps/czas-pracy" class="btn btn-primary btn-md">Dowiedz się więcej</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Branże</span>
+                <h2>Rejestracja czasu pracy w różnych branżach</h2>
+                <p>Czas Pracy to wszechstronne rozwiązanie do zarządzania mobilną siłą roboczą, odpowiednie dla szerokiej gamy branż, od logistyki i budownictwa po transport i konserwację. Oto kilka przykładów, w jaki sposób Czas Pracy może usprawnić działanie Twojej firmy.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in"><h3>Budowa</h3><p>Koordynuj swoje ekipy na wielu placach budowy dzięki płynnemu śledzeniu czasu. LeMar GO umożliwia każdemu pracownikowi na miejscu szybkie rejestrowanie czasu pracy, odnotowywanie przerw na lunch i rejestrowanie problemów.</p></article>
+                <article class="industry-info-card fade-in"><h3>Magazyn</h3><p>Usprawnij zarządzanie siłą roboczą dzięki aplikacji LeMar GO i cyfrowym arkuszom czasu pracy. Pracownicy magazynu mogą łatwo rejestrować godziny pracy i wypełniać formularze za pomocą smartfonów.</p></article>
+                <article class="industry-info-card fade-in"><h3>Transport i dostawa</h3><p>Dokładnie monitoruj godziny pracy swoich zespołów transportowych i dostawczych, niezależnie od tego, czy są na trasach długodystansowych, czy na zmianach dziennych/nocnych. Rozwiązanie Czas Pracy dokładnie śledzi godziny pracy wszystkich, niezależnie od godzin zmiany.</p></article>
+                <article class="industry-info-card fade-in"><h3>Wykonawcy usług</h3><p>Wprowadź system rozliczeń oparty na czasie dla niezależnych wykonawców, hydraulików, elektryków lub innych osób świadczących usługi w lokalizacjach klientów. Czas Pracy śledzi godziny niezależnie od lokalizacji i zapewnia, że cały przepracowany czas jest rozliczany.</p></article>
+                <article class="industry-info-card fade-in"><h3>Bezpieczeństwo</h3><p>Prowadź dokładne rejestry czasu pracy i lokalizacji dla swoich pracowników ochrony na miejscu i zespołów dyspozytorskich, zwiększając przejrzystość operacyjną.</p></article>
+            </div>
+            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
+        </div>
+    </section>
+
+    <!-- ═══ CTA ═══ -->
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <h2>Porozmawiajmy o wdrożeniu modułu Czas pracy</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <span class="section-tag">Zacznij dziś</span>
+                <h2>Wdróż moduł Czas Pracy i uporządkuj rozliczenia zespołu</h2>
+                <p>Skonfigurujemy FleetLink 4.0 tak, aby Twoi pracownicy, menedżerowie i księgowość działali na jednym, spójnym źródle danych.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
-                    <a href="/system-gps/zadania-i-planowanie">Zadania i planowanie</a>
                     <a href="/system-gps/formularze">Formularze</a>
+                    <a href="/system-gps/komunikacja">Komunikacja</a>
+                    <a href="/system-gps/zadania-i-planowanie">Zadania i planowanie</a>
+                    <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
                 </div>
             </div>
         </div>
     </section>
+
 </main>
 <footer class="footer">
     <div class="footer-inner">
