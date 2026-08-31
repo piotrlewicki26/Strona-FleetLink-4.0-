@@ -141,14 +141,12 @@
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
                 <h2>Dlaczego warto korzystać z modułu Czas pracy ?</h2>
-                <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in"><h3>Rozmowy telefoniczne</h3><p>Ditch Control</p><p>Pożegnaj się z czasochłonnymi rozmowami telefonicznymi. Śledzenie i raportowanie w czasie rzeczywistym Czas Pracy eliminuje potrzebę ręcznego nadzoru, pozwalając zespołowi skupić się na ważniejszych zadaniach.</p></article>
                 <article class="industry-info-card fade-in"><h3>Koniec z chaosem papierowym</h3><p>Zmień papierkową robotę w usprawniony proces cyfrowy. Dzięki Czas Pracy pracownicy mogą wypełniać formularze i przeprowadzać przeglądy pojazdów w dowolnym czasie i miejscu. Wszystkie informacje są bezpiecznie przechowywane na naszej platformie.</p></article>
                 <article class="industry-info-card fade-in"><h3>Zapewnij dokładne wynagrodzenie</h3><p>Dokładne rejestrowanie czasu pracy w Czas pracy pomaga obliczyć dokładne wynagrodzenie dla każdego pracownika. Buduj zaufanie w całym zespole, zapewniając przejrzysty, uczciwy system śledzenia godzin pracy.</p></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
         </div>
     </section>
 
@@ -165,7 +163,6 @@
                 <article class="industry-benefit-card fade-in"><strong>Zdalny dostęp</strong><span>Nigdy więcej nie zgubisz papierowego dokumentu. Cyfrowe rejestry czasu pracy są dostępne online 24/7.</span></article>
                 <article class="industry-benefit-card fade-in"><strong>Zgodność i ochrona prawna</strong><span>Dokładnie rejestruj godziny pracy, aby kierownicy znali Twój harmonogram i mogli zorganizować pomoc w przypadku wypadków oraz bronić się przed fałszywymi oskarżeniami.</span></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
         </div>
     </section>
 
@@ -174,7 +171,6 @@
             <div class="section-head fade-up">
                 <span class="section-tag">Zakres rozwiązania</span>
                 <h2>Czas pracy dla menedżerów</h2>
-                <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in"><h3>Globalny widok godzin pracy/odpoczynku</h3><p>Bądź na bieżąco z codziennym, tygodniowym i miesięcznym obciążeniem pracą każdego pracownika, aby równomiernie rozdzielić zadania.</p></article>
@@ -197,7 +193,6 @@
                     <li>Wygodny eksport danych: usprawnij rutynowe zadania i szybko wykonuj obliczenia, łącząc oprogramowanie księgowe z naszymi raportami.</li>
                     <li>Łatwe wystawianie faktur dla klientów i projektów: obliczaj wynagrodzenia, aby dostarczać klientom dokładne i szybkie faktury, niezależnie od rodzaju projektu pracy.</li>
                 </ul>
-                <p class="industry-keywords">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
             </article>
         </div>
     </section>
@@ -231,7 +226,6 @@
                     <p><a href="/system-gps/czas-pracy" class="btn btn-ghost btn-sm">Dowiedz się więcej</a></p>
                 </article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
         </div>
     </section>
 
@@ -260,7 +254,6 @@
                 <article class="industry-info-card fade-in"><h3>Wykonawcy usług</h3><p>Wprowadź system rozliczeń oparty na czasie dla niezależnych wykonawców, hydraulików, elektryków lub innych osób świadczących usługi w lokalizacjach klientów. Czas Pracy śledzi godziny niezależnie od lokalizacji i zapewnia, że cały przepracowany czas jest rozliczany.</p></article>
                 <article class="industry-info-card fade-in"><h3>Bezpieczeństwo</h3><p>Prowadź dokładne rejestry czasu pracy i lokalizacji dla swoich pracowników ochrony na miejscu i zespołów dyspozytorskich, zwiększając przejrzystość operacyjną.</p></article>
             </div>
-            <p class="industry-keywords industry-keywords-center">Zarządzanie flotą, LeMar GPS System, Monitoring pojazdów, zarządzanie kierowcami, Lokalizacja pojazdów, śledzenie zasobów, formularze, czas pracy</p>
         </div>
     </section>
 
