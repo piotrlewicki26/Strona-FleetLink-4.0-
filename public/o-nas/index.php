@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Poznaj zespół FleetLink 4.0. Wspieramy firmy w monitoringu GPS, zarządzaniu flotą i optymalizacji kosztów operacyjnych." />
+    <meta name="description" content="Poznaj zespół FleetLink. Wspieramy firmy w monitoringu GPS, zarządzaniu flotą i optymalizacji kosztów operacyjnych." />
     <meta name="robots" content="index, follow" />
-    <title>O nas | FleetLink 4.0 — system GPS i zarządzanie flotą</title>
+    <title>O nas | FleetLink — system GPS i zarządzanie flotą</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/o-nas" />
-    <meta property="og:title" content="O nas | FleetLink 4.0" />
+    <meta property="og:title" content="O nas | FleetLink" />
     <meta property="og:description" content="Dowiedz się więcej o zespole FleetLink i naszym podejściu do wdrożeń systemów GPS." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="O nas | FleetLink 4.0" />
+    <meta name="twitter:title" content="O nas | FleetLink" />
     <meta name="twitter:description" content="Dowiedz się więcej o zespole FleetLink i naszym podejściu do wdrożeń systemów GPS." />
     <link rel="canonical" href="https://fleetlink.pl/o-nas" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -98,7 +98,7 @@
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
             <span class="section-tag">O nas</span>
-            <h1>Tworzymy FleetLink 4.0 dla firm, które chcą pełnej kontroli nad flotą</h1>
+            <h1>Tworzymy FleetLink dla firm, które chcą pełnej kontroli nad flotą</h1>
             <p>Jesteśmy polskim zespołem telematycznym, który od lat wspiera przedsiębiorstwa transportowe, logistyczne i usługowe w budowie bardziej efektywnych operacji.</p>
         </div>
     </section>
@@ -113,7 +113,7 @@
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in"><h3>10+ lat na rynku</h3><p>Realizujemy wdrożenia dla flot różnej wielkości, od kilku do setek pojazdów.</p></article>
                 <article class="industry-info-card fade-in"><h3>Polskie wsparcie</h3><p>Nasz zespół doradców i techników wspiera klientów na każdym etapie współpracy.</p></article>
-                <article class="industry-info-card fade-in"><h3>Skalowalna platforma</h3><p>FleetLink 4.0 rośnie razem z Twoją firmą i odpowiada na zmiany operacyjne.</p></article>
+                <article class="industry-info-card fade-in"><h3>Skalowalna platforma</h3><p>FleetLink rośnie razem z Twoją firmą i odpowiada na zmiany operacyjne.</p></article>
             </div>
         </div>
     </section>

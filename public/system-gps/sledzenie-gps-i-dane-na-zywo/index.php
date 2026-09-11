@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Śledzenie GPS i dane na żywo w FleetLink 4.0: aktualna lokalizacja, statusy i pełny podgląd zdarzeń." />
+    <meta name="description" content="Śledzenie GPS i dane na żywo w FleetLink: aktualna lokalizacja, statusy i pełny podgląd zdarzeń." />
     <meta name="robots" content="index, follow" />
-    <title>Śledzenie GPS i dane na żywo | FleetLink 4.0</title>
+    <title>Śledzenie GPS i dane na żywo | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/sledzenie-gps-i-dane-na-zywo" />
-    <meta property="og:title" content="Śledzenie GPS i dane na żywo | FleetLink 4.0" />
+    <meta property="og:title" content="Śledzenie GPS i dane na żywo | FleetLink" />
     <meta property="og:description" content="Sprawdź, jak działa monitoring GPS na żywo i natychmiastowy podgląd statusów floty." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Śledzenie GPS i dane na żywo | FleetLink 4.0" />
+    <meta name="twitter:title" content="Śledzenie GPS i dane na żywo | FleetLink" />
     <meta name="twitter:description" content="Sprawdź, jak działa monitoring GPS na żywo i natychmiastowy podgląd statusów floty." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/sledzenie-gps-i-dane-na-zywo" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

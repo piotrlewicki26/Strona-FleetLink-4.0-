@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Komunikacja w FleetLink 4.0: sprawny przepływ informacji między dyspozytorem, kierowcą i zespołem terenowym." />
+    <meta name="description" content="Komunikacja w FleetLink: sprawny przepływ informacji między dyspozytorem, kierowcą i zespołem terenowym." />
     <meta name="robots" content="index, follow" />
-    <title>Komunikacja | FleetLink 4.0</title>
+    <title>Komunikacja | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/komunikacja" />
-    <meta property="og:title" content="Komunikacja | FleetLink 4.0" />
+    <meta property="og:title" content="Komunikacja | FleetLink" />
     <meta property="og:description" content="Poznaj narzędzia FleetLink do sprawnej komunikacji w codziennej pracy floty." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Komunikacja | FleetLink 4.0" />
+    <meta name="twitter:title" content="Komunikacja | FleetLink" />
     <meta name="twitter:description" content="Poznaj narzędzia FleetLink do sprawnej komunikacji w codziennej pracy floty." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/komunikacja" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -126,7 +126,7 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści</span>
-                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <h2>Co zyskujesz z FleetLink</h2>
             </div>
             <div class="industry-benefits-grid">
                 <article class="industry-benefit-card fade-in"><strong>Spójny przepływ informacji</strong><span>Wiadomości dotyczące floty i zadań są zebrane w jednym miejscu.</span></article>
@@ -171,7 +171,7 @@
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
                 <h2>Porozmawiajmy o wdrożeniu modułu Komunikacja</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <p>Przygotujemy konfigurację FleetLink dopasowaną do Twojej floty, zespołu i procesów.</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>

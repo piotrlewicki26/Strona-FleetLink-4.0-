@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Czas pracy w FleetLink 4.0: monitoring aktywności, rozliczanie zmian i lepsza organizacja pracy terenowej." />
+    <meta name="description" content="Czas pracy w FleetLink: monitoring aktywności, rozliczanie zmian i lepsza organizacja pracy terenowej." />
     <meta name="robots" content="index, follow" />
-    <title>Czas pracy | FleetLink 4.0</title>
+    <title>Czas pracy | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/czas-pracy" />
-    <meta property="og:title" content="Czas pracy | FleetLink 4.0" />
+    <meta property="og:title" content="Czas pracy | FleetLink" />
     <meta property="og:description" content="Poznaj moduł czasu pracy do kontroli aktywności pojazdów i zespołów terenowych." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Czas pracy | FleetLink 4.0" />
+    <meta name="twitter:title" content="Czas pracy | FleetLink" />
     <meta name="twitter:description" content="Poznaj moduł czasu pracy do kontroli aktywności pojazdów i zespołów terenowych." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/czas-pracy" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -263,7 +263,7 @@
             <div class="industry-page-cta fade-up">
                 <span class="section-tag">Zacznij dziś</span>
                 <h2>Wdróż moduł Czas Pracy i uporządkuj rozliczenia zespołu</h2>
-                <p>Skonfigurujemy FleetLink 4.0 tak, aby Twoi pracownicy, menedżerowie i księgowość działali na jednym, spójnym źródle danych.</p>
+                <p>Skonfigurujemy FleetLink tak, aby Twoi pracownicy, menedżerowie i księgowość działali na jednym, spójnym źródle danych.</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>

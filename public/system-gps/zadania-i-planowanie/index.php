@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Planowanie trasy i zadania w FleetLink 4.0: optymalizacja tras, kontrola realizacji dostaw i pełna koordynacja pracy kierowców." />
+    <meta name="description" content="Planowanie trasy i zadania w FleetLink: optymalizacja tras, kontrola realizacji dostaw i pełna koordynacja pracy kierowców." />
     <meta name="robots" content="index, follow" />
-    <title>Planowanie trasy i zadania | FleetLink 4.0</title>
+    <title>Planowanie trasy i zadania | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/zadania-i-planowanie" />
-    <meta property="og:title" content="Planowanie trasy i zadania | FleetLink 4.0" />
+    <meta property="og:title" content="Planowanie trasy i zadania | FleetLink" />
     <meta property="og:description" content="Sprawdź, jak FleetLink usprawnia planowanie tras, eliminuje puste kilometry i zwiększa produktywność floty." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Planowanie trasy i zadania | FleetLink 4.0" />
+    <meta name="twitter:title" content="Planowanie trasy i zadania | FleetLink" />
     <meta name="twitter:description" content="Sprawdź, jak FleetLink usprawnia planowanie tras, eliminuje puste kilometry i zwiększa produktywność floty." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/zadania-i-planowanie" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

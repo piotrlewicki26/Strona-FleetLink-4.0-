@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Wydajność floty w FleetLink 4.0: wykorzystanie pojazdów, analiza obłożenia i poprawa produktywności." />
+    <meta name="description" content="Wydajność floty w FleetLink: wykorzystanie pojazdów, analiza obłożenia i poprawa produktywności." />
     <meta name="robots" content="index, follow" />
-    <title>Wydajność floty | FleetLink 4.0</title>
+    <title>Wydajność floty | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/wydajnosc-floty" />
-    <meta property="og:title" content="Wydajność floty | FleetLink 4.0" />
+    <meta property="og:title" content="Wydajność floty | FleetLink" />
     <meta property="og:description" content="Sprawdź, jak FleetLink pomaga zwiększyć wykorzystanie pojazdów i ograniczyć przestoje." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Wydajność floty | FleetLink 4.0" />
+    <meta name="twitter:title" content="Wydajność floty | FleetLink" />
     <meta name="twitter:description" content="Sprawdź, jak FleetLink pomaga zwiększyć wykorzystanie pojazdów i ograniczyć przestoje." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/wydajnosc-floty" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -102,7 +102,7 @@
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Wydajność floty</div>
             <div class="badge pulse"><span class="badge-dot"></span> Automatyczne raporty w czasie rzeczywistym</div>
             <h1>Twoja flota traci pieniądze każdego dnia — zacznij to mierzyć</h1>
-            <p>FleetLink 4.0 automatycznie oblicza efektywność każdego pojazdu — na bieżąco, co tydzień i co miesiąc. Koniec z domysłami. Zacznij zarządzać flotą na podstawie faktów.</p>
+            <p>FleetLink automatycznie oblicza efektywność każdego pojazdu — na bieżąco, co tydzień i co miesiąc. Koniec z domysłami. Zacznij zarządzać flotą na podstawie faktów.</p>
             <div class="hero-actions">
                 <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                 <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
@@ -165,7 +165,7 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści biznesowe</span>
-                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <h2>Co zyskujesz z FleetLink</h2>
                 <p>Realne wyniki, które możesz pokazać zarządowi już po pierwszym miesiącu użytkowania.</p>
             </div>
             <div class="industry-benefits-grid">
@@ -288,7 +288,7 @@
             <div class="industry-page-cta fade-up">
                 <span class="section-tag">Zacznij dziś</span>
                 <h2>Sprawdź, ile traci Twoja flota — i jak to zmienić</h2>
-                <p>Nasi eksperci przeanalizują Twoją flotę i pokażą konkretne oszczędności, jakie możesz osiągnąć z FleetLink 4.0. Bezpłatna konsultacja, bez zobowiązań.</p>
+                <p>Nasi eksperci przeanalizują Twoją flotę i pokażą konkretne oszczędności, jakie możesz osiągnąć z FleetLink. Bezpłatna konsultacja, bez zobowiązań.</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>

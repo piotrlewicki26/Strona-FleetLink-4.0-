@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="CarSharing w FleetLink 4.0: współdzielenie pojazdów firmowych, rezerwacje i kontrola dostępności." />
+    <meta name="description" content="CarSharing w FleetLink: współdzielenie pojazdów firmowych, rezerwacje i kontrola dostępności." />
     <meta name="robots" content="index, follow" />
-    <title>CarSharing | FleetLink 4.0</title>
+    <title>CarSharing | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/carsharing" />
-    <meta property="og:title" content="CarSharing | FleetLink 4.0" />
+    <meta property="og:title" content="CarSharing | FleetLink" />
     <meta property="og:description" content="Poznaj moduł CarSharing do efektywnego współdzielenia pojazdów firmowych." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="CarSharing | FleetLink 4.0" />
+    <meta name="twitter:title" content="CarSharing | FleetLink" />
     <meta name="twitter:description" content="Poznaj moduł CarSharing do efektywnego współdzielenia pojazdów firmowych." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/carsharing" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

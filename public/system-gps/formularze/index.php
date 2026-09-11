@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Formularze w FleetLink 4.0: cyfrowe checklisty, raporty i obieg danych z pracy terenowej." />
+    <meta name="description" content="Formularze w FleetLink: cyfrowe checklisty, raporty i obieg danych z pracy terenowej." />
     <meta name="robots" content="index, follow" />
-    <title>Formularze | FleetLink 4.0</title>
+    <title>Formularze | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/formularze" />
-    <meta property="og:title" content="Formularze | FleetLink 4.0" />
+    <meta property="og:title" content="Formularze | FleetLink" />
     <meta property="og:description" content="Przenieś papierowe raporty i checklisty do cyfrowych formularzy FleetLink." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Formularze | FleetLink 4.0" />
+    <meta name="twitter:title" content="Formularze | FleetLink" />
     <meta name="twitter:description" content="Przenieś papierowe raporty i checklisty do cyfrowych formularzy FleetLink." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/formularze" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -126,7 +126,7 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści</span>
-                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <h2>Co zyskujesz z FleetLink</h2>
             </div>
             <div class="industry-benefits-grid">
                 <article class="industry-benefit-card fade-in"><strong>Szybszy obieg informacji</strong><span>Dane trafiają do systemu od razu po wypełnieniu formularza.</span></article>
@@ -171,7 +171,7 @@
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
                 <h2>Porozmawiajmy o wdrożeniu modułu Formularze</h2>
-                <p>Przygotujemy konfigurację FleetLink 4.0 dopasowaną do Twojej floty, zespołu i procesów.</p>
+                <p>Przygotujemy konfigurację FleetLink dopasowaną do Twojej floty, zespołu i procesów.</p>
                 <div class="hero-actions">
                     <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>

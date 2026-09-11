@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Zachowania kierowców ECO-DRIVING w FleetLink 4.0: scoring jazdy, historia zdarzeń i coaching — obniż spalanie i popraw bezpieczeństwo floty." />
+    <meta name="description" content="Zachowania kierowców ECO-DRIVING w FleetLink: scoring jazdy, historia zdarzeń i coaching — obniż spalanie i popraw bezpieczeństwo floty." />
     <meta name="robots" content="index, follow" />
-    <title>Zachowania kierowców ECO-DRIVING | FleetLink 4.0</title>
+    <title>Zachowania kierowców ECO-DRIVING | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/system-gps/eco-driving" />
-    <meta property="og:title" content="Zachowania kierowców ECO-DRIVING | FleetLink 4.0" />
+    <meta property="og:title" content="Zachowania kierowców ECO-DRIVING | FleetLink" />
     <meta property="og:description" content="Scoring jazdy, historia zdarzeń i coaching — zmień styl jazdy kierowców i obniż koszty eksploatacji floty." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Zachowania kierowców ECO-DRIVING | FleetLink 4.0" />
+    <meta name="twitter:title" content="Zachowania kierowców ECO-DRIVING | FleetLink" />
     <meta name="twitter:description" content="Scoring jazdy, historia zdarzeń i coaching — zmień styl jazdy kierowców i obniż koszty eksploatacji floty." />
     <link rel="canonical" href="https://fleetlink.pl/system-gps/eco-driving" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -102,7 +102,7 @@
             <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zachowania kierowców ECO-DRIVING</div>
             <div class="badge pulse"><span class="badge-dot"></span> Scoring jazdy aktualizowany w czasie rzeczywistym</div>
             <h1>Twoi kierowcy kosztują Cię więcej, niż myślisz — zacznij to mierzyć</h1>
-            <p>FleetLink 4.0 automatycznie ocenia styl jazdy każdego kierowcy — każdego dnia. Scoring, historia zdarzeń, raporty coachingowe. Koniec z domysłami. Zarządzaj zachowaniami za kierownicą na podstawie twardych faktów.</p>
+            <p>FleetLink automatycznie ocenia styl jazdy każdego kierowcy — każdego dnia. Scoring, historia zdarzeń, raporty coachingowe. Koniec z domysłami. Zarządzaj zachowaniami za kierownicą na podstawie twardych faktów.</p>
             <div class="hero-actions">
                 <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                 <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
@@ -165,7 +165,7 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści biznesowe</span>
-                <h2>Co zyskujesz z FleetLink 4.0</h2>
+                <h2>Co zyskujesz z FleetLink</h2>
                 <p>Realne wyniki, które możesz pokazać zarządowi i działowi finansowemu już po pierwszym miesiącu użytkowania.</p>
             </div>
             <div class="industry-benefits-grid">

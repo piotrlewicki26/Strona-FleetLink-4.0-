@@ -54,12 +54,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Instalator FleetLink 4.0</title>
+    <title>Instalator FleetLink</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 <body>
 <main class="container installer">
-    <h1>Instalator FleetLink 4.0</h1>
+    <h1>Instalator FleetLink</h1>
 
     <?php if ($success): ?>
         <p class="notice success">Instalacja zakończona. <a href="/">Przejdź do panelu</a>.</p>

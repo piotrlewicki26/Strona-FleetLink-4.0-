@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="FleetLink 4.0 dla branży transport pasażerski: monitoring GPS, raportowanie i zarządzanie flotą dopasowane do specyfiki operacyjnej." />
+    <meta name="description" content="FleetLink dla branży transport pasażerski: monitoring GPS, raportowanie i zarządzanie flotą dopasowane do specyfiki operacyjnej." />
     <meta name="robots" content="index, follow" />
-    <title>Transport pasażerski | FleetLink 4.0</title>
+    <title>Transport pasażerski | FleetLink</title>
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/branze/transport-pasazerski" />
-    <meta property="og:title" content="Transport pasażerski | FleetLink 4.0" />
+    <meta property="og:title" content="Transport pasażerski | FleetLink" />
     <meta property="og:description" content="Poznaj rozwiązania FleetLink dla branży transport pasażerski." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Transport pasażerski | FleetLink 4.0" />
+    <meta name="twitter:title" content="Transport pasażerski | FleetLink" />
     <meta name="twitter:description" content="Poznaj rozwiązania FleetLink dla branży transport pasażerski." />
     <link rel="canonical" href="https://fleetlink.pl/branze/transport-pasazerski" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -157,7 +157,7 @@
                 <h2>Przykładowy scenariusz wdrożenia</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p>Klient z branży transport pasażerski wdrożył FleetLink 4.0, by poprawić planowanie działań terenowych i podnieść efektywność operacyjną.</p>
+                <p>Klient z branży transport pasażerski wdrożył FleetLink, by poprawić planowanie działań terenowych i podnieść efektywność operacyjną.</p>
                 <ul class="industry-case-points">
                     <li>Lepsza kontrola realizacji zadań</li>
                     <li>Szybsze reagowanie na opóźnienia</li>

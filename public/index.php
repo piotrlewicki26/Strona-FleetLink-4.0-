@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="FleetLink 4.0 — profesjonalne zarządzanie flotą i monitoring GPS pojazdów. Lokalizacja w czasie rzeczywistym, raporty flotowe, CAN BUS, tachografy, Eco Driving." />
+    <meta name="description" content="FleetLink — profesjonalne zarządzanie flotą i monitoring GPS pojazdów. Lokalizacja w czasie rzeczywistym, raporty flotowe, CAN BUS, tachografy, Eco Driving." />
     <meta name="keywords" content="monitoring GPS, zarządzanie flotą, lokalizacja pojazdów, telematyka, GPS tracking, flota pojazdów, monitoring pojazdów" />
     <meta name="robots" content="index, follow" />
-    <title>FleetLink 4.0 — Monitoring GPS i Zarządzanie Flotą | System Telematyczny</title>
+    <title>FleetLink — Monitoring GPS i Zarządzanie Flotą | System Telematyczny</title>
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://fleetlink.pl/" />
-    <meta property="og:title" content="FleetLink 4.0 — Nowoczesny monitoring GPS i zarządzanie flotą" />
+    <meta property="og:title" content="FleetLink — Nowoczesny monitoring GPS i zarządzanie flotą" />
     <meta property="og:description" content="Kompleksowa platforma do śledzenia i zarządzania flotą pojazdów. GPS, raporty, alerty, CAN BUS, tachografy." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FleetLink 4.0 — Monitoring GPS i Zarządzanie Flotą" />
+    <meta name="twitter:title" content="FleetLink — Monitoring GPS i Zarządzanie Flotą" />
     <meta name="twitter:description" content="Kompleksowa platforma do śledzenia i zarządzania flotą. GPS, raporty, telematyka." />
     <link rel="canonical" href="https://fleetlink.pl/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +28,7 @@
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      "name": "FleetLink 4.0",
+      "name": "FleetLink",
       "description": "Profesjonalna platforma do monitoringu GPS i zarządzania flotą pojazdów",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
@@ -143,7 +143,7 @@
                     <div class="hero-text">
                         <span class="badge pulse"><span class="badge-dot"></span>System GPS w czasie rzeczywistym</span>
                         <h1>Nowoczesny monitoring GPS<br><span class="gradient-text">i zarządzanie flotą</span></h1>
-                        <p class="hero-sub">FleetLink 4.0 to kompleksowa platforma telematyczna. Lokalizacja GPS, raporty flotowe, CAN BUS, tachografy i pełna kontrola nad każdym pojazdem.</p>
+                        <p class="hero-sub">FleetLink to kompleksowa platforma telematyczna. Lokalizacja GPS, raporty flotowe, CAN BUS, tachografy i pełna kontrola nad każdym pojazdem.</p>
                         <div class="hero-actions">
                             <a href="#contact" class="btn btn-primary btn-lg">Umów prezentację</a>
                             <a href="#contact" class="btn btn-ghost btn-lg">
@@ -218,7 +218,7 @@
                     <div class="hero-text">
                         <span class="badge pulse"><span class="badge-dot"></span>Wszystkie branże</span>
                         <h1>System GPS dla<br><span class="gradient-text">każdej branży</span></h1>
-                        <p class="hero-sub">FleetLink 4.0 obsługuje transport, logistykę, budownictwo, rolnictwo, taxi, kurierów i wiele więcej. Jeden system — nieograniczone możliwości.</p>
+                        <p class="hero-sub">FleetLink obsługuje transport, logistykę, budownictwo, rolnictwo, taxi, kurierów i wiele więcej. Jeden system — nieograniczone możliwości.</p>
                         <div class="hero-actions">
                             <a href="#industries" class="btn btn-primary btn-lg">Poznaj branże</a>
                             <a href="#contact" class="btn btn-ghost btn-lg">Bezpłatna konsultacja</a>
@@ -279,7 +279,7 @@
                 <span class="section-tag">O nas</span>
                 <h2>Polski lider w telematyce<br><span class="gradient-text">i zarządzaniu flotą</span></h2>
                 <p>FleetLink to polska firma z ponad 10-letnim doświadczeniem w branży telematycznej. Tworzymy inteligentne systemy GPS, które pomagają setkom przedsiębiorstw optymalizować koszty, zwiększać bezpieczeństwo i zyskiwać pełną kontrolę nad flotą.</p>
-                <p>Nasz zespół 50+ specjalistów każdego dnia pracuje nad rozwojem platformy FleetLink 4.0 — systemu, który odpowiada na realne potrzeby polskich firm transportowych, logistycznych i budowlanych.</p>
+                <p>Nasz zespół 50+ specjalistów każdego dnia pracuje nad rozwojem platformy FleetLink — systemu, który odpowiada na realne potrzeby polskich firm transportowych, logistycznych i budowlanych.</p>
                 <div class="about-stats">
                     <div class="about-stat fade-in">
                         <div class="about-stat-num">10+</div>
@@ -495,7 +495,7 @@
                     <li class="dimmed"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#475569" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Raporty zaawansowane</li>
                     <li class="dimmed"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#475569" stroke-width="3"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> API i integracje</li>
                 </ul>
-                <a href="#contact" class="btn btn-outline">Wybierz plan</a>
+                <a href="#contact" class="btn btn-primary">Wybierz plan</a>
             </div>
 
             <div class="pricing-card featured fade-in">
@@ -687,17 +687,17 @@
         <div class="section-head fade-up">
             <span class="section-tag">Branże</span>
             <h2>Branże, które <span class="gradient-text">obsługujemy</span></h2>
-            <p>Wybierz sektor i przejdź do dedykowanej podstrony z korzyściami, funkcjami oraz scenariuszem wdrożenia FleetLink 4.0.</p>
+            <p>Wybierz sektor i przejdź do dedykowanej podstrony z korzyściami, funkcjami oraz scenariuszem wdrożenia FleetLink.</p>
         </div>
         <div class="industry-content-grid">
-            <article class="industry-info-card fade-in"><h3>Transport i logistyka</h3><p>Kontrola floty ciężkiej, tras i terminowości dostaw.</p><a href="/branze/transport-i-logistyka" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Rolnictwo</h3><p>Nadzór nad maszynami rolniczymi i pracą w sezonie.</p><a href="/branze/rolnictwo" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Kurierzy i dostawy</h3><p>Lepsza punktualność i pełna widoczność last mile.</p><a href="/branze/kurierzy-i-dostawy" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Budowa</h3><p>Monitoring sprzętu i zespołów na placach budowy.</p><a href="/branze/budowa" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Usługi taksówkarskie i przewozowe</h3><p>Obsługa kursów, czasu pracy i jakości przewozów.</p><a href="/branze/uslugi-taksowkarskie-i-przewozowe" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Transport pasażerski</h3><p>Kontrola punktualności i bezpieczeństwa przewozów.</p><a href="/branze/transport-pasazerski" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Gospodarka odpadami</h3><p>Optymalizacja harmonogramów odbioru i tras serwisowych.</p><a href="/branze/gospodarka-odpadami" class="industry-premium-link">Zobacz branżę</a></article>
-            <article class="industry-info-card fade-in"><h3>Dostawcy usług</h3><p>Planowanie wizyt serwisowych i monitoring zespołów mobilnych.</p><a href="/branze/dostawcy-uslug" class="industry-premium-link">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Transport i logistyka</h3><p>Kontrola floty ciężkiej, tras i terminowości dostaw.</p><a href="/branze/transport-i-logistyka" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Rolnictwo</h3><p>Nadzór nad maszynami rolniczymi i pracą w sezonie.</p><a href="/branze/rolnictwo" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Kurierzy i dostawy</h3><p>Lepsza punktualność i pełna widoczność last mile.</p><a href="/branze/kurierzy-i-dostawy" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Budowa</h3><p>Monitoring sprzętu i zespołów na placach budowy.</p><a href="/branze/budowa" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Usługi taksówkarskie i przewozowe</h3><p>Obsługa kursów, czasu pracy i jakości przewozów.</p><a href="/branze/uslugi-taksowkarskie-i-przewozowe" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Transport pasażerski</h3><p>Kontrola punktualności i bezpieczeństwa przewozów.</p><a href="/branze/transport-pasazerski" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Gospodarka odpadami</h3><p>Optymalizacja harmonogramów odbioru i tras serwisowych.</p><a href="/branze/gospodarka-odpadami" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
+            <article class="industry-info-card fade-in"><h3>Dostawcy usług</h3><p>Planowanie wizyt serwisowych i monitoring zespołów mobilnych.</p><a href="/branze/dostawcy-uslug" class="btn btn-ghost btn-sm">Zobacz branżę</a></article>
         </div>
         <div class="industry-premium-actions fade-up">
             <a href="/branze" class="btn btn-primary btn-lg">Wszystkie branże</a>
@@ -847,7 +847,7 @@
                     <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                 </button>
                 <div class="faq-answer">
-                    <p>Nie. FleetLink 4.0 działa w całości przez przeglądarkę internetową — nie wymaga instalacji żadnego oprogramowania na komputerze. Dodatkowo dostępna jest bezpłatna aplikacja mobilna na iOS i Android, umożliwiająca zarządzanie flotą ze smartfona.</p>
+                    <p>Nie. FleetLink działa w całości przez przeglądarkę internetową — nie wymaga instalacji żadnego oprogramowania na komputerze. Dodatkowo dostępna jest bezpłatna aplikacja mobilna na iOS i Android, umożliwiająca zarządzanie flotą ze smartfona.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -865,7 +865,7 @@
                     <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                 </button>
                 <div class="faq-answer">
-                    <p>Tak. FleetLink 4.0 obsługuje interfejs CAN BUS do odczytu danych z komputera pokładowego pojazdu (prędkość, obroty, temperatura, poziom paliwa, alerty silnika). System integruje się również z tachografami cyfrowymi, umożliwiając automatyczny pobór plików tachografu i monitoring czasu pracy kierowców.</p>
+                    <p>Tak. FleetLink obsługuje interfejs CAN BUS do odczytu danych z komputera pokładowego pojazdu (prędkość, obroty, temperatura, poziom paliwa, alerty silnika). System integruje się również z tachografami cyfrowymi, umożliwiając automatyczny pobór plików tachografu i monitoring czasu pracy kierowców.</p>
                 </div>
             </div>
             <div class="faq-item">
@@ -883,7 +883,7 @@
                     <svg class="faq-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
                 </button>
                 <div class="faq-answer">
-                    <p>FleetLink 4.0 oferuje otwarte API REST umożliwiające integrację z dowolnym systemem ERP, CRM lub WMS. Posiadamy gotowe wtyczki dla Comarch Optima, Comarch ERP XL, Symfonia, SAP oraz platformami e-commerce. Nasz zespół techniczny pomoże w implementacji integracji.</p>
+                    <p>FleetLink oferuje otwarte API REST umożliwiające integrację z dowolnym systemem ERP, CRM lub WMS. Posiadamy gotowe wtyczki dla Comarch Optima, Comarch ERP XL, Symfonia, SAP oraz platformami e-commerce. Nasz zespół techniczny pomoże w implementacji integracji.</p>
                 </div>
             </div>
         </div>
@@ -953,7 +953,7 @@
             <form class="newsletter-form" id="newsletterForm" novalidate>
                 <div class="newsletter-input-group">
                     <input type="email" name="email" placeholder="Twój adres e-mail" required aria-label="E-mail do newslettera"/>
-                    <button type="submit" class="btn btn-primary">Zapisz się</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Zapisz się</button>
                 </div>
                 <p class="newsletter-note">Możesz zrezygnować w każdej chwili. Szanujemy Twoją prywatność.</p>
             </form>
