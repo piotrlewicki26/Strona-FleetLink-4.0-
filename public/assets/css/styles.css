@@ -2688,3 +2688,24 @@ select option { background: var(--bg2); }
 .route-planning-page .industry-hero-inner {
     border: none;
 }
+
+/* ---------- MOBILE APPS PAGE TUNING ---------- */
+.mobile-apps-page .section-head {
+    text-align: center;
+}
+.mobile-apps-page .section-head p {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile-apps-page .section-head .btn {
+    margin-top: .5rem;
+}
+.mobile-apps-page .mobile-apps-two-col {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 900px) {
+    .mobile-apps-page .mobile-apps-two-col {
+        grid-template-columns: 1fr;
+    }
+}

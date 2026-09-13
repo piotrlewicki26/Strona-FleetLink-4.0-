@@ -92,7 +92,7 @@
         </div>
     </div>
 </nav>
-<main class="industry-page-main premium-route-page">
+<main class="industry-page-main premium-route-page mobile-apps-page">
 
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
@@ -139,7 +139,7 @@
                 <span class="section-tag">Dwa role, jedno środowisko</span>
                 <h2>Aplikacje mobilne dla menedżerów i pracowników</h2>
             </div>
-            <div class="industry-content-grid">
+            <div class="industry-content-grid mobile-apps-two-col">
                 <article class="industry-info-card fade-in">
                     <h3>Aplikacja FleetLink FMC - dla Managerów</h3>
                     <ul class="industry-case-points">
@@ -171,7 +171,7 @@
                 <span class="section-tag">Komunikacja</span>
                 <h2>Prywatna przestrzeń komunikacyjna dla Twojego zespołu</h2>
                 <p>Skontaktuj się ze swoimi pracownikami w dowolnym miejscu i czasie za pomocą wbudowanego narzędzia do przesyłania wiadomości. Możesz komunikować się i przesyłać informacje bezpośrednio lub przez przestrzenie robocze, dzięki czemu cały zespół pozostaje w kontakcie. Interfejs jest szybki, przyjazny dla użytkownika i zoptymalizowany pod kątem niskiego zużycia danych, a archiwum zabezpiecza historię komunikacji.</p>
-                <p><a href="/#contact" class="btn btn-primary btn-md">Dowiedz się więcej</a></p>
+                <p><a href="/#contact" class="btn btn-primary btn-lg">Dowiedz się więcej</a></p>
             </div>
         </div>
     </section>
@@ -220,7 +220,7 @@
                 <span class="section-tag">Formularze cyfrowe</span>
                 <h2>Zamień codzienne formularze papierowe na cyfrowe</h2>
                 <p>Usprawnij przepływ pracy dzięki formularzom cyfrowym, które pracownicy mogą wypełniać w dowolnym miejscu i czasie za pomocą urządzeń mobilnych. Całodobowy dostęp i szerokie opcje dostosowywania wspierają cele zrównoważonego rozwoju i codzienne operacje biznesowe.</p>
-                <p><a href="/system-gps/formularze" class="btn btn-primary btn-md">Dowiedz się więcej</a></p>
+                <p><a href="/system-gps/formularze" class="btn btn-primary btn-lg">Dowiedz się więcej</a></p>
             </div>
         </div>
     </section>
