@@ -1,21 +1,20 @@
-<?php declare(strict_types=1); ?>
 <!doctype html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Integracje FleetLink: połącz system GPS z ERP, TMS, CRM i narzędziami operacyjnymi." />
+    <meta name="description" content="Kamery w FleetLink: podgląd obrazu na żywo, zapis zdarzeń i większa kontrola bezpieczeństwa floty." />
     <meta name="robots" content="index, follow" />
-    <title>Integracje | FleetLink</title>
+    <title>Kamery | FleetLink</title>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fleetlink.pl/system-gps/integracje" />
-    <meta property="og:title" content="Integracje | FleetLink" />
-    <meta property="og:description" content="Dowiedz się, jak FleetLink integruje się z systemami używanymi w Twojej firmie." />
+    <meta property="og:url" content="https://fleetlink.pl/system-gps/kamery" />
+    <meta property="og:title" content="Kamery | FleetLink" />
+    <meta property="og:description" content="Zwiększ bezpieczeństwo dzięki kamerom pojazdowym z podglądem i archiwum nagrań w FleetLink." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Integracje | FleetLink" />
-    <meta name="twitter:description" content="Dowiedz się, jak FleetLink integruje się z systemami używanymi w Twojej firmie." />
-    <link rel="canonical" href="https://fleetlink.pl/system-gps/integracje" />
+    <meta name="twitter:title" content="Kamery | FleetLink" />
+    <meta name="twitter:description" content="Zwiększ bezpieczeństwo dzięki kamerom pojazdowym z podglądem i archiwum nagrań w FleetLink." />
+    <link rel="canonical" href="https://fleetlink.pl/system-gps/kamery" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -93,16 +92,15 @@
         </div>
     </div>
 </nav>
-<main class="industry-page-main premium-route-page integration-page">
+<main class="industry-page-main premium-route-page">
 
-    <!-- ═══ HERO ═══ -->
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
-            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Integracje</div>
-            <div class="badge pulse"><span class="badge-dot"></span> Integracje zarządzania flotą</div>
-            <h1>Integracje zarządzania flotą</h1>
-            <p>Arkusze kalkulacyjne i ręczne wprowadzanie danych bywają powolne, nieprecyzyjne i pełne błędów. Dzięki integracjom FleetLink z zarządzaniem flotą możesz łatwo połączyć wszystkie swoje systemy z platformą FleetLink, zapewniając zautomatyzowany przepływ danych – koniec z ręczną pracą! Sprawdź nasze integracje z oprogramowaniem flotowym poniżej!</p>
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Kamery</div>
+            <div class="badge pulse"><span class="badge-dot"></span> Rejestracja obrazu i zdarzeń w czasie rzeczywistym</div>
+            <h1>Więcej bezpieczeństwa na trasie i pełny obraz sytuacji</h1>
+            <p>Kamery FleetLink pomagają monitorować zdarzenia drogowe, chronić kierowców i ładunek oraz szybciej wyjaśniać sporne sytuacje. Podgląd, archiwum i alerty masz w jednym miejscu.</p>
             <div class="hero-actions">
                 <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                 <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
@@ -110,122 +108,93 @@
         </div>
     </section>
 
-    <!-- ═══ STATS BAR ═══ -->
     <div class="stats-bar">
         <div class="stats-inner">
-            <div class="stat-item">
-                <div class="stat-num-row"><strong>1</strong><span>platforma</span></div>
-                <span class="stat-label">wszystkie integracje flotowe w jednym miejscu</span>
-            </div>
+            <div class="stat-item"><div class="stat-num-row"><strong>24</strong><span>/7</span></div><span class="stat-label">nagrywanie i monitoring tras</span></div>
             <div class="stat-divider" aria-hidden="true"></div>
-            <div class="stat-item">
-                <div class="stat-num-row"><strong>↓50</strong><span>%</span></div>
-                <span class="stat-label">mniej ręcznego przenoszenia danych</span>
-            </div>
+            <div class="stat-item"><div class="stat-num-row"><strong>1</strong><span>panel</span></div><span class="stat-label">obraz, zdarzenia i raporty</span></div>
             <div class="stat-divider" aria-hidden="true"></div>
-            <div class="stat-item">
-                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
-                <span class="stat-label">automatyczny przepływ danych</span>
-            </div>
+            <div class="stat-item"><div class="stat-num-row"><strong>↓</strong><span>ryzyko</span></div><span class="stat-label">mniej sporów i szybsza reakcja</span></div>
             <div class="stat-divider" aria-hidden="true"></div>
-            <div class="stat-item">
-                <div class="stat-num-row"><strong>100</strong><span>%</span></div>
-                <span class="stat-label">lepsza spójność informacji między systemami</span>
-            </div>
+            <div class="stat-item"><div class="stat-num-row"><strong>↑</strong><span>kontrola</span></div><span class="stat-label">większe bezpieczeństwo floty</span></div>
         </div>
     </div>
 
-    <!-- ═══ WYZWANIA ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
-                <h2>Koniec z ręcznym przepisywaniem i rozproszonymi danymi</h2>
-                <p>Integracje FleetLink automatyzują wymianę kluczowych informacji, dzięki czemu zespół pracuje szybciej i popełnia mniej błędów.</p>
+                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <p>Bez nagrań trudno jednoznacznie ocenić zdarzenia na drodze i jakość pracy w terenie. Moduł kamer rozwiązuje ten problem od pierwszego dnia.</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>⚡ Ręczne procesy spowalniają operacje</h3><p>Arkusze i ręczne importy danych wydłużają pracę dyspozytorów i działu administracji.</p></article>
-                <article class="industry-info-card fade-in"><h3>🔄 Niespójność informacji</h3><p>Te same dane pojawiają się w różnych systemach z opóźnieniem albo w innych wersjach.</p></article>
-                <article class="industry-info-card fade-in"><h3>📉 Większe ryzyko błędów</h3><p>Im więcej ręcznych kroków, tym większe ryzyko pomyłek i kosztownych korekt.</p></article>
+                <article class="industry-info-card fade-in"><h3>Brak dowodów po incydencie</h3><p>W przypadku kolizji lub szkody materiał wideo pozwala szybko wyjaśnić sytuację i ograniczyć ryzyko nieuzasadnionych roszczeń.</p></article>
+                <article class="industry-info-card fade-in"><h3>Ograniczona widoczność pracy w trasie</h3><p>Podgląd zdarzeń i nagrań pozwala lepiej zrozumieć, co dzieje się na trasie i jak poprawić standardy operacyjne.</p></article>
+                <article class="industry-info-card fade-in"><h3>Trudności z egzekwowaniem procedur</h3><p>Nagrania wspierają wdrażanie polityk bezpieczeństwa, szkolenia kierowców oraz budowanie odpowiedzialnych nawyków.</p></article>
             </div>
         </div>
     </section>
 
-    <!-- ═══ KORZYŚCI ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Korzyści biznesowe</span>
-                <h2>Co zyskujesz dzięki integracjom FleetLink</h2>
-                <p>Automatyczny przepływ danych między narzędziami, lepszą jakość informacji i szybsze decyzje operacyjne.</p>
+                <h2>Co zyskujesz z FleetLink</h2>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>🧩 Jedno środowisko pracy</strong><span>Łączysz systemy flotowe, telematyczne i opłat drogowych bez zbędnych obejść.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>⏱️ Oszczędność czasu zespołu</strong><span>Dane pojazdów, lokalizacji i zdarzeń trafiają automatycznie tam, gdzie są potrzebne.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>✅ Mniej błędów operacyjnych</strong><span>Automatyzacja ogranicza pomyłki wynikające z ręcznego przepisywania danych.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Szybsze wyjaśnianie zdarzeń</strong><span>Dostęp do nagrań i osi czasu zdarzeń skraca czas analizy i przyspiesza decyzje operacyjne.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Lepsze bezpieczeństwo kierowców</strong><span>Wczesna identyfikacja ryzykownych sytuacji pomaga zapobiegać kolejnym incydentom.</span></article>
+                <article class="industry-benefit-card fade-in"><strong>Większa transparentność procesów</strong><span>Masz jeden, spójny widok na przebieg trasy, zdarzenia i kontekst sytuacyjny.</span></article>
             </div>
         </div>
     </section>
 
-    <!-- ═══ INTEGRACJE I LOGOTYPY ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Możliwości systemu</span>
-                <h2>Partnerzy i integracje FleetLink</h2>
-                <p>Wybierz integracje, których potrzebujesz i uruchom automatyczny przepływ danych między FleetLink a kluczowymi systemami Twojej firmy.</p>
+                <span class="section-tag">Zakres rozwiązania</span>
+                <h2>Najważniejsze elementy modułu</h2>
             </div>
-            <div class="integration-grid">
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/timocom.com" alt="Timocom logo" loading="lazy" decoding="async"><h3>Timocom</h3><p>Integracja FleetLink z Timocom pozwala na przesyłanie danych, takich jak lokalizacja pojazdów, bezpośrednio do ich systemu.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/thermoking.com" alt="Thermo King logo" loading="lazy" decoding="async"><h3>Thermo King</h3><p>Dzięki integracji FleetLink z Thermo King automatycznie otrzymasz dane dotyczące chłodni, w tym lokalizację, temperaturę i inne, bezpośrednio z ich systemu.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/cargobull.com" alt="Schmitz Cargobull logo" loading="lazy" decoding="async"><h3>Schmitz Cargobull</h3><p>Integracja FleetLink z platformą Schmitz Cargobull łączy naczepy firmy z naszą platformą, zapewniając dostęp do danych w czasie rzeczywistym z fabrycznie zainstalowanych systemów telematycznych.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/project44.com" alt="Project44 logo" loading="lazy" decoding="async"><h3>Project44</h3><p>Integracja FleetLink z Project44 sprawia, że pojazdy śledzone przez FleetLink są widoczne na platformie łańcucha dostaw firmy, co umożliwia śledzenie przesyłek w czasie rzeczywistym i analizę przesyłek.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/krone-trailer.com" alt="KRONE logo" loading="lazy" decoding="async"><h3>KRONE</h3><p>Integracja naczep firmy KRONE z FleetLink umożliwia przesyłanie danych telematycznych, takich jak śledzenie GPS, temperatura ładunku i ciśnienie w oponach, z naczep KRONE do naszej platformy.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/hu-go.hu" alt="HU-GO logo" loading="lazy" decoding="async"><h3>HU-GO toll system</h3><p>Integracja FleetLink z węgierską platformą HU-GO automatycznie wysyła dane o lokalizacji pojazdów do ich systemu, dzięki czemu Ty i Twoi kierowcy nie musicie tracić czasu na ręczne dokonywanie płatności i wprowadzanie danych.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/etoll.gov.pl" alt="Polski e-TOLL logo" loading="lazy" decoding="async"><h3>Polski e-TOLL</h3><p>Integracja FleetLink z polskim systemem e-TOLL umożliwia przesyłanie lokalizacji pojazdów do systemu e-TOLL, który umożliwia automatyczne pobieranie opłat za przejazdy drogami płatnymi z Twojego konta.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/circlek.com" alt="Circle K logo" loading="lazy" decoding="async"><h3>Circle K</h3><p>Integracja FleetLink z Circle K umożliwia przeglądanie wszystkich zakupów dokonanych za pomocą kart paliwowych Circle K bezpośrednio na naszej platformie.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/firetms.com" alt="Fire TMS logo" loading="lazy" decoding="async"><h3>Fire TMS</h3><p>Integracja FleetLink z Fire TMS pozwala na przesyłanie danych, takich jak lokalizacja pojazdów, bezpośrednio do ich systemu.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/nets.eu" alt="NETS logo" loading="lazy" decoding="async"><h3>Szwajcaria (NETS)</h3><p>Od 2026 roku ciężarówki o masie powyżej 3,5 tony muszą automatycznie przesyłać szwajcarskim władzom dane o lokalizacji w celu naliczenia opłat drogowych.</p></article>
-                <article class="industry-info-card integration-card fade-in"><img class="integration-logo" src="https://logo.clearbit.com/co3.eu" alt="CO3 logo" loading="lazy" decoding="async"><h3>CO3</h3><p>Integracja FleetLink z CO3 sprawia, że pojazdy śledzone przez FleetLink są widoczne na platformie łańcucha dostaw firmy, co umożliwia śledzenie przesyłek w czasie rzeczywistym i analizę przesyłek.</p></article>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in"><h3>Podgląd i archiwum nagrań</h3><p>Oglądaj materiał wideo i korzystaj z historii zdarzeń przypisanej do pojazdu, kierowcy i konkretnej trasy.</p></article>
+                <article class="industry-info-card fade-in"><h3>Zdarzenia i alerty</h3><p>Automatycznie oznaczane incydenty pomagają szybciej wychwycić krytyczne momenty wymagające reakcji.</p></article>
+                <article class="industry-info-card fade-in"><h3>Wsparcie analiz i szkoleń</h3><p>Wykorzystuj nagrania jako bazę do coachingów, przeglądów bezpieczeństwa i podnoszenia jakości pracy.</p></article>
             </div>
         </div>
     </section>
 
-    <!-- ═══ PRAKTYKA ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Praktyka</span>
-                <h2>Jak działa to w codziennych operacjach</h2>
+                <h2>Jak to działa w codziennej pracy</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p><strong>Scenariusz z życia:</strong> Dane telematyczne trafiają automatycznie do TMS, platform opłat i narzędzi łańcucha dostaw, dzięki czemu dyspozytorzy nie muszą ręcznie eksportować i importować informacji.</p>
+                <p><strong>Scenariusz z życia:</strong> Po zgłoszeniu kolizji manager otwiera kartę pojazdu, przegląda nagranie i w kilka minut weryfikuje przebieg zdarzenia. Dzięki temu szybciej podejmuje decyzje operacyjne i ogranicza przestoje.</p>
                 <ul class="industry-case-points">
-                    <li>✅ Krótszy czas obsługi operacyjnej i raportowania</li>
-                    <li>✅ Jedno źródło prawdy o lokalizacji i statusie pojazdów</li>
-                    <li>✅ Spójne dane dla działu operacji, finansów i obsługi klienta</li>
-                    <li>✅ Szybsze wdrożenie nowych procesów i partnerów</li>
+                    <li>Szybka weryfikacja incydentów bez długiego zbierania relacji</li>
+                    <li>Lepsza ochrona kierowcy i firmy w sytuacjach spornych</li>
+                    <li>Sprawniejsze raportowanie i krótszy czas reakcji</li>
                 </ul>
             </article>
         </div>
     </section>
 
-    <!-- ═══ CTA ═══ -->
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
                 <span class="section-tag">Zacznij dziś</span>
-                <h2>Połącz FleetLink z systemami, z których już korzystasz</h2>
-                <p>Pomożemy Ci dobrać i wdrożyć integracje, które skrócą czas pracy zespołu i zwiększą jakość danych w całej organizacji.</p>
+                <h2>Wdróż kamery FleetLink i zwiększ bezpieczeństwo floty</h2>
+                <p>Pokażemy Ci, jak połączyć monitoring wideo z telemetrią i procesami operacyjnymi, aby szybciej reagować i lepiej chronić flotę.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
-                    <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
                     <a href="/system-gps/sledzenie-gps-i-dane-na-zywo">Śledzenie GPS i dane na żywo</a>
-                    <a href="/system-gps/czas-pracy">Czas pracy</a>
-                    <a href="/system-gps/formularze">Formularze</a>
+                    <a href="/system-gps/aplikacje-mobilne">Aplikacje mobilne</a>
+                    <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+                    <a href="/system-gps/eco-driving">ECO-Driving</a>
                 </div>
             </div>
         </div>
