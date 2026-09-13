@@ -2709,3 +2709,28 @@ select option { background: var(--bg2); }
         grid-template-columns: 1fr;
     }
 }
+
+.mobile-apps-page .mobile-apps-two-col,
+.mobile-apps-page .mobile-apps-centered-boxes {
+    justify-items: center;
+}
+.mobile-apps-page .mobile-apps-two-col .industry-info-card,
+.mobile-apps-page .mobile-apps-centered-boxes .industry-info-card {
+    width: 100%;
+    max-width: 560px;
+    text-align: center;
+}
+.mobile-apps-page .mobile-apps-two-col .industry-case-points {
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.mobile-apps-page .mobile-apps-centered-boxes .industry-info-card p {
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mobile-apps-page .mobile-apps-lower-btn {
+    margin-top: 1.4rem;
+}

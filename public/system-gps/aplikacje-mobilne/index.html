@@ -171,7 +171,7 @@
                 <span class="section-tag">Komunikacja</span>
                 <h2>Prywatna przestrzeń komunikacyjna dla Twojego zespołu</h2>
                 <p>Skontaktuj się ze swoimi pracownikami w dowolnym miejscu i czasie za pomocą wbudowanego narzędzia do przesyłania wiadomości. Możesz komunikować się i przesyłać informacje bezpośrednio lub przez przestrzenie robocze, dzięki czemu cały zespół pozostaje w kontakcie. Interfejs jest szybki, przyjazny dla użytkownika i zoptymalizowany pod kątem niskiego zużycia danych, a archiwum zabezpiecza historię komunikacji.</p>
-                <p><a href="/#contact" class="btn btn-primary btn-lg">Dowiedz się więcej</a></p>
+                <p class="mobile-apps-lower-btn"><a href="/#contact" class="btn btn-primary btn-lg">Dowiedz się więcej</a></p>
             </div>
         </div>
     </section>
@@ -201,7 +201,7 @@
                 <span class="section-tag">Operacje terenowe</span>
                 <h2>Śledzenie pracy i inspekcje pojazdów</h2>
             </div>
-            <div class="industry-content-grid">
+            <div class="industry-content-grid mobile-apps-centered-boxes">
                 <article class="industry-info-card fade-in">
                     <h3>Śledzenie pracy pracowników</h3>
                     <p>Śledź pracowników i przeglądaj ich dzienną produktywność. Od rozpoczęcia do zakończenia pracy zobaczysz godziny, lokalizacje, komentarze oraz przesłane formularze. Miesięczne raporty obciążenia pracą ułatwiają obliczanie wynagrodzeń.</p>
@@ -220,7 +220,7 @@
                 <span class="section-tag">Formularze cyfrowe</span>
                 <h2>Zamień codzienne formularze papierowe na cyfrowe</h2>
                 <p>Usprawnij przepływ pracy dzięki formularzom cyfrowym, które pracownicy mogą wypełniać w dowolnym miejscu i czasie za pomocą urządzeń mobilnych. Całodobowy dostęp i szerokie opcje dostosowywania wspierają cele zrównoważonego rozwoju i codzienne operacje biznesowe.</p>
-                <p><a href="/system-gps/formularze" class="btn btn-primary btn-lg">Dowiedz się więcej</a></p>
+                <p class="mobile-apps-lower-btn"><a href="/system-gps/formularze" class="btn btn-primary btn-lg">Dowiedz się więcej</a></p>
             </div>
         </div>
     </section>
