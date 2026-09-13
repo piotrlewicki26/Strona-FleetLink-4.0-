@@ -141,6 +141,7 @@
             </div>
             <div class="industry-content-grid mobile-apps-two-col">
                 <article class="industry-info-card fade-in">
+                    <img src="/assets/img/mobile-app-fmc-273b490c.png" alt="Aplikacja FleetLink FMC - podgląd" class="mobile-apps-card-image" loading="lazy" decoding="async" />
                     <h3>Aplikacja FleetLink FMC - dla Managerów</h3>
                     <ul class="industry-case-points">
                         <li>Twórz trasy i formularze cyfrowe, konfiguruj i monitoruj czasy pracy.</li>
@@ -151,6 +152,7 @@
                     </ul>
                 </article>
                 <article class="industry-info-card fade-in">
+                    <img src="/assets/img/mobile-app-go-e681fe11.png" alt="Aplikacja FleetLink GO - podgląd" class="mobile-apps-card-image" loading="lazy" decoding="async" />
                     <h3>Aplikacja FleetLink GO - dla pracowników</h3>
                     <ul class="industry-case-points">
                         <li>Skoncentruj się na zadaniu i zostaw planowanie menedżerom.</li>

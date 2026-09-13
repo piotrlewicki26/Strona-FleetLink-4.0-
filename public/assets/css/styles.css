@@ -2734,3 +2734,13 @@ select option { background: var(--bg2); }
 .mobile-apps-page .mobile-apps-lower-btn {
     margin-top: 1.4rem;
 }
+
+.mobile-apps-page .mobile-apps-card-image {
+    display: block;
+    width: min(100%, 260px);
+    height: auto;
+    margin: 0 auto 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(148,163,184,.35);
+    background: rgba(15,23,42,.35);
+}
