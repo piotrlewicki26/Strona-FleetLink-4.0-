@@ -233,9 +233,20 @@
                 <h2>Zdalne pobieranie danych z tachografu: szczegółowy panel</h2>
                 <p>Nasza przyjazna użytkownikowi strona główna udostępnia najważniejsze informacje na pierwszy rzut oka, w tym harmonogramy zdalnego pobierania danych z tachografu, alerty o zgodności, a także statusy tachografu i karty.</p>
             </div>
-            <article class="industry-case-box fade-in">
-                <img src="https://github.com/user-attachments/assets/03c7b8ae-ad11-4b25-98f7-5cd97f900987" alt="Panel zdalnego pobierania danych z tachografu" style="width:100%;height:auto;border-radius:16px;display:block;" loading="lazy" />
-            </article>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>📊 Szczegółowy panel na start dnia</h3>
+                    <p>Od razu widzisz najważniejsze wskaźniki: harmonogramy odczytów, alerty zgodności oraz statusy tachografów i kart kierowców. Dzięki temu działasz szybciej i bez chaosu.</p>
+                    <ul class="industry-case-points">
+                        <li>✅ Harmonogramy zdalnych odczytów w jednym widoku</li>
+                        <li>✅ Alerty o zgodności i ryzykach opóźnień</li>
+                        <li>✅ Statusy tachografu i karty dostępne od razu</li>
+                    </ul>
+                </article>
+                <article class="industry-case-box fade-in" style="background:#ff996d;border:none;padding:18px;border-radius:22px;">
+                    <img src="https://github.com/user-attachments/assets/e3ddc651-14e4-439e-83e6-f032c977b87e" alt="Panel zdalnego pobierania danych z tachografu" style="width:100%;height:auto;border-radius:16px;display:block;box-shadow:0 18px 45px rgba(0,0,0,.22);" loading="lazy" />
+                </article>
+            </div>
         </div>
     </section>
 
