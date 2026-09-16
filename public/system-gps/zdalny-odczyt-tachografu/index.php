@@ -244,7 +244,7 @@
                     </ul>
                 </article>
                 <article class="industry-case-box fade-in" style="background:#ff996d;border:none;padding:18px;border-radius:22px;">
-                    <img src="https://github.com/user-attachments/assets/e3ddc651-14e4-439e-83e6-f032c977b87e" alt="Panel zdalnego pobierania danych z tachografu" style="width:100%;height:auto;border-radius:16px;display:block;box-shadow:0 18px 45px rgba(0,0,0,.22);" loading="lazy" />
+                    <img src="https://github.com/user-attachments/assets/03c7b8ae-ad11-4b25-98f7-5cd97f900987" alt="Panel zdalnego pobierania danych z tachografu" style="width:100%;height:auto;border-radius:16px;display:block;box-shadow:0 18px 45px rgba(0,0,0,.22);" loading="lazy" />
                 </article>
             </div>
         </div>
