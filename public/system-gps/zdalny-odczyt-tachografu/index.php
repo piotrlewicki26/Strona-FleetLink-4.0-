@@ -1,0 +1,344 @@
+<?php declare(strict_types=1); ?>
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Zdalny odczyt tachografu FleetLink: odczyt kart i tachografów zdalnie, także jako samodzielna usługa bez lokalizacji GPS." />
+    <meta name="robots" content="index, follow" />
+    <title>Zdalny odczyt tachografu | FleetLink</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fleetlink.pl/system-gps/zdalny-odczyt-tachografu" />
+    <meta property="og:title" content="Zdalny odczyt tachografu | FleetLink" />
+    <meta property="og:description" content="Automatyczny zdalny odczyt tachografu i kart kierowców, również jako usługa bez lokalizacji GPS." />
+    <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Zdalny odczyt tachografu | FleetLink" />
+    <meta name="twitter:description" content="Automatyczny zdalny odczyt tachografu i kart kierowców, również jako usługa bez lokalizacji GPS." />
+    <link rel="canonical" href="https://fleetlink.pl/system-gps/zdalny-odczyt-tachografu" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+<nav class="navbar" id="navbar">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo">
+            <img src="/assets/img/logo.svg" alt="FleetLink System GPS" class="nav-logo-img" />
+        </a>
+        <button class="nav-burger" id="navBurger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/">Strona główna</a></li>
+            <li><a href="/o-nas">O nas</a></li>
+            <li class="has-dropdown">
+                <a href="/system-gps" class="nav-has-sub">System GPS <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+                <div class="nav-dropdown mega-menu">
+                    <div class="mega-col mega-col-featured">
+                        <div class="mega-title">Optymalizacja kosztów</div>
+                        <a href="/system-gps/zarzadzanie-paliwem" class="mega-item"><span class="mega-icon">⛽</span><span><strong>Zarządzanie paliwem</strong><em>Pełna kontrola kosztów tankowania</em></span></a>
+                        <a href="/system-gps/eco-driving" class="mega-item"><span class="mega-icon">🌿</span><span><strong>Zachowania kierowców ECO-DRIVING</strong><em>Analiza stylu jazdy i spalania</em></span></a>
+                        <a href="/system-gps/wydajnosc-floty" class="mega-item"><span class="mega-icon">📈</span><span><strong>Wydajność floty</strong><em>Lepsze wykorzystanie pojazdów</em></span></a>
+                        <a href="/system-gps/zarzadzanie-flota" class="mega-item"><span class="mega-icon">🚚</span><span><strong>Zarządzanie flotą</strong><em>Jedno miejsce do obsługi floty</em></span></a>
+                        <a href="/system-gps/zadania-i-planowanie" class="mega-item"><span class="mega-icon">🗓️</span><span><strong>Zadania i planowanie</strong><em>Harmonogramy i przydziały pracy</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Automatyzacja procesów</div>
+                        <a href="/system-gps/carsharing" class="mega-item"><span class="mega-icon">🔑</span><span><strong>CarSharing</strong><em>Współdzielenie pojazdów w firmie</em></span></a>
+                        <a href="/system-gps/integracje" class="mega-item"><span class="mega-icon">🔌</span><span><strong>Integracje</strong><em>Połączenie z Twoimi systemami</em></span></a>
+                        <a href="/system-gps/sledzenie-gps-i-dane-na-zywo" class="mega-item"><span class="mega-icon">📍</span><span><strong>Śledzenie GPS i dane na żywo</strong><em>Aktualna lokalizacja i statusy</em></span></a>
+                        <a href="/system-gps/czas-pracy" class="mega-item"><span class="mega-icon">⏱️</span><span><strong>Czas pracy</strong><em>Rozliczanie aktywności i zmian</em></span></a>
+                        <a href="/system-gps/formularze" class="mega-item"><span class="mega-icon">📝</span><span><strong>Formularze</strong><em>Cyfrowy obieg danych z terenu</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Bezpieczeństwo</div>
+                        <a href="/system-gps/aplikacje-mobilne" class="mega-item"><span class="mega-icon">📱</span><span><strong>Aplikacje mobilne</strong><em>Bezpieczna obsługa floty z poziomu telefonu</em></span></a>
+                        <a href="/system-gps/kamery" class="mega-item"><span class="mega-icon">📷</span><span><strong>Kamery</strong><em>Rejestracja zdarzeń i większa kontrola na trasie</em></span></a>
+                        <a href="/system-gps/blokada-alkoholowa" class="mega-item"><span class="mega-icon">🍺</span><span><strong>Blokada alkoholowa</strong><em>Weryfikacja trzeźwości przed rozpoczęciem jazdy</em></span></a>
+                        <a href="/system-gps/sledzenie-zasobow" class="mega-item"><span class="mega-icon">📦</span><span><strong>Śledzenie zasobów</strong><em>Stała lokalizacja i ochrona narzędzi oraz ładunku</em></span></a>
+                        <a href="/system-gps/blokada-zaplonu" class="mega-item"><span class="mega-icon">🔒</span><span><strong>Blokada zapłonu</strong><em>Zdalne zabezpieczenie pojazdu przed użyciem</em></span></a>
+                    </div>
+                    <div class="mega-col">
+                        <div class="mega-title">Zdalne</div>
+                        <a href="/system-gps/zdalny-odczyt-tachografu" class="mega-item"><span class="mega-icon">🪪</span><span><strong>Zdalny odczyt Tachografu</strong><em>Pobieranie danych bez zjazdu pojazdu do bazy</em></span></a>
+                        <a href="/system-gps/monitoring-temperatury" class="mega-item"><span class="mega-icon">🌡️</span><span><strong>Monitoring temperatury</strong><em>Kontrola warunków przewozu w czasie rzeczywistym</em></span></a>
+                        <a href="/system-gps/e-toll" class="mega-item"><span class="mega-icon">🛣️</span><span><strong>E-Toll / SENT-Geo</strong><em>Obsługa rozliczeń i zgodności z systemami opłat</em></span></a>
+                        <a href="/system-gps/powiadomienia-i-alerty" class="mega-item"><span class="mega-icon">🚨</span><span><strong>Powiadomienia i alerty</strong><em>Zdalne alarmy o zdarzeniach krytycznych</em></span></a>
+                        <a href="/system-gps/zdalna-konfiguracja" class="mega-item"><span class="mega-icon">⚙️</span><span><strong>Zdalna konfiguracja</strong><em>Ustawienia urządzeń bez wizyty w serwisie</em></span></a>
+                    </div>
+                </div>
+            </li>
+            <li class="has-dropdown">
+                <a href="/branze" class="nav-has-sub">Branże <svg class="nav-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></a>
+                <div class="nav-dropdown">
+                    <a href="/branze/transport-i-logistyka" class="dropdown-item">🚚 Transport i logistyka</a>
+                    <a href="/branze/rolnictwo" class="dropdown-item">🌾 Rolnictwo</a>
+                    <a href="/branze/kurierzy-i-dostawy" class="dropdown-item">📦 Kurierzy i dostawy</a>
+                    <a href="/branze/budowa" class="dropdown-item">🏗️ Budowa</a>
+                    <a href="/branze/uslugi-taksowkarskie-i-przewozowe" class="dropdown-item">🚖 Usługi taksówkarskie i przewozowe</a>
+                    <a href="/branze/transport-pasazerski" class="dropdown-item">🚌 Transport pasażerski</a>
+                    <a href="/branze/gospodarka-odpadami" class="dropdown-item">♻️ Gospodarka odpadami</a>
+                    <a href="/branze/dostawcy-uslug" class="dropdown-item">🛠️ Dostawcy usług</a>
+                    <a href="/branze" class="dropdown-item">✨ Wszystkie branże</a>
+                </div>
+            </li>
+            <li><a href="/#pricing">Cennik</a></li>
+            <li><a href="/#contact">Kontakt</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="/login" class="btn btn-ghost btn-sm">Logowanie</a>
+            <a href="/register" class="btn btn-primary btn-sm">Rejestracja</a>
+        </div>
+    </div>
+</nav>
+<main class="industry-page-main premium-route-page">
+
+    <!-- ═══ HERO ═══ -->
+    <section class="section industry-hero industry-hero-hub">
+        <div class="industry-hero-bg" aria-hidden="true"></div>
+        <div class="section-inner industry-hero-inner">
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zdalny odczyt tachografu</div>
+            <div class="badge pulse"><span class="badge-dot"></span> Odczyt danych kierowców i pojazdów bez zjazdu do bazy</div>
+            <h1>Zdalny odczyt tachografu FleetLink — szybciej, wygodniej i bez przestojów</h1>
+            <p>Automatyzuj pobieranie danych z kart kierowców i tachografów cyfrowych, ograniczaj ryzyko kar i miej komplet dokumentacji zawsze pod ręką.</p>
+            <div class="hero-actions">
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
+            </div>
+        </div>
+    </section>
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>100</strong><span>%</span></div>
+                <span class="stat-label">zgodności z terminami odczytów</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
+                <span class="stat-label">dostęp do archiwum danych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓</strong><span>ryzyko</span></div>
+                <span class="stat-label">mniej błędów i opóźnień administracyjnych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↑</strong><span>kontrola</span></div>
+                <span class="stat-label">pełen nadzór nad danymi kierowców</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ WYRÓŻNIK USŁUGI ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <article class="industry-case-box fade-in">
+                <p><strong>Nasze wyróżnienie:</strong> jako jedna z nielicznych firm oferujemy <strong>sam zdalny odczyt tachografu jako usługę</strong> — <strong>bez konieczności wdrażania lokalizacji GPS</strong>. Dzięki temu możesz szybko spełnić obowiązki prawne i uporządkować rozliczenia bez kosztownej, pełnej przebudowy systemu flotowego.</p>
+                <ul class="industry-case-points">
+                    <li>✅ Startujesz szybciej i taniej — płacisz za realnie potrzebną usługę</li>
+                    <li>✅ Ograniczasz ryzyko kar dzięki terminowym, regularnym odczytom</li>
+                    <li>✅ Odciążasz biuro i kierowców — mniej ręcznej pracy, więcej kontroli</li>
+                    <li>✅ W każdej chwili możesz rozszerzyć usługę o kolejne moduły FleetLink</li>
+                </ul>
+                <p><strong>To rozwiązanie dla firm, które chcą działać zgodnie z przepisami już teraz</strong>, a jednocześnie zachować elastyczność i pełną kontrolę nad kosztami.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- ═══ NA JAKIE POTRZEBY ═══ -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Wyzwania</span>
+                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <p>Ręczne pobieranie danych i brak automatyzacji to niepotrzebne ryzyko oraz dodatkowe koszty operacyjne.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>📅 Pilnowanie terminów odczytów</h3>
+                    <p>System pomaga realizować odczyty na czas i minimalizuje ryzyko naruszeń wynikających z opóźnień.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📂 Rozproszone dane i dokumenty</h3>
+                    <p>Wszystkie pliki z odczytów masz w jednym miejscu, gotowe do kontroli, analiz i rozliczeń.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>⏱️ Strata czasu działu operacyjnego</h3>
+                    <p>Automatyzacja odczytów odciąża zespół i pozwala skupić się na działaniach, które realnie rozwijają biznes.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CO ZYSKUJESZ ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Korzyści biznesowe</span>
+                <h2>Co zyskujesz z FleetLink</h2>
+                <p>Spokojną zgodność formalną, oszczędność czasu i pełną dostępność danych do analiz i audytów.</p>
+            </div>
+            <div class="industry-benefits-grid">
+                <article class="industry-benefit-card fade-in">
+                    <strong>✅ Mniej ryzyka kar i błędów formalnych</strong>
+                    <span>Regularne odczyty i uporządkowane archiwum danych pomagają zachować zgodność z obowiązującymi wymaganiami.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>⚙️ Więcej automatyzacji, mniej pracy ręcznej</strong>
+                    <span>Eliminujesz ręczne procedury, skracasz czas obsługi administracyjnej i ograniczasz ryzyko pomyłek.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>📊 Lepsza kontrola operacyjna</strong>
+                    <span>Masz szybki dostęp do historii odczytów i kompletnej dokumentacji, gdy tylko jej potrzebujesz.</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ NAJWAŻNIEJSZE ELEMENTY FUNKCJI ═══ -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Zakres rozwiązania</span>
+                <h2>Najważniejsze elementy modułu</h2>
+                <p>Kompletny zestaw narzędzi do codziennej obsługi odczytów w małych i dużych flotach.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>🪪 Zdalny odczyt kart kierowców</h3>
+                    <p>Dane pobierane są zdalnie, bez konieczności fizycznego przekazywania kart i bez zatrzymywania pracy floty.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🚚 Zdalny odczyt pamięci tachografu</h3>
+                    <p>Regularnie pobierasz dane z tachografów pojazdów i utrzymujesz ciągłość wymaganej dokumentacji.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🗂️ Archiwizacja i szybki dostęp</h3>
+                    <p>Pliki z odczytów są bezpiecznie przechowywane i gotowe do użycia podczas kontroli lub wewnętrznego audytu.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ SZCZEGÓŁOWY PANEL ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Najważniejsze funkcje</span>
+                <h2>Zdalne pobieranie danych z tachografu: szczegółowy panel</h2>
+                <p>Nasza przyjazna użytkownikowi strona główna udostępnia najważniejsze informacje na pierwszy rzut oka, w tym harmonogramy zdalnego pobierania danych z tachografu, alerty o zgodności, a także statusy tachografu i karty.</p>
+            </div>
+            <article class="industry-case-box fade-in">
+                <img src="https://github.com/user-attachments/assets/03c7b8ae-ad11-4b25-98f7-5cd97f900987" alt="Panel zdalnego pobierania danych z tachografu" style="width:100%;height:auto;border-radius:16px;display:block;" loading="lazy" />
+            </article>
+        </div>
+    </section>
+
+    <!-- ═══ JAK TO DZIAŁA ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Praktyka</span>
+                <h2>Jak to działa w codziennej pracy</h2>
+            </div>
+            <article class="industry-case-box fade-in">
+                <p><strong>Scenariusz z życia:</strong> Dyspozytor nie musi już zwoływać kierowców do bazy tylko po odczyt kart. Odczyty realizowane są zdalnie, a dział administracji ma komplet danych uporządkowany na czas i gotowy do ewentualnej kontroli.</p>
+                <ul class="industry-case-points">
+                    <li>✅ Brak przestojów związanych z ręcznym pobieraniem danych</li>
+                    <li>✅ Stała kontrola terminów i kompletności odczytów</li>
+                    <li>✅ Szybki dostęp do plików podczas audytów i kontroli</li>
+                    <li>✅ Mniej obciążenia dla kierowców i biura</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <!-- ═══ KLUCZOWE FUNKCJE SYSTEMU ═══ -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Możliwości systemu</span>
+                <h2>Kluczowe funkcje modułu zdalnego odczytu tachografu</h2>
+                <p>Rozwiązanie elastyczne: jako część pełnej platformy FleetLink albo jako samodzielna usługa odczytu.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>🔔 Powiadomienia o terminach</h3>
+                    <p>System przypomina o zbliżających się odczytach, abyś nie przeoczył żadnego obowiązku.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📥 Centralne repozytorium plików</h3>
+                    <p>Wszystkie dane odczytowe przechowywane są w jednym miejscu, co upraszcza organizację pracy biura.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🧩 Integracja z procesami flotowymi</h3>
+                    <p>Łączysz odczyty z innymi obszarami zarządzania flotą, ale możesz też korzystać z samej usługi odczytu bez lokalizacji.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📈 Skalowalność dla każdej floty</h3>
+                    <p>Rozwiązanie sprawdza się zarówno w kilku pojazdach, jak i w rozbudowanych strukturach wielooddziałowych.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CTA ═══ -->
+    <section class="section" id="cta">
+        <div class="section-inner">
+            <div class="industry-page-cta fade-up">
+                <span class="section-tag">Skontaktuj się</span>
+                <h2>Wdrożymy zdalny odczyt tachografu w modelu dopasowanym do Twojej firmy</h2>
+                <p>Wybierz pełne wdrożenie FleetLink lub sam odczyt jako usługę bez lokalizacji GPS. Przygotujemy rekomendację pod Twoją flotę i procesy.</p>
+                <div class="hero-actions">
+                    <a href="/#contact" class="btn btn-primary btn-lg">Porozmawiaj z doradcą</a>
+                    <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
+                </div>
+                <div class="industry-inline-links">
+                    <a href="/system-gps/czas-pracy">Czas pracy</a>
+                    <a href="/system-gps/sledzenie-gps-i-dane-na-zywo">Śledzenie GPS i dane na żywo</a>
+                    <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+                    <a href="/system-gps/blokada-zaplonu">Blokada zapłonu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-brand">
+            <a href="/" class="nav-logo">
+                <img src="/assets/img/logo.svg" alt="FleetLink System GPS" class="nav-logo-img" style="height:38px" />
+            </a>
+            <p>Profesjonalne zarządzanie flotą i monitoring GPS pojazdów.</p>
+        </div>
+        <div class="footer-links-group">
+            <h4>System GPS</h4>
+            <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
+            <a href="/system-gps/eco-driving">ECO-DRIVING</a>
+            <a href="/system-gps/wydajnosc-floty">Wydajność floty</a>
+            <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+            <a href="/system-gps/integracje">Integracje</a>
+            <a href="/system-gps/sledzenie-gps-i-dane-na-zywo">Śledzenie GPS i dane na żywo</a>
+            <a href="/system-gps">Wszystkie funkcje System GPS</a>
+        </div>
+        <div class="footer-links-group">
+            <h4>Firma</h4>
+            <a href="/o-nas">O nas</a>
+            <a href="/branze">Branże</a>
+            <a href="/#pricing">Cennik</a>
+            <a href="/#contact">Kontakt</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <span>© <span id="currentYear"></span> FleetLink. Wszelkie prawa zastrzeżone.</span>
+    </div>
+</footer>
+<script src="/assets/js/app.js" defer></script>
+</body>
+</html>

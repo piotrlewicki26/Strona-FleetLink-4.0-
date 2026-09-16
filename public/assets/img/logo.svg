@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 72" width="240" height="72">
+  <defs>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="linkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Location pin shape -->
+  <g filter="url(#glow)">
+    <!-- Pin body -->
+    <path d="M28 6 C18 6 10 14 10 24 C10 36 28 54 28 54 C28 54 46 36 46 24 C46 14 38 6 28 6 Z" fill="url(#pinGrad)" opacity="0.95"/>
+    <!-- Outer ring on pin -->
+    <circle cx="28" cy="24" r="11" fill="none" stroke="white" stroke-width="1.5" opacity="0.9"/>
+    <!-- Inner circle -->
+    <circle cx="28" cy="24" r="4" fill="white"/>
+    <!-- Crosshair lines -->
+    <line x1="28" y1="13" x2="28" y2="17" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="28" y1="31" x2="28" y2="35" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="17" y1="24" x2="21" y2="24" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="35" y1="24" x2="39" y2="24" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Signal arcs -->
+    <path d="M36 9 C40 13 42 18 42 24" fill="none" stroke="white" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M38 7 C44 12 47 18 47 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- "Fleet" text in grey/white -->
+  <text x="58" y="30" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#b0c8e8" letter-spacing="-0.5">Fleet</text>
+  <!-- "Link" text in blue gradient -->
+  <text x="103" y="30" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="url(#linkGrad)" letter-spacing="-0.5">Link</text>
+
+  <!-- Divider line -->
+  <line x1="58" y1="36" x2="185" y2="36" stroke="#2a6496" stroke-width="0.8" opacity="0.7"/>
+
+  <!-- "SYSTEM GPS" text below -->
+  <text x="58" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="600" fill="#7eb6d9" letter-spacing="3">SYSTEM GPS</text>
+</svg>
