@@ -57,7 +57,7 @@
                         <a href="/system-gps/kamery" class="mega-item"><span class="mega-icon">📷</span><span><strong>Kamery</strong><em>Rejestracja zdarzeń i większa kontrola na trasie</em></span></a>
                         <a href="/system-gps/blokada-alkoholowa" class="mega-item"><span class="mega-icon">🍺</span><span><strong>Blokada alkoholowa</strong><em>Weryfikacja trzeźwości przed rozpoczęciem jazdy</em></span></a>
                         <a href="/system-gps/sledzenie-zasobow" class="mega-item"><span class="mega-icon">📦</span><span><strong>Śledzenie zasobów</strong><em>Stała lokalizacja i ochrona narzędzi oraz ładunku</em></span></a>
-                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🔒</span><span><strong>Blokada zapłonu</strong><em>Zdalne zabezpieczenie pojazdu przed użyciem</em></span></a>
+                        <a href="/system-gps/blokada-zaplonu" class="mega-item"><span class="mega-icon">🔒</span><span><strong>Blokada zapłonu</strong><em>Zdalne zabezpieczenie pojazdu przed użyciem</em></span></a>
                     </div>
                     <div class="mega-col">
                         <div class="mega-title">Zdalne</div>
