@@ -97,9 +97,9 @@
                         <div class="mega-title">Zdalne</div>
                         <a href="/system-gps/zdalny-odczyt-tachografu" class="mega-item"><span class="mega-icon">🪪</span><span><strong>Zdalny odczyt Tachografu</strong><em>Pobieranie danych bez zjazdu pojazdu do bazy</em></span></a>
                         <a href="/system-gps/monitoring-temperatury" class="mega-item"><span class="mega-icon">🌡️</span><span><strong>Monitoring temperatury</strong><em>Kontrola warunków przewozu w czasie rzeczywistym</em></span></a>
-                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🛣️</span><span><strong>E-Toll / SENT-Geo</strong><em>Obsługa rozliczeń i zgodności z systemami opłat</em></span></a>
-                        <a href="/system-gps" class="mega-item"><span class="mega-icon">🚨</span><span><strong>Powiadomienia i alerty</strong><em>Zdalne alarmy o zdarzeniach krytycznych</em></span></a>
-                        <a href="/system-gps" class="mega-item"><span class="mega-icon">⚙️</span><span><strong>Zdalna konfiguracja</strong><em>Ustawienia urządzeń bez wizyty w serwisie</em></span></a>
+                        <a href="/system-gps/e-toll" class="mega-item"><span class="mega-icon">🛣️</span><span><strong>E-Toll / SENT-Geo</strong><em>Obsługa rozliczeń i zgodności z systemami opłat</em></span></a>
+                        <a href="/system-gps/powiadomienia-i-alerty" class="mega-item"><span class="mega-icon">🚨</span><span><strong>Powiadomienia i alerty</strong><em>Zdalne alarmy o zdarzeniach krytycznych</em></span></a>
+                        <a href="/system-gps/zdalna-konfiguracja" class="mega-item"><span class="mega-icon">⚙️</span><span><strong>Zdalna konfiguracja</strong><em>Ustawienia urządzeń bez wizyty w serwisie</em></span></a>
                     </div>
                 </div>
             </li>

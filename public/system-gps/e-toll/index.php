@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="FleetLink dla branży kurierzy i dostawy: monitoring GPS, raportowanie i zarządzanie flotą dopasowane do specyfiki operacyjnej." />
+    <meta name="description" content="E-Toll i SENT_GEO w FleetLink: zgodność z opłatami drogowymi, automatyzacja rozliczeń i mniej ryzyka błędów operacyjnych." />
     <meta name="robots" content="index, follow" />
-    <title>Kurierzy i dostawy | FleetLink</title>
+    <title>E-Toll i SENT_GEO | FleetLink</title>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fleetlink.pl/branze/kurierzy-i-dostawy" />
-    <meta property="og:title" content="Kurierzy i dostawy | FleetLink" />
-    <meta property="og:description" content="Poznaj rozwiązania FleetLink dla branży kurierzy i dostawy." />
+    <meta property="og:url" content="https://fleetlink.pl/system-gps/e-toll" />
+    <meta property="og:title" content="E-Toll i SENT_GEO | FleetLink" />
+    <meta property="og:description" content="Obsługa E-Toll i SENT_GEO w jednym miejscu — mniej błędów, większa kontrola i szybsze rozliczenia." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Kurierzy i dostawy | FleetLink" />
-    <meta name="twitter:description" content="Poznaj rozwiązania FleetLink dla branży kurierzy i dostawy." />
-    <link rel="canonical" href="https://fleetlink.pl/branze/kurierzy-i-dostawy" />
+    <meta name="twitter:title" content="E-Toll i SENT_GEO | FleetLink" />
+    <meta name="twitter:description" content="Obsługa E-Toll i SENT_GEO w jednym miejscu — mniej błędów, większa kontrola i szybsze rozliczenia." />
+    <link rel="canonical" href="https://fleetlink.pl/system-gps/e-toll" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -94,30 +94,67 @@
     </div>
 </nav>
 <main class="industry-page-main premium-route-page">
+
+    <!-- ═══ HERO ═══ -->
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
-            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/branze">Wszystkie branże</a> <span>›</span> Kurierzy i dostawy</div>
-            <span class="section-tag">Kurierzy i dostawy</span>
-            <h1>System GPS dla kurierów i dostaw</h1>
-            <p>Pełna widoczność tras last mile i wyższa punktualność doręczeń.</p>
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> E-Toll / SENT_GEO</div>
+            <div class="badge pulse"><span class="badge-dot"></span> Zgodność z opłatami drogowymi i geolokalizacją przejazdów</div>
+            <h1>E-Toll i SENT_GEO FleetLink — pełna kontrola zgodności i rozliczeń</h1>
+            <p>Zarządzaj obsługą E-Toll i SENT_GEO w jednym systemie. Ogranicz ryzyko błędów, usprawnij codzienną pracę działu operacyjnego i utrzymuj pełną zgodność z wymaganiami.</p>
             <div class="hero-actions">
-                <a href="/#contact" class="btn btn-primary btn-lg">Umów konsultację</a>
-                <a href="/branze" class="btn btn-ghost btn-lg">Wróć do branż</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
+                <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
             </div>
         </div>
     </section>
+
+    <!-- ═══ STATS BAR ═══ -->
+    <div class="stats-bar">
+        <div class="stats-inner">
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>1</strong><span>platforma</span></div>
+                <span class="stat-label">E-Toll i SENT_GEO w jednym miejscu</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓</strong><span>błędy</span></div>
+                <span class="stat-label">mniej ryzykownych pomyłek rozliczeniowych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↑</strong><span>zgodność</span></div>
+                <span class="stat-label">łatwiejsze spełnianie wymogów formalnych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
+                <span class="stat-label">bieżąca kontrola statusów i przejazdów</span>
+            </div>
+        </div>
+    </div>
 
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
-                <h2>Najczęstsze wyzwania w branży</h2>
+                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <p>Obsługa opłat i geolokalizacji przejazdów bywa złożona, a każde niedopatrzenie może oznaczać kosztowne konsekwencje.</p>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Widoczność operacyjna</h3><p>Brak pełnych danych o lokalizacji pojazdów i statusie realizacji zadań.</p></article>
-                <article class="industry-info-card fade-in"><h3>Koszty</h3><p>Rosnące koszty paliwa i pracy wymagają większej kontroli efektywności.</p></article>
-                <article class="industry-info-card fade-in"><h3>Raportowanie</h3><p>Ręczne raporty zabierają czas i utrudniają szybkie decyzje operacyjne.</p></article>
+                <article class="industry-info-card fade-in">
+                    <h3>🛣️ Złożoność E-Toll</h3>
+                    <p>Wiele tras i pojazdów zwiększa ryzyko błędów. System pomaga utrzymać porządek i spójność danych.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📍 Wymogi SENT_GEO</h3>
+                    <p>Monitorowanie przejazdów i poprawność danych geolokalizacyjnych muszą być realizowane konsekwentnie.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>⏱️ Presja czasu operacyjnego</h3>
+                    <p>Zespół potrzebuje szybkiej, czytelnej informacji i sprawnych procesów bez ręcznego chaosu.</p>
+                </article>
             </div>
         </div>
     </section>
@@ -125,13 +162,23 @@
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Korzyści</span>
-                <h2>Efekty wdrożenia FleetLink</h2>
+                <span class="section-tag">Korzyści biznesowe</span>
+                <h2>Co zyskujesz z FleetLink</h2>
+                <p>Większą przewidywalność rozliczeń, mniej ryzyka formalnego i sprawniejszą pracę operacyjną każdego dnia.</p>
             </div>
             <div class="industry-benefits-grid">
-                <article class="industry-benefit-card fade-in"><strong>Lepsza kontrola</strong><span>Stały podgląd sytuacji flotowej i szybsze reakcje.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Niższe koszty</strong><span>Optymalizacja tras i lepsze wykorzystanie zasobów.</span></article>
-                <article class="industry-benefit-card fade-in"><strong>Większa terminowość</strong><span>Poprawa jakości obsługi i realizacji zleceń.</span></article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>✅ Wyższa zgodność formalna</strong>
+                    <span>Lepsza kontrola procesów E-Toll i SENT_GEO pomaga ograniczać ryzyko kar i nieprawidłowości.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>⚙️ Sprawniejsze rozliczenia</strong>
+                    <span>Zyskujesz czytelne dane i szybsze decyzje operacyjne bez ręcznego przetwarzania informacji.</span>
+                </article>
+                <article class="industry-benefit-card fade-in">
+                    <strong>📈 Mniej przestojów i nerwów</strong>
+                    <span>Uporządkowane procesy to mniej awaryjnych sytuacji i większy spokój zespołu.</span>
+                </article>
             </div>
         </div>
     </section>
@@ -139,50 +186,37 @@
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Funkcje</span>
-                <h2>Kluczowe funkcje dla tej branży</h2>
+                <span class="section-tag">Zakres rozwiązania</span>
+                <h2>Najważniejsze elementy modułu</h2>
             </div>
             <div class="industry-content-grid">
-                <article class="industry-info-card fade-in"><h3>Monitoring GPS na żywo</h3><p>Aktualna lokalizacja i historia tras wszystkich pojazdów.</p></article>
-                <article class="industry-info-card fade-in"><h3>Alerty i geostrefy</h3><p>Powiadomienia o zdarzeniach krytycznych i przekroczeniach stref.</p></article>
-                <article class="industry-info-card fade-in"><h3>Raporty automatyczne</h3><p>Zestawienia dla managera floty i działu operacyjnego.</p></article>
+                <article class="industry-info-card fade-in"><h3>🧭 Kontrola tras i statusów</h3><p>Bieżący podgląd pomaga szybko reagować na odstępstwa i utrzymać ciągłość operacji.</p></article>
+                <article class="industry-info-card fade-in"><h3>🧾 Dane do rozliczeń</h3><p>Jedno źródło informacji dla działu operacyjnego i administracyjnego.</p></article>
+                <article class="industry-info-card fade-in"><h3>🔔 Alerty i szybka reakcja</h3><p>Powiadomienia o zdarzeniach krytycznych pozwalają działać natychmiast.</p></article>
             </div>
-        </div>
-    </section>
-
-    <section class="section section-soft">
-        <div class="section-inner">
-            <div class="section-head fade-up">
-                <span class="section-tag">Case</span>
-                <h2>Przykładowy scenariusz wdrożenia</h2>
-            </div>
-            <article class="industry-case-box fade-in">
-                <p>Klient z branży kurierzy i dostawy wdrożył FleetLink, by poprawić planowanie działań terenowych i podnieść efektywność operacyjną.</p>
-                <ul class="industry-case-points">
-                    <li>Lepsza kontrola realizacji zadań</li>
-                    <li>Szybsze reagowanie na opóźnienia</li>
-                    <li>Uproszczone raportowanie dla kadry zarządzającej</li>
-                </ul>
-            </article>
         </div>
     </section>
 
     <section class="section" id="cta">
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
-                <h2>Porozmawiajmy o wdrożeniu dla branży kurierzy i dostawy</h2>
-                <p>Skontaktuj się z nami, a przygotujemy konfigurację FleetLink dopasowaną do Twoich procesów.</p>
+                <span class="section-tag">Zacznij dziś</span>
+                <h2>Wdróż E-Toll i SENT_GEO bez zbędnej komplikacji</h2>
+                <p>Skontaktuj się z nami — pokażemy, jak szybko uporządkować procesy i ograniczyć ryzyko formalne w Twojej flocie.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Skontaktuj się</a>
-                    <a href="/branze" class="btn btn-ghost btn-lg">Wszystkie branże</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Porozmawiaj z doradcą</a>
+                    <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
-                    <a href="/branze/transport-i-logistyka">Transport i logistyka</a>
-                    <a href="/branze/rolnictwo">Rolnictwo</a>
+                    <a href="/system-gps/monitoring-temperatury">Monitoring temperatury</a>
+                    <a href="/system-gps/zdalny-odczyt-tachografu">Zdalny odczyt tachografu</a>
+                    <a href="/system-gps/powiadomienia-i-alerty">Powiadomienia i alerty</a>
+                    <a href="/system-gps/zdalna-konfiguracja">Zdalna konfiguracja</a>
                 </div>
             </div>
         </div>
     </section>
+
 </main>
 <footer class="footer">
     <div class="footer-inner">
@@ -193,22 +227,20 @@
             <p>Profesjonalne zarządzanie flotą i monitoring GPS pojazdów.</p>
         </div>
         <div class="footer-links-group">
-            <h4>Branże</h4>
-            <a href="/branze/transport-i-logistyka">Transport i logistyka</a>
-            <a href="/branze/rolnictwo">Rolnictwo</a>
-            <a href="/branze/kurierzy-i-dostawy">Kurierzy i dostawy</a>
-            <a href="/branze/budowa">Budowa</a>
-            <a href="/branze/uslugi-taksowkarskie-i-przewozowe">Usługi taksówkarskie i przewozowe</a>
-            <a href="/branze/transport-pasazerski">Transport pasażerski</a>
-            <a href="/branze/gospodarka-odpadami">Gospodarka odpadami</a>
-            <a href="/branze/dostawcy-uslug">Dostawcy usług</a>
-            <a href="/branze">Wszystkie branże</a>
+            <h4>System GPS</h4>
+            <a href="/system-gps/zarzadzanie-paliwem">Zarządzanie paliwem</a>
+            <a href="/system-gps/eco-driving">ECO-DRIVING</a>
+            <a href="/system-gps/wydajnosc-floty">Wydajność floty</a>
+            <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+            <a href="/system-gps/integracje">Integracje</a>
+            <a href="/system-gps/sledzenie-gps-i-dane-na-zywo">Śledzenie GPS i dane na żywo</a>
+            <a href="/system-gps">Wszystkie funkcje System GPS</a>
         </div>
         <div class="footer-links-group">
             <h4>Firma</h4>
             <a href="/o-nas">O nas</a>
-            <a href="/#features">Funkcje</a>
-            <a href="/#testimonials">Referencje</a>
+            <a href="/branze">Branże</a>
+            <a href="/#pricing">Cennik</a>
             <a href="/#contact">Kontakt</a>
         </div>
     </div>
