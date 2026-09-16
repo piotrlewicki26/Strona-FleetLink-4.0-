@@ -225,6 +225,20 @@
         </div>
     </section>
 
+    <!-- ═══ SZCZEGÓŁOWY PANEL ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Najważniejsze funkcje</span>
+                <h2>Zdalne pobieranie danych z tachografu: szczegółowy panel</h2>
+                <p>Nasza przyjazna użytkownikowi strona główna udostępnia najważniejsze informacje na pierwszy rzut oka, w tym harmonogramy zdalnego pobierania danych z tachografu, alerty o zgodności, a także statusy tachografu i karty.</p>
+            </div>
+            <article class="industry-case-box fade-in">
+                <img src="https://github.com/user-attachments/assets/03c7b8ae-ad11-4b25-98f7-5cd97f900987" alt="Panel zdalnego pobierania danych z tachografu" style="width:100%;height:auto;border-radius:16px;display:block;" loading="lazy" />
+            </article>
+        </div>
+    </section>
+
     <!-- ═══ JAK TO DZIAŁA ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
