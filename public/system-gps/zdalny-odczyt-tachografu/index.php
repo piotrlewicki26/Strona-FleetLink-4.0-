@@ -109,16 +109,6 @@
             </div>
         </div>
     </section>
-
-    <!-- ═══ WYRÓŻNIK USŁUGI ═══ -->
-    <section class="section section-soft">
-        <div class="section-inner">
-            <article class="industry-case-box fade-in">
-                <p><strong>Nasze wyróżnienie:</strong> u nas możesz zamówić <strong>sam zdalny odczyt tachografu jako usługę</strong> — <strong>bez konieczności lokalizacji GPS</strong>. To idealna opcja dla firm, które chcą spełnić obowiązki prawne i uprościć rozliczenia bez pełnego wdrożenia monitoringu.</p>
-            </article>
-        </div>
-    </section>
-
     <!-- ═══ STATS BAR ═══ -->
     <div class="stats-bar">
         <div class="stats-inner">
@@ -143,6 +133,15 @@
             </div>
         </div>
     </div>
+
+    <!-- ═══ WYRÓŻNIK USŁUGI ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <article class="industry-case-box fade-in">
+                <p><strong>Nasze wyróżnienie:</strong> u nas możesz zamówić <strong>sam zdalny odczyt tachografu jako usługę</strong> — <strong>bez konieczności lokalizacji GPS</strong>. To idealna opcja dla firm, które chcą spełnić obowiązki prawne i uprościć rozliczenia bez pełnego wdrożenia monitoringu.</p>
+            </article>
+        </div>
+    </section>
 
     <!-- ═══ NA JAKIE POTRZEBY ═══ -->
     <section class="section">
