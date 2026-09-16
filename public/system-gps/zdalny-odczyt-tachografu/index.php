@@ -138,7 +138,14 @@
     <section class="section section-soft">
         <div class="section-inner">
             <article class="industry-case-box fade-in">
-                <p><strong>Nasze wyróżnienie:</strong> u nas możesz zamówić <strong>sam zdalny odczyt tachografu jako usługę</strong> — <strong>bez konieczności lokalizacji GPS</strong>. To idealna opcja dla firm, które chcą spełnić obowiązki prawne i uprościć rozliczenia bez pełnego wdrożenia monitoringu.</p>
+                <p><strong>Nasze wyróżnienie:</strong> jako jedna z nielicznych firm oferujemy <strong>sam zdalny odczyt tachografu jako usługę</strong> — <strong>bez konieczności wdrażania lokalizacji GPS</strong>. Dzięki temu możesz szybko spełnić obowiązki prawne i uporządkować rozliczenia bez kosztownej, pełnej przebudowy systemu flotowego.</p>
+                <ul class="industry-case-points">
+                    <li>✅ Startujesz szybciej i taniej — płacisz za realnie potrzebną usługę</li>
+                    <li>✅ Ograniczasz ryzyko kar dzięki terminowym, regularnym odczytom</li>
+                    <li>✅ Odciążasz biuro i kierowców — mniej ręcznej pracy, więcej kontroli</li>
+                    <li>✅ W każdej chwili możesz rozszerzyć usługę o kolejne moduły FleetLink</li>
+                </ul>
+                <p><strong>To rozwiązanie dla firm, które chcą działać zgodnie z przepisami już teraz</strong>, a jednocześnie zachować elastyczność i pełną kontrolę nad kosztami.</p>
             </article>
         </div>
     </section>
