@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="description" content="Blokada zapłonu FleetLink: SEO CANblu i Teltonika CAN-CONTROL sterowana z aplikacji. Indywidualna wycena pod markę, model i rok pojazdu." />
+    <meta name="description" content="Zdalny odczyt tachografu FleetLink: odczyt kart i tachografów zdalnie, także jako samodzielna usługa bez lokalizacji GPS." />
     <meta name="robots" content="index, follow" />
-    <title>Blokada zapłonu | FleetLink</title>
+    <title>Zdalny odczyt tachografu | FleetLink</title>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://fleetlink.pl/system-gps/blokada-zaplonu" />
-    <meta property="og:title" content="Blokada zapłonu | FleetLink" />
-    <meta property="og:description" content="Porównanie SEO CANblu i Teltonika CAN-CONTROL oraz indywidualna wycena blokady zapłonu." />
+    <meta property="og:url" content="https://fleetlink.pl/system-gps/zdalny-odczyt-tachografu" />
+    <meta property="og:title" content="Zdalny odczyt tachografu | FleetLink" />
+    <meta property="og:description" content="Automatyczny zdalny odczyt tachografu i kart kierowców, również jako usługa bez lokalizacji GPS." />
     <meta property="og:image" content="https://fleetlink.pl/assets/img/og-image.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Blokada zapłonu | FleetLink" />
-    <meta name="twitter:description" content="Porównanie SEO CANblu i Teltonika CAN-CONTROL oraz indywidualna wycena blokady zapłonu." />
-    <link rel="canonical" href="https://fleetlink.pl/system-gps/blokada-zaplonu" />
+    <meta name="twitter:title" content="Zdalny odczyt tachografu | FleetLink" />
+    <meta name="twitter:description" content="Automatyczny zdalny odczyt tachografu i kart kierowców, również jako usługa bez lokalizacji GPS." />
+    <link rel="canonical" href="https://fleetlink.pl/system-gps/zdalny-odczyt-tachografu" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -99,14 +99,23 @@
     <section class="section industry-hero industry-hero-hub">
         <div class="industry-hero-bg" aria-hidden="true"></div>
         <div class="section-inner industry-hero-inner">
-            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Blokada zapłonu</div>
-            <div class="badge pulse"><span class="badge-dot"></span> Zdalne zabezpieczenie pojazdu i kontrola dostępu</div>
-            <h1>Blokada zapłonu FleetLink — bezpieczeństwo floty pod pełną kontrolą</h1>
-            <p>Oferujemy nowoczesne rozwiązania blokady zapłonu dopasowane do typu pojazdu i procesów firmy. Wybierasz model pracy, a my wdrażamy rozwiązanie tak, aby podnieść bezpieczeństwo i ograniczyć ryzyko nieautoryzowanego użycia pojazdu.</p>
+            <div class="industry-breadcrumbs"><a href="/">Strona główna</a> <span>›</span> <a href="/system-gps">System GPS</a> <span>›</span> Zdalny odczyt tachografu</div>
+            <div class="badge pulse"><span class="badge-dot"></span> Odczyt danych kierowców i pojazdów bez zjazdu do bazy</div>
+            <h1>Zdalny odczyt tachografu FleetLink — szybciej, wygodniej i bez przestojów</h1>
+            <p>Automatyzuj pobieranie danych z kart kierowców i tachografów cyfrowych, ograniczaj ryzyko kar i miej komplet dokumentacji zawsze pod ręką.</p>
             <div class="hero-actions">
-                <a href="/#contact" class="btn btn-primary btn-lg">Poproś o indywidualną wycenę</a>
+                <a href="/#contact" class="btn btn-primary btn-lg">Umów bezpłatną konsultację</a>
                 <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
             </div>
+        </div>
+    </section>
+
+    <!-- ═══ WYRÓŻNIK USŁUGI ═══ -->
+    <section class="section section-soft">
+        <div class="section-inner">
+            <article class="industry-case-box fade-in">
+                <p><strong>Nasze wyróżnienie:</strong> u nas możesz zamówić <strong>sam zdalny odczyt tachografu jako usługę</strong> — <strong>bez konieczności lokalizacji GPS</strong>. To idealna opcja dla firm, które chcą spełnić obowiązki prawne i uprościć rozliczenia bez pełnego wdrożenia monitoringu.</p>
+            </article>
         </div>
     </section>
 
@@ -114,23 +123,23 @@
     <div class="stats-bar">
         <div class="stats-inner">
             <div class="stat-item">
-                <div class="stat-num-row"><strong>2</strong><span>technologie</span></div>
-                <span class="stat-label">SEO CANblu i Teltonika CAN-CONTROL</span>
-            </div>
-            <div class="stat-divider" aria-hidden="true"></div>
-            <div class="stat-item">
-                <div class="stat-num-row"><strong>1</strong><span>platforma</span></div>
-                <span class="stat-label">sterowanie i nadzór z aplikacji FleetLink</span>
-            </div>
-            <div class="stat-divider" aria-hidden="true"></div>
-            <div class="stat-item">
                 <div class="stat-num-row"><strong>100</strong><span>%</span></div>
-                <span class="stat-label">indywidualnej wyceny pod konkretny pojazd</span>
+                <span class="stat-label">zgodności z terminami odczytów</span>
             </div>
             <div class="stat-divider" aria-hidden="true"></div>
             <div class="stat-item">
                 <div class="stat-num-row"><strong>24</strong><span>/7</span></div>
-                <span class="stat-label">wsparcie operacyjne dla Twojej floty</span>
+                <span class="stat-label">dostęp do archiwum danych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↓</strong><span>ryzyko</span></div>
+                <span class="stat-label">mniej błędów i opóźnień administracyjnych</span>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+                <div class="stat-num-row"><strong>↑</strong><span>kontrola</span></div>
+                <span class="stat-label">pełen nadzór nad danymi kierowców</span>
             </div>
         </div>
     </div>
@@ -140,95 +149,121 @@
         <div class="section-inner">
             <div class="section-head fade-up">
                 <span class="section-tag">Wyzwania</span>
-                <h2>Na jakie potrzeby odpowiada blokada zapłonu</h2>
-                <p>Nieautoryzowane użycie pojazdu, ryzyko nadużyć i brak szybkiej reakcji to realne koszty operacyjne i prawne.</p>
+                <h2>Na jakie potrzeby odpowiada ten moduł</h2>
+                <p>Ręczne pobieranie danych i brak automatyzacji to niepotrzebne ryzyko oraz dodatkowe koszty operacyjne.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in">
-                    <h3>🔒 Ochrona przed nieuprawnionym uruchomieniem</h3>
-                    <p>Blokada zapłonu ogranicza ryzyko użycia pojazdu poza procedurami firmy, także poza godzinami pracy.</p>
+                    <h3>📅 Pilnowanie terminów odczytów</h3>
+                    <p>System pomaga realizować odczyty na czas i minimalizuje ryzyko naruszeń wynikających z opóźnień.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>⚡ Szybka reakcja zdalna</h3>
-                    <p>W przypadku incydentu możesz natychmiast podjąć działania operacyjne i zabezpieczyć flotę bez oczekiwania na interwencję w terenie.</p>
+                    <h3>📂 Rozproszone dane i dokumenty</h3>
+                    <p>Wszystkie pliki z odczytów masz w jednym miejscu, gotowe do kontroli, analiz i rozliczeń.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>📋 Spójność z polityką bezpieczeństwa</h3>
-                    <p>Rozwiązanie wspiera standardy compliance i porządkuje procesy odpowiedzialności za pojazdy służbowe.</p>
+                    <h3>⏱️ Strata czasu działu operacyjnego</h3>
+                    <p>Automatyzacja odczytów odciąża zespół i pozwala skupić się na działaniach, które realnie rozwijają biznes.</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- ═══ INFORMACJA O MONTAŻU I STEROWANIU ═══ -->
+    <!-- ═══ CO ZYSKUJESZ ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Technologie</span>
-                <h2>Dwa rozwiązania dopasowane do potrzeb Twojej floty</h2>
-                <p>Jesteśmy monterem <strong>SEO CANblu</strong> oraz wdrażamy <strong>Teltonika CAN-CONTROL</strong> sterowaną z naszej aplikacji FleetLink.</p>
+                <span class="section-tag">Korzyści biznesowe</span>
+                <h2>Co zyskujesz z FleetLink</h2>
+                <p>Spokojną zgodność formalną, oszczędność czasu i pełną dostępność danych do analiz i audytów.</p>
             </div>
             <div class="industry-benefits-grid">
                 <article class="industry-benefit-card fade-in">
-                    <strong>🛠️ SEO CANblu — profesjonalny montaż</strong>
-                    <span>Zapewniamy montaż i konfigurację SEO CANblu z naciskiem na bezpieczeństwo i niezawodność pracy w codziennej eksploatacji.</span>
+                    <strong>✅ Mniej ryzyka kar i błędów formalnych</strong>
+                    <span>Regularne odczyty i uporządkowane archiwum danych pomagają zachować zgodność z obowiązującymi wymaganiami.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>📲 Teltonika CAN-CONTROL — sterowanie z aplikacji</strong>
-                    <span>Wariant oparty o Teltonika CAN-CONTROL umożliwia wygodne zarządzanie blokadą z poziomu naszej aplikacji, w ramach ekosystemu FleetLink.</span>
+                    <strong>⚙️ Więcej automatyzacji, mniej pracy ręcznej</strong>
+                    <span>Eliminujesz ręczne procedury, skracasz czas obsługi administracyjnej i ograniczasz ryzyko pomyłek.</span>
                 </article>
                 <article class="industry-benefit-card fade-in">
-                    <strong>🎯 Dobór rozwiązania pod pojazd i zastosowanie</strong>
-                    <span>Rekomendujemy właściwą technologię po analizie sposobu użytkowania pojazdu, wymagań bezpieczeństwa i oczekiwań operacyjnych.</span>
+                    <strong>📊 Lepsza kontrola operacyjna</strong>
+                    <span>Masz szybki dostęp do historii odczytów i kompletnej dokumentacji, gdy tylko jej potrzebujesz.</span>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- ═══ PORÓWNANIE ROZWIĄZAŃ ═══ -->
+    <!-- ═══ NAJWAŻNIEJSZE ELEMENTY FUNKCJI ═══ -->
     <section class="section">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Porównanie</span>
-                <h2>SEO CANblu vs Teltonika CAN-CONTROL</h2>
-                <p>Oba rozwiązania zwiększają bezpieczeństwo, ale mogą lepiej sprawdzać się w różnych scenariuszach flotowych.</p>
+                <span class="section-tag">Zakres rozwiązania</span>
+                <h2>Najważniejsze elementy modułu</h2>
+                <p>Kompletny zestaw narzędzi do codziennej obsługi odczytów w małych i dużych flotach.</p>
             </div>
             <div class="industry-content-grid">
                 <article class="industry-info-card fade-in">
-                    <h3>SEO CANblu</h3>
-                    <p><strong>Mocna strona:</strong> sprawdzone podejście sprzętowe i stabilna praca po profesjonalnym montażu.</p>
-                    <p><strong>Najczęstszy wybór:</strong> floty oczekujące klasycznej, niezawodnej blokady zapłonu z naciskiem na standardy bezpieczeństwa.</p>
+                    <h3>🪪 Zdalny odczyt kart kierowców</h3>
+                    <p>Dane pobierane są zdalnie, bez konieczności fizycznego przekazywania kart i bez zatrzymywania pracy floty.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>Teltonika CAN-CONTROL</h3>
-                    <p><strong>Mocna strona:</strong> wygodne sterowanie blokadą z poziomu aplikacji FleetLink i pełniejsza integracja z procesami operacyjnymi.</p>
-                    <p><strong>Najczęstszy wybór:</strong> firmy stawiające na zdalne zarządzanie i szybką reakcję w czasie rzeczywistym.</p>
+                    <h3>🚚 Zdalny odczyt pamięci tachografu</h3>
+                    <p>Regularnie pobierasz dane z tachografów pojazdów i utrzymujesz ciągłość wymaganej dokumentacji.</p>
                 </article>
                 <article class="industry-info-card fade-in">
-                    <h3>Jak wybrać?</h3>
-                    <p>Decyzja zależy od marki, modelu i rocznika pojazdu oraz oczekiwanego sposobu sterowania. Dlatego każdą ofertę przygotowujemy indywidualnie.</p>
+                    <h3>🗂️ Archiwizacja i szybki dostęp</h3>
+                    <p>Pliki z odczytów są bezpiecznie przechowywane i gotowe do użycia podczas kontroli lub wewnętrznego audytu.</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- ═══ WYCENA INDYWIDUALNA ═══ -->
+    <!-- ═══ JAK TO DZIAŁA ═══ -->
     <section class="section section-soft">
         <div class="section-inner">
             <div class="section-head fade-up">
-                <span class="section-tag">Wycena</span>
-                <h2>Wycena indywidualna dla każdego pojazdu</h2>
-                <p>Koszt wdrożenia zależy od konfiguracji technicznej i typu auta. Aby przygotować dokładną ofertę, potrzebujemy danych konkretnego pojazdu.</p>
+                <span class="section-tag">Praktyka</span>
+                <h2>Jak to działa w codziennej pracy</h2>
             </div>
             <article class="industry-case-box fade-in">
-                <p><strong>Jak przyspieszyć wycenę:</strong> w wiadomości kontaktowej podaj <strong>markę, model i rok pojazdu</strong>. Dzięki temu od razu dobierzemy odpowiednie rozwiązanie (SEO CANblu lub Teltonika CAN-CONTROL) i przedstawimy rekomendację.</p>
+                <p><strong>Scenariusz z życia:</strong> Dyspozytor nie musi już zwoływać kierowców do bazy tylko po odczyt kart. Odczyty realizowane są zdalnie, a dział administracji ma komplet danych uporządkowany na czas i gotowy do ewentualnej kontroli.</p>
                 <ul class="industry-case-points">
-                    <li>✅ Dobór technologii do konkretnego pojazdu</li>
-                    <li>✅ Rekomendacja wariantu pod procesy Twojej floty</li>
-                    <li>✅ Jasna oferta wdrożenia bez ukrytych założeń</li>
-                    <li>✅ Wsparcie ekspertów na każdym etapie projektu</li>
+                    <li>✅ Brak przestojów związanych z ręcznym pobieraniem danych</li>
+                    <li>✅ Stała kontrola terminów i kompletności odczytów</li>
+                    <li>✅ Szybki dostęp do plików podczas audytów i kontroli</li>
+                    <li>✅ Mniej obciążenia dla kierowców i biura</li>
                 </ul>
             </article>
+        </div>
+    </section>
+
+    <!-- ═══ KLUCZOWE FUNKCJE SYSTEMU ═══ -->
+    <section class="section">
+        <div class="section-inner">
+            <div class="section-head fade-up">
+                <span class="section-tag">Możliwości systemu</span>
+                <h2>Kluczowe funkcje modułu zdalnego odczytu tachografu</h2>
+                <p>Rozwiązanie elastyczne: jako część pełnej platformy FleetLink albo jako samodzielna usługa odczytu.</p>
+            </div>
+            <div class="industry-content-grid">
+                <article class="industry-info-card fade-in">
+                    <h3>🔔 Powiadomienia o terminach</h3>
+                    <p>System przypomina o zbliżających się odczytach, abyś nie przeoczył żadnego obowiązku.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📥 Centralne repozytorium plików</h3>
+                    <p>Wszystkie dane odczytowe przechowywane są w jednym miejscu, co upraszcza organizację pracy biura.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>🧩 Integracja z procesami flotowymi</h3>
+                    <p>Łączysz odczyty z innymi obszarami zarządzania flotą, ale możesz też korzystać z samej usługi odczytu bez lokalizacji.</p>
+                </article>
+                <article class="industry-info-card fade-in">
+                    <h3>📈 Skalowalność dla każdej floty</h3>
+                    <p>Rozwiązanie sprawdza się zarówno w kilku pojazdach, jak i w rozbudowanych strukturach wielooddziałowych.</p>
+                </article>
+            </div>
         </div>
     </section>
 
@@ -237,17 +272,17 @@
         <div class="section-inner">
             <div class="industry-page-cta fade-up">
                 <span class="section-tag">Skontaktuj się</span>
-                <h2>Poproś o wycenę blokady zapłonu dla Twojej floty</h2>
-                <p>W formularzu wpisz markę, model i rok pojazdu — przygotujemy indywidualną ofertę i zaproponujemy najlepsze rozwiązanie: SEO CANblu lub Teltonika CAN-CONTROL sterowaną z aplikacji FleetLink.</p>
+                <h2>Wdrożymy zdalny odczyt tachografu w modelu dopasowanym do Twojej firmy</h2>
+                <p>Wybierz pełne wdrożenie FleetLink lub sam odczyt jako usługę bez lokalizacji GPS. Przygotujemy rekomendację pod Twoją flotę i procesy.</p>
                 <div class="hero-actions">
-                    <a href="/#contact" class="btn btn-primary btn-lg">Wyślij zapytanie o wycenę</a>
+                    <a href="/#contact" class="btn btn-primary btn-lg">Porozmawiaj z doradcą</a>
                     <a href="/system-gps" class="btn btn-ghost btn-lg">Zobacz wszystkie funkcje</a>
                 </div>
                 <div class="industry-inline-links">
-                    <a href="/system-gps/blokada-alkoholowa">Blokada alkoholowa</a>
-                    <a href="/system-gps/sledzenie-zasobow">Śledzenie zasobów</a>
-                    <a href="/system-gps/kamery">Kamery</a>
+                    <a href="/system-gps/czas-pracy">Czas pracy</a>
+                    <a href="/system-gps/sledzenie-gps-i-dane-na-zywo">Śledzenie GPS i dane na żywo</a>
                     <a href="/system-gps/zarzadzanie-flota">Zarządzanie flotą</a>
+                    <a href="/system-gps/blokada-zaplonu">Blokada zapłonu</a>
                 </div>
             </div>
         </div>
